@@ -1,3 +1,4 @@
 debian/packages.conf /etc/calamares/modules/
+debian/welcome.conf /etc/calamares/modules/
 debian/settings.conf /etc/calamares/
 usr/*
