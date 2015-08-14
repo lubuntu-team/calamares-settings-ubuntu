@@ -1,0 +1,7 @@
+---
+type:       "job"
+name:       "fs_resize"
+interface:  "process"
+chroot:     false
+command:    "/bin/sh -c \"yes y | /usr/local/bin/fs_resize\""
+timeout:    120
