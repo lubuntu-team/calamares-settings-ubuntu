@@ -2,5 +2,7 @@
 debian/fs_resize /usr/lib/calamares/modules/
 debian/packages.conf /etc/calamares/modules/
 debian/settings.conf /etc/calamares/
+debian/users.conf /etc/calamares/modules/
+debian/webview.conf /etc/calamares/moudules/
 debian/welcome.conf /etc/calamares/modules/
 usr/*
