@@ -1,8 +1,4 @@
 # ODROID specific module to resize partitions
-debian/fs_resize /usr/lib/calamares/modules/
-debian/packages.conf /etc/calamares/modules/
 debian/settings.conf /etc/calamares/
-debian/users.conf /etc/calamares/modules/
-debian/webview.conf /etc/calamares/modules/
-debian/welcome.conf /etc/calamares/modules/
+debian/modules/* /etc/calamares/modules/
 usr/*

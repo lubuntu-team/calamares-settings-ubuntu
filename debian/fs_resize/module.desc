@@ -1,7 +1,0 @@
----
-type:       "job"
-name:       "fs_resize"
-interface:  "process"
-chroot:     false
-command:    "konsole --nofork -e \"sudo /usr/local/bin/fs_resize)\""
-timeout:    120
