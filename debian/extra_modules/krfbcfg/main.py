@@ -19,19 +19,25 @@
 #   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
 
 import libcalamares
-
+import os
+from pwd import getpwnam
 
 def run():
     """ Setup network configuration """
 
     obfuscatedPassword = libcalamares.globalstorage.value("password")
-    cfgPath = libcalamares.target_env_output("kde4-config --path").split(":")[0]
+    user = libcalamares.globalstorage.value("autologinUser")
+    cfgPath = libcalamares.utils.check_target_env_output(["sudo", "-u", user, "kde4-config", "--path", "config"]).split(":")[0]
+    os.makedirs(cfgPath, exist_ok=True)
 
     with open(cfgPath + "krfbrc", 'w') as krfbrc:
         krfbrc.write("[Security]\n" +
                      "allowUnattendedAccess=true\n" +
-                     "desktopPassword=ﾳﾶﾩﾺ" + obfuscatedPassword + "\n" +
+                     "desktopPassword=" + obfuscatedPassword + "\n" +
                      "noWallet=true" +
-                     "unattendedPassword=ﾳﾶﾩﾺ" + obfuscatedPassword + "\n")
+                     "unattendedPassword=" + obfuscatedPassword + "\n")
+
+    userEntry = getpwnam(user)
+    libcalamares.utils.check_target_env_output(["chown", "-R", "{0}:{1}".format(userEntry.pw_uid, userEntry.pw_gid), userEntry.pw_dir])
 
     return None
