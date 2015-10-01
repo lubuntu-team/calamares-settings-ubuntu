@@ -34,7 +34,7 @@ def run():
         krfbrc.write("[Security]\n" +
                      "allowUnattendedAccess=true\n" +
                      "desktopPassword=" + obfuscatedPassword + "\n" +
-                     "noWallet=true" +
+                     "noWallet=true\n" +
                      "unattendedPassword=" + obfuscatedPassword + "\n")
 
     userEntry = getpwnam(user)
