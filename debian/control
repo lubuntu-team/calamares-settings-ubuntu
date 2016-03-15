@@ -35,9 +35,10 @@ Homepage: https://github.com/calamares/calamares
 Vcs-Git: http://github.com/calamares/calamares-debian.git
 Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
-Package: calamares
+Package: calamares-post
 Architecture: any
 Depends: os-prober, konsole, ${misc:Depends}, ${shlibs:Depends}
+Recommends: calamares-branding
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
@@ -46,7 +47,7 @@ Description: distribution-independent installer framework
 Package: calamares-dbg
 Architecture: any
 Section: debug
-Depends: calamares (= ${binary:Version}), ${misc:Depends}
+Depends: calamares-post (= ${binary:Version}), ${misc:Depends}
 Description: distribution-independent installer framework -- debug symbols
  distribution-independent installer framework.
  .
