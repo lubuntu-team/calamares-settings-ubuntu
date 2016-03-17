@@ -39,6 +39,7 @@ Package: calamares-post
 Architecture: any
 Depends: os-prober, konsole, ${misc:Depends}, ${shlibs:Depends}
 Recommends: calamares-branding
+Provides: calamares
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
