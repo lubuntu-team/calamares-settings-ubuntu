@@ -2,5 +2,4 @@
 debian/settings.conf /etc/calamares/
 debian/modules/* /etc/calamares/modules/
 usr/*
-debian/extra_modules/* usr/lib/calamares/modules/
 debian/fs_resize usr/sbin/

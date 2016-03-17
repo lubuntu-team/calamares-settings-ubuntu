@@ -1,6 +1,0 @@
----
-type:       "job"
-name:       "krfbcfg"
-interface:  "python"
-requires:   []
-script:     "main.py"
