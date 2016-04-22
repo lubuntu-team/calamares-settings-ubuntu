@@ -1,4 +1,4 @@
-Source: calamares-core-settings
+Source: calamares-core
 Section: devel
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
