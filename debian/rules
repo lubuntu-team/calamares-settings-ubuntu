@@ -4,4 +4,4 @@
 	dh $@ --dbg-package=calamares-dbg --with kf5 --parallel
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DWITH_PARTITIONMANAGER=1
+	$(overriden_command) -- -DWITH_PARTITIONMANAGER=1
