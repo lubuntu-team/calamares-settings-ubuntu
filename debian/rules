@@ -1,4 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --dbg-package=calamares-dbg --with kf5 --parallel
+	dh $@ --parallel

@@ -1,4 +1,0 @@
-version=3
-opts="filenamemangle=s/(?:.*\/)?v?(\d[\d.]*)\.tar\.gz/calamares-$1.tar.gz/" \
-         https://github.com/calamares/calamares/tags (?:.*/)?v?(\d[\d.]*)\.tar\.gz
-
