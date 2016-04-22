@@ -9,7 +9,7 @@ Vcs-Git: http://github.com/calamares/calamares-debian.git
 Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
 Package: calamares-core
-Architecture: any
+Architecture: all
 Depends: calamares
 Breaks: calamares-branding, calamares-core-settings
 Replaces: calamares-branding, calamares-core-settings
