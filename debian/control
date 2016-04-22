@@ -37,7 +37,7 @@ Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
 Package: calamares-post
 Architecture: any
-Depends: os-prober, konsole, ${misc:Depends}, ${shlibs:Depends}
+Depends: kpmcore, os-prober, konsole, ${misc:Depends}, ${shlibs:Depends}
 Recommends: calamares-branding
 Provides: calamares
 Description: distribution-independent installer framework
