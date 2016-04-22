@@ -8,12 +8,12 @@ Homepage: https://github.com/calamares/calamares
 Vcs-Git: http://github.com/calamares/calamares-debian.git
 Vcs-Browser: https://github.com/calamares/calamares-debian.git
 
-Package: calamares-core-settings
+Package: calamares-core
 Architecture: any
 Depends: calamares
-Breaks: calamares-branding
-Replaces: calamares-branding
+Breaks: calamares-branding, calamares-core-settings
+Replaces: calamares-branding, calamares-core-settings
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
- This package contains the calamares installer framework.
+ This package contains the calamares settings and branding for Netrunner Debian Core.
