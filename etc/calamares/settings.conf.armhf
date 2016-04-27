@@ -13,9 +13,10 @@ sequence:
       - locale
       - keyboard
       - users
-      - @TERMINAL_RESIZE@
+      - interactiveterminal@resize
   - exec:
       - machineid
+      - hwclock
       - locale
       - localecfg
       - keyboard
@@ -27,5 +28,5 @@ sequence:
       - finished
 
 branding: netrunner-core
-dont-chroot: @CHROOT@
+dont-chroot: true
 prompt-install: false

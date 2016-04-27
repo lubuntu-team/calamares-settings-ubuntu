@@ -1,0 +1,39 @@
+---
+modules-search: [ local ]
+
+sequence:
+
+  - show:
+    - welcome
+    - locale
+    - keyboard
+    - partition
+    - users
+    - summary
+
+  - exec:
+    - partition
+    - mount
+    - unpackfs
+    - machineid
+    - fstab
+    - locale
+    - keyboard
+    - localecfg
+    - users
+    - displaymanager
+    - networkcfg
+    - hwclock
+    - services
+    # Add initramfs module for Debian
+    - initramfs
+    - grubcfg
+    - bootloader
+    - umount
+
+  - show:
+    - finished
+
+
+branding: netrunner-core
+prompt-install: false
