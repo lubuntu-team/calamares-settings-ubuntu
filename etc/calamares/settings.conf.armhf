@@ -16,7 +16,6 @@ sequence:
       - interactiveterminal@resize
   - exec:
       - machineid
-      - hwclock
       - locale
       - localecfg
       - keyboard
