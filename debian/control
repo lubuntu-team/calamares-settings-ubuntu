@@ -4,15 +4,11 @@ Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
 Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.6
-Homepage: https://github.com/calamares/calamares
-Vcs-Git: http://github.com/calamares/calamares-debian.git
-Vcs-Browser: https://github.com/calamares/calamares-debian.git
+Homepage: https://github.com/netrunner-core/calamares-core
 
 Package: calamares-core
-Architecture: all
+Architecture: amd64
 Depends: calamares
-Breaks: calamares-branding, calamares-core-settings
-Replaces: calamares-branding, calamares-core-settings
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
