@@ -64,7 +64,7 @@ Exec=pkexec /usr/bin/calamares
 Comment=Calamares — System Installer
 Icon=calamares
 Terminal=false
-StartupNotify=false
+StartupNotify=true
 Categories=Qt;System;
 EOF
 
