@@ -57,7 +57,7 @@ cat > "/home/${LIVE_USERNAME}/Desktop/calamares.desktop" << EOF
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Netrunner Debian Edition
+Name=Install Netrunner Core Edition
 GenericName=Install Netrunner Debian Edition
 TryExec=calamares
 Exec=pkexec /usr/bin/calamares
