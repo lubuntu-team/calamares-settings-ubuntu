@@ -2,13 +2,13 @@
 componentName:  netrunner-core
 
 strings:
-    productName:         Netrunner Debian Edition
-    shortProductName:    Netrunner Debian
+    productName:         Netrunner Debian Core Edition
+    shortProductName:    Netrunner Debian Core
     version:             1.0.0-dev
     shortVersion:        1.0
-    versionedName:       Netrunner Debian Edition
-    shortVersionedName:  Netrunner Debian 1.0
-    bootloaderEntryName: Netrunner Debian
+    versionedName:       Netrunner Debian Core Edition
+    shortVersionedName:  Netrunner Debian Core 1.0
+    bootloaderEntryName: Netrunner Debian Core
 
 images:
     productLogo:         "netrunner-debian-logo.png"
