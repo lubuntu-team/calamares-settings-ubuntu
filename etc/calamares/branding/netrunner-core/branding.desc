@@ -2,11 +2,11 @@
 componentName:  netrunner-core
 
 strings:
-    productName:         Netrunner Core Edition
+    productName:         Netrunner Core
     shortProductName:    Netrunner Core
-    version:             1.0.0-dev
+    version:             1.0.0
     shortVersion:        1.0
-    versionedName:       Netrunner Core Edition
+    versionedName:       Netrunner Core
     shortVersionedName:  Netrunner Core 1.0
     bootloaderEntryName: Netrunner Core
 
