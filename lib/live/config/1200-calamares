@@ -57,8 +57,8 @@ cat > "/home/${LIVE_USERNAME}/Desktop/calamares.desktop" << EOF
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Netrunner Core Edition
-GenericName=Install Netrunner Core Edition
+Name=Install Netrunner Core
+GenericName=Install Netrunner Core
 TryExec=calamares
 Exec=pkexec /usr/bin/calamares
 Comment=Calamares — System Installer
