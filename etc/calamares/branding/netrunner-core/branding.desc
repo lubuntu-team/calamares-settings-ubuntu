@@ -3,21 +3,21 @@ componentName:  netrunner-core
 
 strings:
     productName:         Netrunner Core
-    shortProductName:    Netrunner Core
-    version:             1.0.0
+    shortProductName:    Core
+    version:             1.0.0-dev
     shortVersion:        1.0
     versionedName:       Netrunner Core
     shortVersionedName:  Netrunner Core 1.0
     bootloaderEntryName: Netrunner Core
 
 images:
-    productLogo:         "netrunner-debian-logo.png"
-    productIcon:         "netrunner-debian-icon.png"
+    productLogo:         "netrunner-core-logo.png"
+    productIcon:         "netrunner-core-icon.png"
     productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#8497A7"
+   sidebarBackground:    "#0C0C0C"
+   sidebarText:          "#5A5A5A"
+   sidebarTextSelect:    "#FFFFFF"
