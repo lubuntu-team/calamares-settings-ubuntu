@@ -1,15 +1,17 @@
-Source: calamares-core
+Source: calamares-settings
 Section: devel
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/netrunner-core/calamares-core
+Vcs-Git: git://anongit.neon.kde.org/neon/calamares-settings
+Vcs-Browser: https://packaging.neon.kde.org/neon/calamares-settings
 
-Package: calamares-core
+Package: calamares-settings
 Architecture: amd64
 Depends: calamares
 Description: distribution-independent installer framework
  distribution-independent installer framework.
  .
- This package contains the calamares settings and branding for Netrunner Debian Core.
+ This package contains the calamares settings and branding for KDE neon.
