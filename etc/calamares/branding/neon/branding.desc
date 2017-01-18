@@ -1,0 +1,23 @@
+---
+componentName:  neon
+
+strings:
+    productName:         KDE neon
+    shortProductName:    neon
+    version:             Developer Edition (Unstable Branches)
+    shortVersion:        devunstable
+    versionedName:       KDE neon
+    shortVersionedName:  KDE neon devunstable
+    bootloaderEntryName: KDE neon Developer Edition (Unstable Branches)
+
+images:
+    productLogo:         "kdeneon.png"
+    productIcon:         "kdeneon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#0C0C0C"
+   sidebarText:          "#5A5A5A"
+   sidebarTextSelect:    "#FFFFFF"
