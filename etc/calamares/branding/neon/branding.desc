@@ -18,6 +18,6 @@ images:
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#0C0C0C"
-   sidebarText:          "#5A5A5A"
-   sidebarTextSelect:    "#FFFFFF"
+   sidebarBackground:    "#474747"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#444444"
