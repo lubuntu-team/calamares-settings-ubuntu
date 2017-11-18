@@ -34,7 +34,6 @@ Presentation
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
-    
     Slide {
 
         Image {

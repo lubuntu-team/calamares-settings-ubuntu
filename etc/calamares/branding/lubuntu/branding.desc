@@ -1,0 +1,27 @@
+---
+componentName: lubuntu
+
+strings:
+    productName:         Lubuntu Next
+    shortProductName:    Lubuntu Next
+    version:             18.04
+    shortVersion:        bionic
+    versionedName:       Lubuntu Bionic Beaver
+    shortVersionedName:  Lubuntu Next 18.04
+    bootloaderEntryName: Lubuntu Next 18.04
+    productUrl:          http://lubuntu.me/
+    supportUrl:          http://lubuntu.me/support/
+    knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Alpha1/LubuntuNext#Known_Problems
+    releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Alpha1/LubuntuNext
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#033C71"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#0068C8"

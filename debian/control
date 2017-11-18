@@ -1,17 +1,16 @@
-Source: calamares-settings
+Source: calamares-settings-ubuntu
 Section: devel
 Priority: optional
-Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Maintainer: Simon Quigley <tsimonq2@ubuntu.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.1
 Homepage: https://github.com/netrunner-core/calamares-core
-Vcs-Git: git://anongit.neon.kde.org/neon/calamares-settings
-Vcs-Browser: https://packaging.neon.kde.org/neon/calamares-settings
+Vcs-Git: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubuntu
+Vcs-Browser: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubuntu
 
-Package: calamares-settings
-Architecture: amd64
+Package: calamares-settings-lubuntu
+Architecture: all
+Suggests: lubuntu-qt-desktop
 Depends: calamares
-Description: distribution-independent installer framework
- distribution-independent installer framework.
- .
- This package contains the calamares settings and branding for KDE neon.
+Description: Lubuntu Next Calamares Settings and Branding
+ This package contains the calamares settings and branding for Lubuntu Next.
