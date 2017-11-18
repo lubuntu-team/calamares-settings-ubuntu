@@ -1,7 +1,8 @@
 Source: calamares-settings-ubuntu
 Section: devel
 Priority: optional
-Maintainer: Simon Quigley <tsimonq2@ubuntu.com>
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.1
 Homepage: https://github.com/netrunner-core/calamares-core

@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
 Copyright: 2014 Rohan Garg <shadeslayer@systems>
-           2017 Simon Quigley <tsimonq2@ubuntu.com>
+           2017 Lubuntu Team <info@lubuntu.me>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
