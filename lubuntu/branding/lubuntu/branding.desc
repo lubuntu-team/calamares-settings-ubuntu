@@ -6,7 +6,7 @@ strings:
     shortProductName:    Lubuntu Next
     version:             18.04
     shortVersion:        bionic
-    versionedName:       Lubuntu Bionic Beaver
+    versionedName:       Lubuntu Next
     shortVersionedName:  Lubuntu Next 18.04
     bootloaderEntryName: Lubuntu Next 18.04
     productUrl:          http://lubuntu.me/
@@ -16,12 +16,12 @@ strings:
 
 images:
     productLogo:         "logo.png"
-    productIcon:         "logo.png"
+    productIcon:         "icon.png"
     productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#033C71"
+   sidebarBackground:    "#808080"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#0068C8"
