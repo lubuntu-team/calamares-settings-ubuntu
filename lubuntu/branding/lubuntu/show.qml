@@ -1,6 +1,7 @@
 /* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+ *   Copyright 2018, Lubuntu Team <lubuntu-devel@lists.ubuntu.com>
  *
  *   Calamares is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -14,11 +15,6 @@
  *
  *   You should have received a copy of the GNU General Public License
  *   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
- */
-
-/*
- * Change slides width and height from 800x480px to 810x486px to remove side lines
- * Slides images dimensions are 1600x960px.
  */
 
 import QtQuick 2.0;
@@ -35,21 +31,60 @@ Presentation
         onTriggered: presentation.goToNextSlide()
     }
     Slide {
+        Image {
+            id: image1
+            x: 0
+            y: 0
+            width: 810
+            height: 485
+            source: "../../Documents/lubuntu/brand2/calamares/rect5512.png"
+        }
+
+        Text {
+            id: text1
+            x: 8
+            y: 185
+            width: 317
+            height: 50
+            color: "#00ffff"
+            text: qsTr("GET SUPPORT")
+            verticalAlignment: Text.AlignTop
+            horizontalAlignment: Text.AlignHCenter
+            textFormat: Text.AutoText
+            font.pixelSize: 24
+        }
 
         Image {
-            id: background1
-            source: "slide1.png"
-            width: 810; height: 486
+            id: image2
+            x: 119
+            y: 48
+            width: 96
+            height: 96
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            source: "slide-logo.png"
         }
+
         Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
+            id: text2
+            x: 8
+            y: 261
+            width: 317
+            height: 124
+            color: "#ffffff"
+            text: qsTr("https://lubuntu.me")
+            font.pixelSize: 16
+            horizontalAlignment: Text.AlignHCenter
+            textFormat: Text.AutoText
+            verticalAlignment: Text.AlignTop
+        }
+
+        Image {
+            id: image3
+            x: 119
+            y: 430
+            width: 96
+            height: 24
+            source: "lubuntu.png"
         }
     }
 }
