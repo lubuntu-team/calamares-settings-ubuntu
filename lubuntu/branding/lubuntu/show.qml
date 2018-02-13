@@ -32,6 +32,7 @@ Presentation
     }
     Slide {
         Image {
+            anchors.centerIn: parent
             id: image1
             x: 0
             y: 0
@@ -47,16 +48,16 @@ Presentation
             width: 317
             height: 50
             color: "#00ffff"
-            text: qsTr("GET SUPPORT")
+            text: qsTr("Get Support")
             verticalAlignment: Text.AlignTop
             horizontalAlignment: Text.AlignHCenter
             textFormat: Text.AutoText
-            font.pixelSize: 24
+            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
         }
 
         Image {
             id: image2
-            x: 119
+            x: 110
             y: 48
             width: 96
             height: 96
@@ -72,7 +73,7 @@ Presentation
             height: 124
             color: "#ffffff"
             text: qsTr("https://lubuntu.me")
-            font.pixelSize: 16
+            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold }
             horizontalAlignment: Text.AlignHCenter
             textFormat: Text.AutoText
             verticalAlignment: Text.AlignTop
