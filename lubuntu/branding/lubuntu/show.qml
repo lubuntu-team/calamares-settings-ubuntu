@@ -37,7 +37,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "../../Documents/lubuntu/brand2/calamares/rect5512.png"
+            source: "slide1.png"
         }
 
         Text {
