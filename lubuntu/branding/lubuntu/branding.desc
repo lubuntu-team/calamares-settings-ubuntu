@@ -9,10 +9,10 @@ strings:
     versionedName:       Lubuntu Next
     shortVersionedName:  Lubuntu Next 18.04
     bootloaderEntryName: Lubuntu Next 18.04
-    productUrl:          http://lubuntu.me/
-    supportUrl:          http://lubuntu.me/support/
-    knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Alpha1/LubuntuNext#Known_Problems
-    releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Alpha1/LubuntuNext
+    productUrl:          https://lubuntu.me/
+    supportUrl:          https://lubuntu.me/support/
+    knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems
+    releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext
 
 images:
     productLogo:         "logo.png"
