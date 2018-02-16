@@ -1,5 +1,5 @@
 calamares-settings-ubuntu (1) bionic; urgency=medium
 
-  * Initial release (LP: #1702647).
+  * Initial release.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 17 Nov 2017 14:26:04 -0600
