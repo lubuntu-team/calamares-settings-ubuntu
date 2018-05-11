@@ -4,6 +4,8 @@ calamares-settings-ubuntu (2) UNRELEASED; urgency=medium
   * Remove lubuntu-qt-desktop from Suggests.
   * Update the Lubuntu.me website for HTTPS.
   * Bump Lubuntu's system requirements to safe values.
+  * Remove calamares from the explicit removal list; we don't need it to
+    be there anymore.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:11:57 -0500
 
