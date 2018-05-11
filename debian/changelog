@@ -6,6 +6,7 @@ calamares-settings-ubuntu (2) UNRELEASED; urgency=medium
   * Bump Lubuntu's system requirements to safe values.
   * Remove calamares from the explicit removal list; we don't need it to
     be there anymore.
+  * Lubuntu Next -> Lubuntu.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:11:57 -0500
 

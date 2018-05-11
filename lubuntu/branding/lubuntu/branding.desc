@@ -2,17 +2,15 @@
 componentName: lubuntu
 
 strings:
-    productName:         Lubuntu Next
-    shortProductName:    Lubuntu Next
-    version:             18.04
-    shortVersion:        bionic
-    versionedName:       Lubuntu Next
-    shortVersionedName:  Lubuntu Next 18.04
-    bootloaderEntryName: Lubuntu Next 18.04
+    productName:         Lubuntu
+    shortProductName:    Lubuntu
+    version:             18.10
+    shortVersion:        cosmic
+    versionedName:       Lubuntu
+    shortVersionedName:  Lubuntu 18.10
+    bootloaderEntryName: Lubuntu 18.10
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/support/
-    knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems
-    releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext
 
 images:
     productLogo:         "logo.png"

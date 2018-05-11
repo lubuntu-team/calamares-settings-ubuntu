@@ -12,5 +12,5 @@ Vcs-Browser: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubu
 Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares, ${misc:Depends}
-Description: Lubuntu Next Calamares Settings and Branding
+Description: Lubuntu Calamares Settings and Branding
  This package contains the calamares settings and branding for Lubuntu Next.
