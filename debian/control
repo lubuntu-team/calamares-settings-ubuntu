@@ -11,6 +11,6 @@ Vcs-Browser: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubu
 
 Package: calamares-settings-lubuntu
 Architecture: all
-Depends: calamares, ${misc:Depends}
+Depends: calamares, squashfs-tools, ${misc:Depends}
 Description: Lubuntu Calamares Settings and Branding
  This package contains the calamares settings and branding for Lubuntu Next.

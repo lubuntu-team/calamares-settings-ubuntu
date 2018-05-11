@@ -7,6 +7,8 @@ calamares-settings-ubuntu (2) UNRELEASED; urgency=medium
   * Remove calamares from the explicit removal list; we don't need it to
     be there anymore.
   * Lubuntu Next -> Lubuntu.
+  * Make squashfs-tools a hard dependency; without it, Lubuntu's installation
+    fails (LP: #1769781).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:11:57 -0500
 
