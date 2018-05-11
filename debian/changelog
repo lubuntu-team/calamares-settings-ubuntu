@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (3) UNRELEASED; urgency=medium
+
+  * Bump Standards-version to 4.1.4, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 20:04:23 -0500
+
 calamares-settings-ubuntu (2) cosmic; urgency=medium
 
   * Add a .gitignore file for debian/files.
