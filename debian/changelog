@@ -2,6 +2,7 @@ calamares-settings-ubuntu (2) UNRELEASED; urgency=medium
 
   * Add a .gitignore file for debian/files.
   * Remove lubuntu-qt-desktop from Suggests.
+  * Update the Lubuntu.me website for HTTPS.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:11:57 -0500
 
