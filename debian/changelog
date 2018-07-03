@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (3) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (3) cosmic; urgency=medium
 
   * Bump Standards-version to 4.1.4, no changes needed.
   * Fix Vcs-* and Homepage to reflect the move off of GitHub.
@@ -7,7 +7,7 @@ calamares-settings-ubuntu (3) UNRELEASED; urgency=medium
   * Add a desktop file to install the system with (LP: #1771460).
   * Update the support link to be current.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 20:04:23 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 03 Jul 2018 17:03:00 -0500
 
 calamares-settings-ubuntu (2) cosmic; urgency=medium
 
