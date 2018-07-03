@@ -4,6 +4,7 @@ calamares-settings-ubuntu (3) UNRELEASED; urgency=medium
   * Fix Vcs-* and Homepage to reflect the move off of GitHub.
   * Allow Lubuntu to be installed on systems with no network and UEFI
     systems.
+  * Add a desktop file to install the system with (LP: #1771460).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 20:04:23 -0500
 

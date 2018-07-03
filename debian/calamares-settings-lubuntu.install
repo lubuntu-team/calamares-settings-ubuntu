@@ -1,1 +1,4 @@
-lubuntu/* etc/calamares/
+lubuntu/1200-calamares lib/live/config/
+lubuntu/branding/ etc/calamares/
+lubuntu/modules/ etc/calamares/
+lubuntu/settings.conf etc/calamares/

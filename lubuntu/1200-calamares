@@ -1,0 +1,16 @@
+#!/bin/sh
+
+cat > "/home/lubuntu/Desktop/calamares.desktop" << EOF
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Lubuntu 18.10
+GenericName=Install Lubuntu
+Exec=sudo calamares
+Comment=Calamares — System Installer
+Icon=calamares
+Terminal=false
+StartupNotify=true
+Categories=Qt;System;
+EOF
