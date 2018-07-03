@@ -10,7 +10,7 @@ strings:
     shortVersionedName:  Lubuntu 18.10
     bootloaderEntryName: Lubuntu 18.10
     productUrl:          https://lubuntu.me/
-    supportUrl:          https://lubuntu.me/support/
+    supportUrl:          https://lubuntu.me/links/
 
 images:
     productLogo:         "logo.png"
