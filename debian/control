@@ -5,9 +5,9 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
-Homepage: https://github.com/lubuntu-team/calamares-settings-ubuntu
-Vcs-Git: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubuntu
-Vcs-Browser: https://git.launchpad.net/~lubuntu-next/+git/calamares-settings-ubuntu
+Homepage: https://code.launchpad.net/ubuntu-calamares-settings
+Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
+Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
 
 Package: calamares-settings-lubuntu
 Architecture: all
