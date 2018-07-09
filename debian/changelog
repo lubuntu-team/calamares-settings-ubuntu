@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (4) UNRELEASED; urgency=medium
+
+  * Don't fail to install the system on BIOS systems.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 17:51:16 -0500
+
 calamares-settings-ubuntu (3) cosmic; urgency=medium
 
   * Bump Standards-version to 4.1.4, no changes needed.
