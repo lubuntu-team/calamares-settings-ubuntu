@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (4) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (4) cosmic; urgency=medium
 
   * Don't fail to install the system on BIOS systems (LP: #1780875).
   * Remove the right live task (LP: #1780585).
@@ -7,7 +7,7 @@ calamares-settings-ubuntu (4) UNRELEASED; urgency=medium
   * Ensure that slideshow images correctly respond to their text.
   * Actually install the .desktop file.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 17:51:16 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 20:48:33 -0500
 
 calamares-settings-ubuntu (3) cosmic; urgency=medium
 
