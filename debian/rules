@@ -2,3 +2,7 @@
 
 %:
 	dh $@
+
+override_dh_auto_build:
+	$(MAKE)
+	dh_auto_build
