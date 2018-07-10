@@ -72,7 +72,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image4
             x: 0
             y: 0
             width: 810
@@ -81,7 +81,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text3
             x: 8
             y: 185
             width: 317
@@ -95,7 +95,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image5
             x: 110
             y: 48
             width: 96
@@ -105,7 +105,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text4
             x: 8
             y: 261
             width: 317
@@ -119,7 +119,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image6
             x: 119
             y: 430
             width: 96
@@ -130,7 +130,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image7
             x: 0
             y: 0
             width: 810
@@ -139,7 +139,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text5
             x: 8
             y: 185
             width: 317
@@ -153,7 +153,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image8
             x: 110
             y: 48
             width: 96
@@ -163,7 +163,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text6
             x: 8
             y: 261
             width: 317
@@ -177,7 +177,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image9
             x: 119
             y: 430
             width: 96
@@ -188,7 +188,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image10
             x: 0
             y: 0
             width: 810
@@ -197,7 +197,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text7
             x: 8
             y: 185
             width: 317
@@ -211,7 +211,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image11
             x: 110
             y: 48
             width: 96
@@ -221,7 +221,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text8
             x: 8
             y: 261
             width: 317
@@ -235,7 +235,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image12
             x: 119
             y: 430
             width: 96
@@ -246,7 +246,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image13
             x: 0
             y: 0
             width: 810
@@ -255,7 +255,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text9
             x: 8
             y: 185
             width: 317
@@ -269,7 +269,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image14
             x: 110
             y: 48
             width: 96
@@ -279,7 +279,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text10
             x: 8
             y: 261
             width: 317
@@ -293,7 +293,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image15
             x: 119
             y: 430
             width: 96
@@ -304,7 +304,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image16
             x: 0
             y: 0
             width: 810
@@ -313,7 +313,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text11
             x: 8
             y: 185
             width: 317
@@ -327,7 +327,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image17
             x: 110
             y: 48
             width: 96
@@ -337,7 +337,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text12
             x: 8
             y: 261
             width: 317
@@ -351,7 +351,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image18
             x: 119
             y: 430
             width: 96
@@ -362,7 +362,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image19
             x: 0
             y: 0
             width: 810
@@ -371,7 +371,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text13
             x: 8
             y: 185
             width: 317
@@ -385,7 +385,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image20
             x: 110
             y: 48
             width: 96
@@ -395,7 +395,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text14
             x: 8
             y: 261
             width: 317
@@ -409,7 +409,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image21
             x: 119
             y: 430
             width: 96
@@ -420,7 +420,7 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
-            id: image1
+            id: image22
             x: 0
             y: 0
             width: 810
@@ -429,7 +429,7 @@ Presentation
         }
 
         Text {
-            id: text1
+            id: text15
             x: 8
             y: 185
             width: 317
@@ -443,7 +443,7 @@ Presentation
         }
 
         Image {
-            id: image2
+            id: image23
             x: 110
             y: 48
             width: 96
@@ -453,7 +453,7 @@ Presentation
         }
 
         Text {
-            id: text2
+            id: text16
             x: 8
             y: 261
             width: 317
@@ -467,7 +467,7 @@ Presentation
         }
 
         Image {
-            id: image3
+            id: image24
             x: 119
             y: 430
             width: 96
