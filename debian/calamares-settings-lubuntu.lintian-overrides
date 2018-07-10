@@ -1,0 +1,3 @@
+# Although it's technically against policy, in this case it's justified because it's the only way
+calamares-settings-lubuntu: package-contains-file-in-etc-skel etc/skel/Desktop/
+calamares-settings-lubuntu: package-contains-file-in-etc-skel etc/skel/Desktop/calamares.desktop

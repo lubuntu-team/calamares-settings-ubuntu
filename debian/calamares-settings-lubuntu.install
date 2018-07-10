@@ -1,4 +1,4 @@
-lubuntu/1200-calamares lib/live/config/
+lubuntu/calamares.desktop etc/skel/Desktop/
 lubuntu/branding/ etc/calamares/
 lubuntu/modules/ etc/calamares/
 lubuntu/settings.conf etc/calamares/

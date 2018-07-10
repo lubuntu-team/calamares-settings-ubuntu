@@ -5,6 +5,7 @@ calamares-settings-ubuntu (4) UNRELEASED; urgency=medium
   * Enable GeoIP support by default, to get accurate timezone readings.
   * Make image and text IDs unique in the slideshow.
   * Ensure that slideshow images correctly respond to their text.
+  * Actually install the .desktop file.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 17:51:16 -0500
 
