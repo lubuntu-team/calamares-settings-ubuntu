@@ -19,7 +19,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide1.png"
+            source: "support.png"
         }
 
         Text {
@@ -77,7 +77,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide2.png"
+            source: "trojita.png"
         }
 
         Text {
@@ -135,7 +135,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide3.png"
+            source: "smplayer.png"
         }
 
         Text {
@@ -193,7 +193,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide4.png"
+            source: "libreoffice.png"
         }
 
         Text {
@@ -251,7 +251,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide5.png"
+            source: "nomacs.png"
         }
 
         Text {
@@ -309,7 +309,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide6.png"
+            source: "2048.png"
         }
 
         Text {
@@ -367,7 +367,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide7.png"
+            source: "IRC.png"
         }
 
         Text {
@@ -425,7 +425,7 @@ Presentation
             y: 0
             width: 810
             height: 485
-            source: "slide8.png"
+            source: "qpdfview.png"
         }
 
         Text {
