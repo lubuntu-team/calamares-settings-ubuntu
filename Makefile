@@ -1,13 +1,12 @@
 #!/usr/bin/make -f
 
-SUBDIRS := lubuntu/po/
+#SUBDIRS :=
 
 all: install
 
 install:
-	for i in $(SUBDIRS); do \
-		make -C $$i; \
-		find $$i/../ -type f -iname "*.in" | xargs rm -f
-	done
+	make -C lubuntu/po/; \
+	find lubuntu/ -type f -iname "*.in" | xargs rm -f
+	chmod +x lubuntu/*.desktop
 
 # vim:ts=4
