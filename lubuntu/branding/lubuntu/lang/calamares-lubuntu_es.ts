@@ -46,7 +46,7 @@
     <message>
         <location filename="../show.qml" line="264"/>
         <source>Pictures</source>
-        <translation>Fotos</translation>
+        <translation>Imágenes</translation>
     </message>
     <message>
         <location filename="../show.qml" line="288"/>
