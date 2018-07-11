@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (6) UNRELEASED; urgency=medium
+
+  * Fix translations for Calamares.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 00:10:24 -0500
+
 calamares-settings-ubuntu (5) cosmic; urgency=medium
 
   * Add translations support for the desktop file and the installer slideshow.
