@@ -36,7 +36,7 @@
     <message>
         <location filename="../show.qml" line="206"/>
         <source>LibreOffice</source>
-        <translation type="unfinished"></translation>
+        <translation>LibreOffice</translation>
     </message>
     <message>
         <location filename="../show.qml" line="230"/>
