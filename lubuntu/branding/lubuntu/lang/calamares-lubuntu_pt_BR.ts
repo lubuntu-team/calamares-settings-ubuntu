@@ -81,7 +81,7 @@
     <message>
         <location filename="../show.qml" line="462"/>
         <source>With QPDFView</source>
-        <translation type="unfinished"></translation>
+        <translation>Com o QPDFView</translation>
     </message>
 </context>
 </TS>
