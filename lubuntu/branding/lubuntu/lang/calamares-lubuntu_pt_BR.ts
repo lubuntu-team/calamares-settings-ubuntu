@@ -6,7 +6,7 @@
     <message>
         <location filename="../show.qml" line="32"/>
         <source>Get Support</source>
-        <translation type="unfinished">Suporte</translation>
+        <translation>Suporte</translation>
     </message>
     <message>
         <location filename="../show.qml" line="56"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../show.qml" line="172"/>
         <source>To Play All of Your Movies</source>
-        <translation type="unfinished">Para reprodução dos seus filmes favoritos</translation>
+        <translation>Para reprodução dos seus filmes favoritos</translation>
     </message>
     <message>
         <location filename="../show.qml" line="206"/>
