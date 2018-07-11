@@ -61,7 +61,7 @@
     <message>
         <location filename="../show.qml" line="346"/>
         <source>With the 2048 game</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit das 2048 Spiel</translation>
     </message>
     <message>
         <location filename="../show.qml" line="380"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../show.qml" line="404"/>
         <source>With Quassel IRC</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit Quassel IRC</translation>
     </message>
     <message>
         <location filename="../show.qml" line="438"/>
@@ -81,7 +81,7 @@
     <message>
         <location filename="../show.qml" line="462"/>
         <source>With QPDFView</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit QPDFView</translation>
     </message>
 </context>
 </TS>
