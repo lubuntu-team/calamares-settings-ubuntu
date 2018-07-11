@@ -66,17 +66,17 @@
     <message>
         <location filename="../show.qml" line="380"/>
         <source>IRC Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Converse via IRC</translation>
     </message>
     <message>
         <location filename="../show.qml" line="404"/>
         <source>With Quassel IRC</source>
-        <translation type="unfinished"></translation>
+        <translation>Com o Quassel IRC</translation>
     </message>
     <message>
         <location filename="../show.qml" line="438"/>
         <source>View Your Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualize os seus documentos</translation>
     </message>
     <message>
         <location filename="../show.qml" line="462"/>
