@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (5) UNRELEASED; urgency=medium
 
   * Add translations support for the desktop file and the installer slideshow.
+  * Increase the timeout for the shellprocess commands (LP: #1781015).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 19:03:07 -0500
 
