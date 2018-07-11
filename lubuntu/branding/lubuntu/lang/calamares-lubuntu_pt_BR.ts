@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="pt_BR">
 <context>
     <name>show</name>
     <message>
         <location filename="../show.qml" line="32"/>
         <source>Get Support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Suporte</translation>
     </message>
     <message>
         <location filename="../show.qml" line="56"/>
         <source>https://lubuntu.me</source>
-        <translation type="unfinished"></translation>
+        <translation>https://lubuntu.me</translation>
     </message>
     <message>
         <location filename="../show.qml" line="90"/>
         <source>Your Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>Seu correio eletrônico (e-mail)</translation>
     </message>
     <message>
         <location filename="../show.qml" line="114"/>
         <source>Managed by Trojitá</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerenciado por Trojitá</translation>
     </message>
     <message>
         <location filename="../show.qml" line="148"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../show.qml" line="172"/>
         <source>To Play All of Your Movies</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Para reprodução dos seus filmes favoritos</translation>
     </message>
     <message>
         <location filename="../show.qml" line="206"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../show.qml" line="230"/>
         <source>Edits All Of Your Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita todos os seus documentos</translation>
     </message>
     <message>
         <location filename="../show.qml" line="264"/>
