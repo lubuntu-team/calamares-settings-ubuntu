@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (6) UNRELEASED; urgency=medium
 
   * Fix translations for Calamares.
+  * Don't remove GRUB for now.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 00:10:24 -0500
 
