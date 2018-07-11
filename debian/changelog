@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (5) UNRELEASED; urgency=medium
+
+  * Add translations support for the desktop file and the installer slideshow.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 19:03:07 -0500
+
 calamares-settings-ubuntu (4) cosmic; urgency=medium
 
   * Don't fail to install the system on BIOS systems (LP: #1780875).
