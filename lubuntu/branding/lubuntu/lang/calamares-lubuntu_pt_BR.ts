@@ -46,22 +46,22 @@
     <message>
         <location filename="../show.qml" line="264"/>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagens</translation>
     </message>
     <message>
         <location filename="../show.qml" line="288"/>
         <source>Viewed With Nomacs</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualizadas com Nomacs</translation>
     </message>
     <message>
         <location filename="../show.qml" line="322"/>
         <source>Have Fun!</source>
-        <translation type="unfinished"></translation>
+        <translation>Divirta-se!</translation>
     </message>
     <message>
         <location filename="../show.qml" line="346"/>
         <source>With the 2048 game</source>
-        <translation type="unfinished"></translation>
+        <translation>Com o jogo 2048</translation>
     </message>
     <message>
         <location filename="../show.qml" line="380"/>
