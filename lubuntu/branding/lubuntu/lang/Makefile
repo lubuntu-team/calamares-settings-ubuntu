@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-LANGUAGES := ar ca de es eu gl be da el et fr pl
+LANGUAGES := ar ca de es eu gl be da el et fr pl pt pt_BR
 
 all:
 	for i in $(LANGUAGES); do \
