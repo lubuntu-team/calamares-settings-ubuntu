@@ -3,6 +3,8 @@ calamares-settings-ubuntu (7) UNRELEASED; urgency=medium
   * Fix geoip timezone detection.
   * Update translations and add support for Portuguese and Brazilian
     Portuguese.
+  * Ensure that calamares.desktop is removed from all new users on a
+    freshly-installed system.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 22:35:58 -0500
 
