@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (7) UNRELEASED; urgency=medium
+
+  * Fix geoip timezone detection.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 22:35:58 -0500
+
 calamares-settings-ubuntu (6) cosmic; urgency=medium
 
   * Fix translations for Calamares.
