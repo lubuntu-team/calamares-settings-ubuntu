@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (7) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (7) cosmic; urgency=medium
 
   * Fix geoip timezone detection (LP: #1781310).
   * Update translations and add support for Portuguese and Brazilian
@@ -7,7 +7,7 @@ calamares-settings-ubuntu (7) UNRELEASED; urgency=medium
     freshly-installed system (LP: #1781309).
   * Also remove calamares after install.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 22:35:58 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 12 Jul 2018 00:15:08 -0500
 
 calamares-settings-ubuntu (6) cosmic; urgency=medium
 
