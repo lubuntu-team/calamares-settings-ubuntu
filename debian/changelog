@@ -2,6 +2,7 @@ calamares-settings-ubuntu (8) UNRELEASED; urgency=medium
 
   * Finish Danish translations.
   * Don't use apt-cdrom; just copy the host sources.list.
+  * Add a displaymanager.conf.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 13 Jul 2018 20:49:19 -0500
 
