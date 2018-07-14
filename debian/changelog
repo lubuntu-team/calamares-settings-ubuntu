@@ -1,11 +1,11 @@
-calamares-settings-ubuntu (8) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (8) cosmic; urgency=medium
 
   * Finish Danish translations.
   * Don't use apt-cdrom; just copy the host sources.list.
   * Add a displaymanager.conf.
   * Bump Standards-version to 4.1.5, no changes needed.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 13 Jul 2018 20:49:19 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 13 Jul 2018 22:26:23 -0500
 
 calamares-settings-ubuntu (7) cosmic; urgency=medium
 
