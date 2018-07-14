@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (8) UNRELEASED; urgency=medium
+
+  * Finish Danish translations.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 13 Jul 2018 20:49:19 -0500
+
 calamares-settings-ubuntu (7) cosmic; urgency=medium
 
   * Fix geoip timezone detection (LP: #1781310).
