@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (9) UNRELEASED; urgency=medium
 
   * Import additional translations from Weblate.
+  * Replace a blind cp with a more tactful apt-cdrom command.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 15 Jul 2018 03:56:07 -0500
 
