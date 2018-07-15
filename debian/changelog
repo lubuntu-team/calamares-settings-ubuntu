@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (9) UNRELEASED; urgency=medium
+
+  * Import additional translations from Weblate.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 15 Jul 2018 03:56:07 -0500
+
 calamares-settings-ubuntu (8) cosmic; urgency=medium
 
   * Finish Danish translations.
