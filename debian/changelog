@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (10) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (10) cosmic; urgency=medium
 
   * Fix non-secureboot UEFI installs on real hardware (LP: #1781015).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 18 Jul 2018 23:17:38 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 18 Jul 2018 23:20:42 -0500
 
 calamares-settings-ubuntu (9) cosmic; urgency=medium
 
