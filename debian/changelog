@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (11) UNRELEASED; urgency=medium
+
+  * Add a machineid file.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 09:43:15 -0500
+
 calamares-settings-ubuntu (10) cosmic; urgency=medium
 
   * Fix non-secureboot UEFI installs on real hardware (LP: #1781015).
