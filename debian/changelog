@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (11) UNRELEASED; urgency=medium
 
   * Add a machineid file.
+  * Ensure that /bin/bash is always the default shell.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 09:43:15 -0500
 
