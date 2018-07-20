@@ -1,10 +1,10 @@
-calamares-settings-ubuntu (11) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (11) cosmic; urgency=medium
 
   * Add a machineid file.
   * Ensure that /bin/bash is always the default shell.
   * Clean up awful hacks.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 09:43:15 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 13:36:18 -0500
 
 calamares-settings-ubuntu (10) cosmic; urgency=medium
 
