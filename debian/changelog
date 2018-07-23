@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (12) UNRELEASED; urgency=critical
+
+  * We're not Neon (LP: #1783024).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 22 Jul 2018 21:13:18 -0500
+
 calamares-settings-ubuntu (11) cosmic; urgency=medium
 
   * Add a machineid file.
