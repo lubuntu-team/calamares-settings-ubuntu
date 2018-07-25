@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (13) UNRELEASED; urgency=critical
+calamares-settings-ubuntu (13) cosmic; urgency=critical
 
   * Calamares is capitalized (LP: #1783109).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 00:29:21 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 00:30:09 -0500
 
 calamares-settings-ubuntu (12) cosmic; urgency=critical
 
