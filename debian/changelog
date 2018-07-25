@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (14) UNRELEASED; urgency=medium
 
   * Don't copy initrd from the live install, because that contains casper.
+  * Make "ubuntu" the bootloader_id and don't do a cp hack.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 06:19:24 -0500
 
