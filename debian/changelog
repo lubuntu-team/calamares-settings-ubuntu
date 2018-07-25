@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (14) UNRELEASED; urgency=medium
+
+  * Don't copy initrd from the live install, because that contains casper.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 06:19:24 -0500
+
 calamares-settings-ubuntu (13) cosmic; urgency=critical
 
   * Calamares is capitalized (LP: #1783109).
