@@ -6,7 +6,7 @@ root=$1
 install_dir=$root/var/log/installer
 [ -d $install_dir ] || mkdir -p $install_dir
 
-cp /home/lubuntu/.cache/calamares/session.log $install_dir/debug
+cp /home/lubuntu/.cache/Calamares/session.log $install_dir/debug
 
 cp /cdrom/.disk/info $install_dir/media-info
 cp /var/log/casper.log $install_dir/casper.log
