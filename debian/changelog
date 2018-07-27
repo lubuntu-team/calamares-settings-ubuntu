@@ -1,9 +1,9 @@
-calamares-settings-ubuntu (14) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (14) cosmic; urgency=medium
 
   * Don't copy initrd from the live install, because that contains casper.
   * Make "ubuntu" the bootloader_id and don't do a cp hack.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 06:19:24 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 27 Jul 2018 14:57:47 -0500
 
 calamares-settings-ubuntu (13) cosmic; urgency=critical
 
