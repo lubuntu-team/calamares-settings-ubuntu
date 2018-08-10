@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (17) UNRELEASED; urgency=medium
 
   * Add a minimum password strength requirement.
+  * Sync default user groups with Neon.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Aug 2018 13:13:43 -0500
 
