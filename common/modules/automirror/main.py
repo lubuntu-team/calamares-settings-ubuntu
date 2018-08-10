@@ -67,6 +67,6 @@ def run():
         country = getcountry()
         prefix = getmirror(country)
     else:
-    prefix = ""
+        prefix = ""
 
     changesources(prefix)
