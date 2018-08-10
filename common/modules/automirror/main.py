@@ -18,6 +18,7 @@
 import json
 import subprocess
 import libcalamares
+from time import strftime
 from urllib import request
 from lsb_release import get_distro_information
 
@@ -110,6 +111,7 @@ def changesources(prefix):
             sources = sources.replace("DISTRIBUTION", distro)
             sources = sources.replace("CODENAME", getcodename())
             sources = sources.replace("URL", url)
+            sources = sources.replace("DATE", strftime("%Y-%m-%d"))
 
             with open(root + "/etc/apt/sources.list", "r+") as sourcesfile:
                 sourcesfile.seek(0)
