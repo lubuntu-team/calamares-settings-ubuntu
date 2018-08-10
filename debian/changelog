@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (15) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (15) cosmic; urgency=medium
 
   * Add a calamares-settings-ubuntu-common package with an automirror module.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 21:23:30 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 21:25:17 -0500
 
 calamares-settings-ubuntu (14) cosmic; urgency=medium
 
