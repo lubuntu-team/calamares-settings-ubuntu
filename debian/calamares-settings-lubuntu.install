@@ -1,5 +1,5 @@
-lubuntu/calamares.desktop etc/skel/Desktop/
-lubuntu/calamares-logs-helper usr/bin/
 lubuntu/branding/ etc/calamares/
+lubuntu/calamares-logs-helper usr/bin/
+lubuntu/calamares.desktop etc/skel/Desktop/
 lubuntu/modules/ etc/calamares/
 lubuntu/settings.conf etc/calamares/
