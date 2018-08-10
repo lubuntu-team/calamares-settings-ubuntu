@@ -11,7 +11,9 @@ Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
 
 Package: calamares-settings-lubuntu
 Architecture: all
-Depends: calamares-settings-ubuntu-common (= ${binary:Version}), ${misc:Depends}
+Depends: calamares-settings-ubuntu-common (= ${binary:Version}),
+         libpwquality-dev,
+         ${misc:Depends}
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu Next.
 

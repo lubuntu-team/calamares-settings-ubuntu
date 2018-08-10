@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (17) UNRELEASED; urgency=medium
+
+  * Add a minimum password strength requirement.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Aug 2018 13:13:43 -0500
+
 calamares-settings-ubuntu (16) cosmic; urgency=medium
 
   * Enable automirror by default.
