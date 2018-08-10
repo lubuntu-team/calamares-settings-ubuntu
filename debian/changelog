@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (16) UNRELEASED; urgency=medium
 
   * Enable automirror by default.
+  * Fix a typo in automirror.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 22:39:57 -0500
 

@@ -90,7 +90,7 @@ def getmirror(country):
     with request.urlopen(libcalamares.job.configuration["mirrorList"]) as url:
         mirrors = json.loads(url.read().decode())
     if country in mirrors.keys():
-        return mirrors["country"] + "."
+        return mirrors[country] + "."
     else:
         return ""
 
