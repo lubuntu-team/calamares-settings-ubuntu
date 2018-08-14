@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (19) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (19) cosmic; urgency=medium
 
   * Remove the build dep completely.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 17:11:26 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 17:12:15 -0500
 
 calamares-settings-ubuntu (18) cosmic; urgency=medium
 
