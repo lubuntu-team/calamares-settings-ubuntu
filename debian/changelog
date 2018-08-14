@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (18) UNRELEASED; urgency=medium
+
+  * Translate into Danish.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 16:17:57 -0500
+
 calamares-settings-ubuntu (17) cosmic; urgency=medium
 
   * Add a minimum password strength requirement.
