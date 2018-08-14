@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 11),
                intltool,
                libpwquality-dev,
                qttools5-dev-tools
-Standards-Version: 4.1.5
+Standards-Version: 4.2.0
 Homepage: https://code.launchpad.net/ubuntu-calamares-settings
 Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
 Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
