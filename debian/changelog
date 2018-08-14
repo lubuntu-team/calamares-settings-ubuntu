@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (18) UNRELEASED; urgency=medium
 
   * Translate into Danish.
+  * Make the password detection runtime dep into a build dep.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 16:17:57 -0500
 
