@@ -3,10 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 11),
-               intltool,
-               libpwquality-dev,
-               qttools5-dev-tools
+Build-Depends: debhelper (>= 11), intltool, qttools5-dev-tools
 Standards-Version: 4.2.0
 Homepage: https://code.launchpad.net/ubuntu-calamares-settings
 Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
