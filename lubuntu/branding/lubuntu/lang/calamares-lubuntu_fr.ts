@@ -51,7 +51,7 @@
     <message>
         <location filename="../show.qml" line="288"/>
         <source>Viewed With Nomacs</source>
-        <translation>Regardable avec Nomacs</translation>
+        <translation>Visionné avec Nomacs</translation>
     </message>
     <message>
         <location filename="../show.qml" line="322"/>
