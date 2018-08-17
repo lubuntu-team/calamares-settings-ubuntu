@@ -21,7 +21,7 @@
     <message>
         <location filename="../show.qml" line="114"/>
         <source>Managed by Trojitá</source>
-        <translation type="unfinished"></translation>
+        <translation>von Trojitá verwaltet</translation>
     </message>
     <message>
         <location filename="../show.qml" line="148"/>
