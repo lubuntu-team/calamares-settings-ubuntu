@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (20) cosmic; urgency=medium
+
+  * Lubuntu: add executable to defaultDesktopEnvironment in displaymanager.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 20 Aug 2018 21:16:47 -0700
+
 calamares-settings-ubuntu (19) cosmic; urgency=medium
 
   * Remove the build dep completely.
