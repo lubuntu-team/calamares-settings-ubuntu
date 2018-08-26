@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (21) cosmic; urgency=medium
+
+  * Lubuntu: remove all password checking.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 25 Aug 2018 17:43:33 -0700
+
 calamares-settings-ubuntu (20) cosmic; urgency=medium
 
   * Lubuntu: add executable to defaultDesktopEnvironment in displaymanager.
