@@ -1,6 +1,6 @@
 calamares-settings-ubuntu (22) cosmic; urgency=medium
 
-  * Lubuntu: enable LUKS/encryption. 
+  * Lubuntu: enable LUKS/encryption.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 04 Oct 2018 22:02:57 -0700
 
