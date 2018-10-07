@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (23) cosmic; urgency=medium
+
+  * Lubuntu: ensure install .desktop file is always removed. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 06 Oct 2018 19:15:02 -0700
+
 calamares-settings-ubuntu (22) cosmic; urgency=medium
 
   * Lubuntu: enable LUKS/encryption.
