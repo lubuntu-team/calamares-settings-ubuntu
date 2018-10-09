@@ -1,3 +1,13 @@
+calamares-settings-ubuntu (24) UNRELEASED; urgency=medium
+
+  [ Wendy Hill ]
+  * Rework the Lubuntu slideshow.
+
+  [ Simon Quigley ]
+  * Add -E to the desktop icon so that our nice theming carries over.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 09 Oct 2018 13:32:45 -0500
+
 calamares-settings-ubuntu (23) cosmic; urgency=medium
 
   * Lubuntu: ensure install .desktop file is always removed.
