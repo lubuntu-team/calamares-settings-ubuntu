@@ -20,6 +20,7 @@ Presentation
             width: 810
             height: 485
             fillMode: Image.PreserveAspectFit
+            smooth: true
             source: "FindUs.png"
         }
     }
