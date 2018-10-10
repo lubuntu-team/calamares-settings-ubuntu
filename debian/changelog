@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (24) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (24) cosmic; urgency=medium
 
   [ Wendy Hill ]
   * Rework the Lubuntu slideshow.
@@ -6,7 +6,10 @@ calamares-settings-ubuntu (24) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Add -E to the desktop icon so that our nice theming carries over.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 09 Oct 2018 13:32:45 -0500
+  [ Walter Lapchynski ]
+  * Generalize installation of GRUB for EFI.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 09 Oct 2018 21:51:55 -0700
 
 calamares-settings-ubuntu (23) cosmic; urgency=medium
 
