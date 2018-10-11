@@ -19,7 +19,10 @@ import json
 import subprocess
 import libcalamares
 from time import strftime
-from urllib import request
+import urllib.request
+from urllib.error import HTTPError
+from urllib.error import URLError
+from socket import timeout
 from lsb_release import get_distro_information
 
 global sources
@@ -80,22 +83,50 @@ deb URL/ubuntu/ CODENAME-backports main restricted universe multiverse
 # deb http://archive.canonical.com/ubuntu CODENAME partner
 # deb-src http://archive.canonical.com/ubuntu CODENAME partner"""
 
+
 def getcountry():
-    # This is hardcoded for now, but should eventually be put into the config
-    with request.urlopen("https://ipapi.co/json") as url:
-        localedata = json.loads(url.read().decode())
+    # This URI hardcoded for now, but should eventually be put into the config
+    geoipurl = "https://ipapi.co/json"
+    try:
+        with urllib.request.urlopen(geoipurl, timeout=75) as url:
+            localedata = json.loads(url.read().decode())
+    except HTTPError:
+        logging.error("Data of %s not retrieved because %s - URL: %s",
+                      name, error, url)
+    except URLError:
+        if isinstance(error.reason, socket.timeout):
+            logging.error("Socket timed out - URL %s", url)
+        else:
+            logging.error("Non-timeout protocol error.")
+    else:
+        print("Country successfully determined.")
     return localedata["country"]
 
+
 def getmirror(country):
-    with request.urlopen(libcalamares.job.configuration["mirrorList"]) as url:
-        mirrors = json.loads(url.read().decode())
+    mirrorlisturl = libcalamares.job.configuration["mirrorList"]
+    try:
+        with urllib.request.urlopen(mirrorlisturl, timeout=75) as url:
+            mirrors = json.loads(url.read().decode())
+    except HTTPError:
+        logging.error("Data of %s not retrieved because %s - URL: %s",
+                      name, error, url)
+    except URLError:
+        if isinstance(error.reason, socket.timeout):
+            logging.error("Socket timed out - URL %s", url)
+        else:
+            logging.error("Non-timeout protocol error.")
+    else:
+        print("Mirror successfully determined.")
     if country in mirrors.keys():
         return mirrors[country] + "."
     else:
         return ""
 
+
 def getcodename():
     return get_distro_information()["CODENAME"]
+
 
 def changesources(prefix):
     root = libcalamares.globalstorage.value("rootMountPoint")
@@ -117,6 +148,7 @@ def changesources(prefix):
                 sourcesfile.seek(0)
                 sourcesfile.write(sources)
                 sourcesfile.truncate()
+
 
 def run():
     """Autoselect a mirror from a list."""

@@ -8,8 +8,9 @@ calamares-settings-ubuntu (24) cosmic; urgency=medium
 
   [ Walter Lapchynski ]
   * Generalize installation of GRUB for EFI.
+  * Add urlopen() error handling to automirror, thanks to Samuel Banya. 
 
- -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 09 Oct 2018 21:51:55 -0700
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 10 Oct 2018 08:36:52 -0700
 
 calamares-settings-ubuntu (23) cosmic; urgency=medium
 
