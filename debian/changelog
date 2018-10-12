@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (25) cosmic; urgency=medium
 
   * Ignore BIOS entirely when installing GRUB for EFI.
+  * Restore Calamares productIcon. 
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 11 Oct 2018 19:29:20 -0700
 
