@@ -14,14 +14,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.1-dev\n"
 
-#: ../calamares.desktop.in.h:1
+#: ../lubuntu-calamares.desktop.in.h:1
 msgid "Install Lubuntu 18.10"
 msgstr "Installer Lubuntu 18.10"
 
-#: ../calamares.desktop.in.h:2
+#: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Lubuntu"
 msgstr "Installer Lubuntu"
 
-#: ../calamares.desktop.in.h:3
+#: ../lubuntu-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"
 msgstr "Calamares - System installation"
