@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (26) cosmic; urgency=medium
 
   * Lubuntu: fix check for EFI architecture. 
+  * Lubuntu: fix location of installer .desktop. 
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 12 Oct 2018 18:39:27 -0700
 
