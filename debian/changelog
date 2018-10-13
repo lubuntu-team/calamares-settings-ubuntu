@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (26) cosmic; urgency=medium
+
+  * Lubuntu: fix check for EFI architecture. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 12 Oct 2018 18:39:27 -0700
+
 calamares-settings-ubuntu (25) cosmic; urgency=medium
 
   * Ignore BIOS entirely when installing GRUB for EFI.
