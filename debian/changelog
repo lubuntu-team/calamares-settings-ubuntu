@@ -9,7 +9,7 @@ calamares-settings-ubuntu (26) cosmic; urgency=medium
 calamares-settings-ubuntu (25) cosmic; urgency=medium
 
   * Ignore BIOS entirely when installing GRUB for EFI.
-  * Restore Calamares productIcon. 
+  * Restore Calamares productIcon.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 11 Oct 2018 19:29:20 -0700
 
@@ -23,7 +23,7 @@ calamares-settings-ubuntu (24) cosmic; urgency=medium
 
   [ Walter Lapchynski ]
   * Generalize installation of GRUB for EFI.
-  * Add urlopen() error handling to automirror, thanks to Samuel Banya. 
+  * Add urlopen() error handling to automirror, thanks to Samuel Banya.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 10 Oct 2018 08:36:52 -0700
 
