@@ -90,10 +90,10 @@ def getcountry():
     try:
         with urllib.request.urlopen(geoipurl, timeout=75) as url:
             localedata = json.loads(url.read().decode())
-    except HTTPError:
+    except HTTPError as error:
         logging.error("Data of %s not retrieved because %s - URL: %s",
                       name, error, url)
-    except URLError:
+    except URLError as error:
         if isinstance(error.reason, socket.timeout):
             logging.error("Socket timed out - URL %s", url)
         else:
@@ -108,10 +108,10 @@ def getmirror(country):
     try:
         with urllib.request.urlopen(mirrorlisturl, timeout=75) as url:
             mirrors = json.loads(url.read().decode())
-    except HTTPError:
+    except HTTPError as error:
         logging.error("Data of %s not retrieved because %s - URL: %s",
                       name, error, url)
-    except URLError:
+    except URLError as error:
         if isinstance(error.reason, socket.timeout):
             logging.error("Socket timed out - URL %s", url)
         else:

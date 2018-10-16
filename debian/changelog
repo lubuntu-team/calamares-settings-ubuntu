@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (27) cosmic; urgency=medium
+
+  * Add missing identifiers for urllib exception handling. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 15 Oct 2018 21:01:34 -0700
+
 calamares-settings-ubuntu (26) cosmic; urgency=medium
 
   * Lubuntu: fix check for EFI architecture.
