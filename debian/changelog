@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (27) cosmic; urgency=medium
 
-  * Add missing identifiers for urllib exception handling. 
+  * Add missing identifiers for urllib exception handling.
+  * Lubuntu: ensure upgrades don't happen for EFI packages. 
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 15 Oct 2018 21:01:34 -0700
 
