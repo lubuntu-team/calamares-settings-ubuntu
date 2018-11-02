@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (28) disco; urgency=medium
+
+  * Welcome to the Disco Dingo!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 01 Nov 2018 20:41:31 -0500
+
 calamares-settings-ubuntu (27) cosmic; urgency=medium
 
   * Add missing identifiers for urllib exception handling in automirror.

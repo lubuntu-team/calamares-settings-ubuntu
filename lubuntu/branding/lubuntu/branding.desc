@@ -4,11 +4,11 @@ componentName: lubuntu
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             18.10
-    shortVersion:        cosmic
+    version:             19.04
+    shortVersion:        disco
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 18.10
-    bootloaderEntryName: Lubuntu 18.10
+    shortVersionedName:  Lubuntu 19.04
+    bootloaderEntryName: Lubuntu 19.04
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/
 
