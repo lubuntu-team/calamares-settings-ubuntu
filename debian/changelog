@@ -1,9 +1,9 @@
-calamares-settings-ubuntu (29) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (29) disco; urgency=medium
 
   * Fix accidentally reverted parts of 27 in 28 due to the VCS not being
     up-to-date. Thanks to Jeremy Bicha for spotting the issue (LP: #1801393).
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 02 Nov 2018 17:32:43 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 02 Nov 2018 17:33:51 -0500
 
 calamares-settings-ubuntu (28) disco; urgency=medium
 
