@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (29) UNRELEASED; urgency=medium
+
+  * Fix accidentally reverted parts of 27 in 28 due to the VCS not being
+    up-to-date. Thanks to Jeremy Bicha for spotting the issue (LP: #1801393).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 02 Nov 2018 17:32:43 -0500
+
 calamares-settings-ubuntu (28) disco; urgency=medium
 
   * Welcome to the Disco Dingo!
@@ -6,10 +13,15 @@ calamares-settings-ubuntu (28) disco; urgency=medium
 
 calamares-settings-ubuntu (27) cosmic; urgency=medium
 
+  [ Walter Lapchynski ]
   * Add missing identifiers for urllib exception handling in automirror.
   * Lubuntu: ensure upgrades don't happen for EFI packages.
 
- -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 16 Oct 2018 21:00:45 -0700
+  [ Simon Quigley ]
+  * Run `sudo apt[-get] update` if Internet connectivity is found during the
+    installation. This solves some common post-installation issues.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 17 Oct 2018 14:45:36 -0500
 
 calamares-settings-ubuntu (26) cosmic; urgency=medium
 
