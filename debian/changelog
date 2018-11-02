@@ -1,7 +1,7 @@
 calamares-settings-ubuntu (27) cosmic; urgency=medium
 
   * Add missing identifiers for urllib exception handling in automirror.
-  * Lubuntu: ensure upgrades don't happen for EFI packages. 
+  * Lubuntu: ensure upgrades don't happen for EFI packages.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 16 Oct 2018 21:00:45 -0700
 
