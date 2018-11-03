@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (30) UNRELEASED; urgency=medium
+
+  * Change the desktop file from 18.10 to 19.04.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 03 Nov 2018 18:02:46 -0500
+
 calamares-settings-ubuntu (29) disco; urgency=medium
 
   * Fix accidentally reverted parts of 27 in 28 due to the VCS not being

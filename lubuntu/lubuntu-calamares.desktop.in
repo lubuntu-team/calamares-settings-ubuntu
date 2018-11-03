@@ -2,7 +2,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Lubuntu 18.10
+_Name=Install Lubuntu 19.04
 _GenericName=Install Lubuntu
 Exec=sudo -E calamares
 _Comment=Calamares — System Installer
