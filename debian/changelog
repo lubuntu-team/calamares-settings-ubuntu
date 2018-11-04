@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (31) UNRELEASED; urgency=medium
+
+  * We aren't Lubuntu Next anymore; take it away from the package description.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 03 Nov 2018 21:06:07 -0500
+
 calamares-settings-ubuntu (30) disco; urgency=medium
 
   * Change the desktop file from 18.10 to 19.04.
