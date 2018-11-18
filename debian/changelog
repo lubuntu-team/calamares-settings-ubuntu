@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (31) UNRELEASED; urgency=medium
 
   * We aren't Lubuntu Next anymore; take it away from the package description.
+  * Try to install languages during the installation.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 03 Nov 2018 21:06:07 -0500
 
