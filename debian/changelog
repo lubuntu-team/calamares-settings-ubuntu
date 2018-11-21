@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (31) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (31) disco; urgency=medium
 
   * We aren't Lubuntu Next anymore; take it away from the package description.
   * Try to install languages during the installation.
@@ -7,7 +7,7 @@ calamares-settings-ubuntu (31) UNRELEASED; urgency=medium
   * Write a workaround to fix the support and release notes links on the
     welcome screen.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 03 Nov 2018 21:06:07 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 20 Nov 2018 18:29:15 -0600
 
 calamares-settings-ubuntu (30) disco; urgency=medium
 
