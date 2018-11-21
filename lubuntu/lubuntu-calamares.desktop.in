@@ -4,7 +4,7 @@ Type=Application
 Version=1.0
 _Name=Install Lubuntu 19.04
 _GenericName=Install Lubuntu
-Exec=sudo -E calamares
+Exec=bash -c "export BROWSER='sudo -H -u lubuntu firefox'; sudo -E calamares"
 _Comment=Calamares — System Installer
 Icon=calamares
 Terminal=false
