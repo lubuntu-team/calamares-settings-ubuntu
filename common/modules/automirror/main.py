@@ -22,7 +22,7 @@ from time import strftime
 import urllib.request
 from urllib.error import HTTPError
 from urllib.error import URLError
-from socket import timeout
+import socket
 from lsb_release import get_distro_information
 
 global sources
