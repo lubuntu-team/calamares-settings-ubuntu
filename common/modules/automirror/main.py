@@ -16,7 +16,6 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 import json
-import subprocess
 import libcalamares
 from time import strftime
 import urllib.request
@@ -83,43 +82,51 @@ deb URL/ubuntu/ CODENAME-backports main restricted universe multiverse
 # deb http://archive.canonical.com/ubuntu CODENAME partner
 # deb-src http://archive.canonical.com/ubuntu CODENAME partner"""
 
+SUBDOMAINS_BY_COUNTRY_CODE = {"US": "us.",
+                              "AU": "au.",
+                              "SE": "no.",
+                              "NO": "no.",
+                              "NZ": "nz.",
+                              "NL": "nl.",
+                              "KR": "kr.",
+                              "DE": "de.",
+                              "GE": "ge.",
+                              "PF": "pf.",
+                              "CZ": "cz.",
+                              "HR": "hr."}
 
-def getcountry():
-    # This URI hardcoded for now, but should eventually be put into the config
-    geoipurl = "https://ipapi.co/json"
-    try:
-        with urllib.request.urlopen(geoipurl, timeout=75) as url:
-            localedata = json.loads(url.read().decode())
-    except HTTPError as error:
-        logging.error("Data of %s not retrieved because %s - URL: %s",
-                      name, error, url)
-    except URLError as error:
-        if isinstance(error.reason, socket.timeout):
-            logging.error("Socket timed out - URL %s", url)
+
+def getcountrycode():
+    """
+    Return the two-letter country code or an empty string.
+
+    Tries to determine the country code based on the public IP address,
+    if the device is connected to the Internet. Otherwise it returns
+    an empty string.
+    """
+    if libcalamares.globalstorage.value("hasInternet"):
+        geoipurl = libcalamares.job.configuration["geoIpUrl"]
+        try:
+            with urllib.request.urlopen(geoipurl, timeout=75) as url:
+                localedata = json.loads(url.read().decode())
+        except HTTPError as error:
+            logging.error("Data of %s not retrieved because %s - URL: %s",
+                          name, error, url)
+        except URLError as error:
+            if isinstance(error.reason, socket.timeout):
+                logging.error("Socket timed out - URL %s", url)
+            else:
+                logging.error("Non-timeout protocol error.")
         else:
-            logging.error("Non-timeout protocol error.")
+            logging.info("Country successfully determined.")
+            return localedata["country"]
     else:
-        print("Country successfully determined.")
-    return localedata["country"]
+        return ""
 
 
-def getmirror(country):
-    mirrorlisturl = libcalamares.job.configuration["mirrorList"]
-    try:
-        with urllib.request.urlopen(mirrorlisturl, timeout=75) as url:
-            mirrors = json.loads(url.read().decode())
-    except HTTPError as error:
-        logging.error("Data of %s not retrieved because %s - URL: %s",
-                      name, error, url)
-    except URLError as error:
-        if isinstance(error.reason, socket.timeout):
-            logging.error("Socket timed out - URL %s", url)
-        else:
-            logging.error("Non-timeout protocol error.")
-    else:
-        print("Mirror successfully determined.")
-    if country in mirrors.keys():
-        return mirrors[country] + "."
+def get_subdomain_by_country(countrycode):
+    if countrycode in SUBDOMAINS_BY_COUNTRY_CODE.keys():
+        return SUBDOMAINS_BY_COUNTRY_CODE[countrycode]
     else:
         return ""
 
@@ -128,34 +135,28 @@ def getcodename():
     return get_distro_information()["CODENAME"]
 
 
-def changesources(prefix):
-    root = libcalamares.globalstorage.value("rootMountPoint")
-
-    url = prefix + libcalamares.job.configuration["baseUrl"]
-    if not url.startswith("http://") and not url.startswith("https://"):
-        url = "http://" + url
-
-    if libcalamares.job.configuration["backend"] == "apt":
+def changesources(subdomain):
         distro = libcalamares.job.configuration["distribution"]
-        if "ubuntu" in distro.lower():
-            global sources
-            sources = sources.replace("DISTRIBUTION", distro)
-            sources = sources.replace("CODENAME", getcodename())
-            sources = sources.replace("URL", url)
-            sources = sources.replace("DATE", strftime("%Y-%m-%d"))
+        url = "http://{}{}".format(subdomain,
+                                   libcalamares.job.configuration["baseUrl"])
 
-            with open(root + "/etc/apt/sources.list", "r+") as sourcesfile:
-                sourcesfile.seek(0)
-                sourcesfile.write(sources)
-                sourcesfile.truncate()
+        global sources
+        sources = sources.replace("DISTRIBUTION", distro)
+        sources = sources.replace("CODENAME", getcodename())
+        sources = sources.replace("URL", url)
+        sources = sources.replace("DATE", strftime("%Y-%m-%d"))
+
+        filepath = libcalamares.globalstorage.value("rootMountPoint")
+        filepath += "/etc/apt/sources.list"
+        with open(filepath, "r+") as sourcesfile:
+            sourcesfile.seek(0)
+            sourcesfile.write(sources)
+            sourcesfile.truncate()
 
 
 def run():
-    """Autoselect a mirror from a list."""
-    if libcalamares.globalstorage.value("hasInternet"):
-        country = getcountry()
-        prefix = getmirror(country)
-    else:
-        prefix = ""
+    """Autoselect a mirror and create the sources.list file."""
+    countrycode = getcountrycode()
+    subdomain = get_subdomain_by_country(countrycode)
 
-    changesources(prefix)
+    changesources(subdomain)
