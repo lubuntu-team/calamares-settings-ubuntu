@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (32) UNRELEASED; urgency=medium
+
+  [ apt-ghetto ]
+  * Refactor automirror.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 15:30:13 -0600
+
 calamares-settings-ubuntu (31) disco; urgency=medium
 
   * We aren't Lubuntu Next anymore; take it away from the package description.
