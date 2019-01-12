@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (1:19.04.1) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:19.04.1) disco; urgency=medium
 
   [ apt-ghetto ]
   * Refactor automirror.
@@ -6,7 +6,7 @@ calamares-settings-ubuntu (1:19.04.1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Change the version number to be release-based.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 15:30:13 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 15:31:39 -0600
 
 calamares-settings-ubuntu (31) disco; urgency=medium
 
