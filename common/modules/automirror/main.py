@@ -22,6 +22,7 @@ import urllib.request
 from urllib.error import HTTPError
 from urllib.error import URLError
 import socket
+import logging
 from lsb_release import get_distro_information
 
 global sources
