@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:19.04.2) UNRELEASED; urgency=medium
+
+  * Adjust config for automirror changes in the previous upload.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 21:37:11 -0600
+
 calamares-settings-ubuntu (1:19.04.1) disco; urgency=medium
 
   [ apt-ghetto ]
