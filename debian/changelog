@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (1:19.04.3) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:19.04.3) disco; urgency=medium
 
   * Add a missing module in the automirror script.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 13 Jan 2019 00:24:45 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 13 Jan 2019 00:25:05 -0600
 
 calamares-settings-ubuntu (1:19.04.2) disco; urgency=medium
 
