@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:19.04.4) disco; urgency=medium
+
+  * Lower the minimum RAM requirements.
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 10 Apr 2019 19:01:48 +0200
+
 calamares-settings-ubuntu (1:19.04.3) disco; urgency=medium
 
   * Add a missing module in the automirror script.
