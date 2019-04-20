@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:19.10.1) UNRELEASED; urgency=medium
+
+  * Welcome to the Eoan EANIMAL!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 19 Apr 2019 19:11:27 -0500
+
 calamares-settings-ubuntu (1:19.04.4) disco; urgency=medium
 
   * Lower the minimum RAM requirements.

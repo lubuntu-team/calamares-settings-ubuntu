@@ -4,11 +4,11 @@ componentName: lubuntu
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             19.04
+    version:             19.10
     shortVersion:        disco
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 19.04
-    bootloaderEntryName: Lubuntu 19.04
+    shortVersionedName:  Lubuntu 19.10
+    bootloaderEntryName: Lubuntu 19.10
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/
 
