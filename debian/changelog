@@ -1,3 +1,12 @@
+calamares-settings-ubuntu (1:19.10.2) eoan; urgency=medium
+
+  * Fix initramfs job failing. Thanks to TJ for the fix! (LP: #1829805)
+    * Move before_bootloader_mkdirs process before initramfs.
+    * Workaround bug in update-initramfs::get_sorted_versions() with
+      shellprocess.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 19 Jun 2019 19:32:14 -0700
+
 calamares-settings-ubuntu (1:19.10.1) eoan; urgency=medium
 
   * Welcome to the Eoan EANIMAL!
