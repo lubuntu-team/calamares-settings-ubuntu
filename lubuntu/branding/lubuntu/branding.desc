@@ -1,11 +1,13 @@
 ---
 componentName: lubuntu
 
+windowExpanding:    fullscreen
+
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
     version:             19.10
-    shortVersion:        disco
+    shortVersion:        eoan 
     versionedName:       Lubuntu
     shortVersionedName:  Lubuntu 19.10
     bootloaderEntryName: Lubuntu 19.10
