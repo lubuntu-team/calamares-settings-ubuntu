@@ -106,13 +106,13 @@ def getcountrycode():
     an empty string.
     """
     if libcalamares.globalstorage.value("hasInternet"):
-        geoipurl = libcalamares.job.configuration["geoIpUrl"]
+        geoipurl = libcalamares.job.configuration["geoip"]["url"]
         try:
             with urllib.request.urlopen(geoipurl, timeout=75) as url:
                 localedata = json.loads(url.read().decode())
         except HTTPError as error:
-            logging.error("Data of %s not retrieved because %s - URL: %s",
-                          name, error, url)
+            logging.error("Data not retrieved because %s - URL: %s",
+                          error, url)
         except URLError as error:
             if isinstance(error.reason, socket.timeout):
                 logging.error("Socket timed out - URL %s", url)
@@ -137,22 +137,22 @@ def getcodename():
 
 
 def changesources(subdomain):
-        distro = libcalamares.job.configuration["distribution"]
-        url = "http://{}{}".format(subdomain,
-                                   libcalamares.job.configuration["baseUrl"])
+    distro = libcalamares.job.configuration["distribution"]
+    url = "http://{}{}".format(subdomain,
+                               libcalamares.job.configuration["baseUrl"])
 
-        global sources
-        sources = sources.replace("DISTRIBUTION", distro)
-        sources = sources.replace("CODENAME", getcodename())
-        sources = sources.replace("URL", url)
-        sources = sources.replace("DATE", strftime("%Y-%m-%d"))
+    global sources
+    sources = sources.replace("DISTRIBUTION", distro)
+    sources = sources.replace("CODENAME", getcodename())
+    sources = sources.replace("URL", url)
+    sources = sources.replace("DATE", strftime("%Y-%m-%d"))
 
-        filepath = libcalamares.globalstorage.value("rootMountPoint")
-        filepath += "/etc/apt/sources.list"
-        with open(filepath, "r+") as sourcesfile:
-            sourcesfile.seek(0)
-            sourcesfile.write(sources)
-            sourcesfile.truncate()
+    filepath = libcalamares.globalstorage.value("rootMountPoint")
+    filepath += "/etc/apt/sources.list"
+    with open(filepath, "r+") as sourcesfile:
+        sourcesfile.seek(0)
+        sourcesfile.write(sources)
+        sourcesfile.truncate()
 
 
 def run():

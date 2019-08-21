@@ -3,21 +3,31 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 11), intltool, qttools5-dev-tools
-Standards-Version: 4.2.0
+Build-Depends: debhelper (>= 12),
+               intltool,
+               qttools5-dev-tools
+Standards-Version: 4.4.0
 Homepage: https://code.launchpad.net/ubuntu-calamares-settings
 Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
 Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
 
 Package: calamares-settings-lubuntu
 Architecture: all
-Depends: calamares-settings-ubuntu-common (= ${binary:Version}),
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Lubuntu desktop is installed with the
+ LXQt desktop environment.
 
 Package: calamares-settings-ubuntu-common
 Architecture: any
-Depends: calamares, squashfs-tools, ${misc:Depends}
+Depends: calamares,
+         squashfs-tools,
+         python3,
+         ${misc:Depends}
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.

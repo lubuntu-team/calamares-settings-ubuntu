@@ -1,4 +1,3 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Version=1.0
@@ -10,3 +9,4 @@ Icon=calamares
 Terminal=false
 StartupNotify=true
 Categories=Qt;System;
+Keywords=installer;calamares;system;

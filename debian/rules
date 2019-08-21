@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-DEB_HOST_MULTIARCH = $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 %:
 	dh $@
@@ -10,3 +10,5 @@ override_dh_missing:
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
 	cp -vr common/modules/* debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
 	chmod -R 755 debian/calamares-settings-ubuntu-common/usr/lib/
+	chmod 644 debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/automirror.conf
+	chmod 644 debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/module.desc

@@ -1,3 +1,41 @@
+calamares-settings-ubuntu (1:19.10.4) eoan; urgency=medium
+
+  [ Dan Simmons ]
+  * Bump Standards-Version to 4.4.0, no changes needed.
+  * Bump debhelper to 12, no changes needed.
+  * Adjust automirror config to new style. Change automirror module
+    to allow for new config style.
+  * Add setting for donate button in welcome.
+  * Add geoip for welcome.
+  * Adjust locale.conf to new geoip style.
+  * Set userSwapChoices to none in partition.conf.
+  * Set defaultFileSystemType to "ext4" in partition.conf.
+  * Set default dont-chroot, oem-setup, disable-cancel, to
+    eliminate warnings from settings.conf.
+  * Add efiMountOptions: umask=0077 to fstab.conf.
+  * Set restart mode to new style in finished.conf.
+  * Set bootloader entry name to Ubuntu.
+  * Set slide show API to 1 to eliminate warnings.
+  * Fix lintian errors and warnings.
+    - Add depends for python3 in calamares-settings-ubuntu-common.
+    - Adjust depends for calamares-settings-lubuntu.
+    - Add further description to extended description for
+      calamares-settings-lubuntu and calamares-settings-ubuntu.
+    - Add lintian override for bash in .desktop file.
+    - Remove unusual-interpreter in .desktop file.
+    - Adjust Makefile so .desktop file so it is not executable.
+    - Add keywords to .desktop file.
+    - Remove executable flag from automirror.conf and module.desc.
+    - Adjust debian/rules dpkg-architecture-variable.
+
+  [ apt-ghetto ]
+  * Fix small issues in automirror module
+    - Remove whitespace before index bracket.
+    - Remove undefined variable.
+    - Fix over-indented block.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 20 Aug 2019 19:59:12 -0400
+
 calamares-settings-ubuntu (1:19.10.3) eoan; urgency=medium
 
   * Short version name is eoan.

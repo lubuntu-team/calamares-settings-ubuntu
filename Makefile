@@ -5,7 +5,6 @@
 all:
 	# Desktop file
 	(cd lubuntu/po/ && make)
-	chmod +x lubuntu/*.desktop
 	# Slideshow
 	(cd lubuntu/branding/lubuntu/lang/ && make)
 	# Get rid of the unnecessary files

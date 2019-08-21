@@ -10,7 +10,7 @@ strings:
     shortVersion:        eoan 
     versionedName:       Lubuntu
     shortVersionedName:  Lubuntu 19.10
-    bootloaderEntryName: Lubuntu 19.10
+    bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/
 
@@ -20,6 +20,8 @@ images:
     productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
+
+slideshowAPI:            1
 
 style:
    sidebarBackground:    "#808080"
