@@ -108,13 +108,13 @@ def getcountrycode():
     if libcalamares.globalstorage.value("hasInternet"):
         geoipurl = libcalamares.job.configuration["geoip"]["url"]
         try:
-            with urllib.request.urlopen(geoipurl, timeout=75) as url:
-                localedata = json.loads(url.read().decode())
-        except HTTPError as error:
-            logging.error("Data not retrieved because %s - URL: %s",
-                          error, geoipurl)
-        except URLError as error:
-            if isinstance(error.reason, socket.timeout):
+            with urllib.request.urlopen(geoipurl, timeout=75) as http_response:
+                localedata = json.loads(http_response.read().decode())
+        except HTTPError as http_error:
+            logging.http_error("Data not retrieved because %s - URL: %s",
+                               http_error, geoipurl)
+        except URLError as url_error:
+            if isinstance(url_error.reason, socket.timeout):
                 logging.error("Socket timed out - URL %s", geoipurl)
             else:
                 logging.error("Non-timeout protocol error.")
@@ -126,6 +126,9 @@ def getcountrycode():
 
 
 def get_subdomain_by_country(countrycode):
+    """Return the subdomain for the given countrycode
+    or an empty string.
+    """
     if countrycode in SUBDOMAINS_BY_COUNTRY_CODE.keys():
         return SUBDOMAINS_BY_COUNTRY_CODE[countrycode]
     else:
@@ -133,10 +136,12 @@ def get_subdomain_by_country(countrycode):
 
 
 def getcodename():
+    """Return the codename of the distribution, similar to lsb_release -cs"""
     return get_distro_information()["CODENAME"]
 
 
 def changesources(subdomain):
+    """Replace the placeholders and then create the sources.list"""
     distro = libcalamares.job.configuration["distribution"]
     url = "http://{}{}".format(subdomain,
                                libcalamares.job.configuration["baseUrl"])
