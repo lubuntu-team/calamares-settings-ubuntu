@@ -23,7 +23,7 @@ Description: Lubuntu Calamares Settings and Branding
 
 Package: calamares-settings-ubuntu-common
 Architecture: any
-Depends: calamares,
+Depends: calamares (>= 3.2.14~),
          squashfs-tools,
          python3,
          ${misc:Depends}
