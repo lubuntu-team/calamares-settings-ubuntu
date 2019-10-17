@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             19.10
-    shortVersion:        eoan 
+    version:             20.04 LTS
+    shortVersion:        focal
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 19.10
+    shortVersionedName:  Lubuntu 20.04 LTS
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/

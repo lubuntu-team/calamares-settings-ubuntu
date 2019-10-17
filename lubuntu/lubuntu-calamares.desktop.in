@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Lubuntu 19.10
+_Name=Install Lubuntu 20.04 LTS
 _GenericName=Install Lubuntu
 Exec=bash -c "export BROWSER='sudo -H -u lubuntu firefox'; sudo -E calamares"
 _Comment=Calamares — System Installer
