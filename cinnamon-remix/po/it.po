@@ -1,5 +1,5 @@
-# Base translation file for Lubuntu's Calamares settings
-# Copyright (C) 2018 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+# Base translation file for cinnamon-remix's Calamares settings
+# Copyright (C) 2018 cinnamon-remix Developers <lubuntu-devel@lists.ubuntu.com>
 # This file is distributed under the same license as the package.
 # Simon Quigley <tsimonq2@ubuntu.com>, 2018.
 #
@@ -20,12 +20,12 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 20.04 LTS"
-msgstr "Installa Lubuntu 20.04 LTS"
+msgid "Install cinnamon-remix 19.10"
+msgstr "Installa cinnamon-remix 19.10"
 
 #: ../lubuntu-calamares.desktop.in.h:2
-msgid "Install Lubuntu"
-msgstr "Installa Lubuntu"
+msgid "Install cinnamon-remix"
+msgstr "Installa cinnamon-remix"
 
 #: ../lubuntu-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"

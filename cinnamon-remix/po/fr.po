@@ -15,12 +15,12 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 20.04 LTS"
-msgstr "Installer Lubuntu 20.04 LTS"
+msgid "Install cinnamon-remix 19.10"
+msgstr "Installer cinnamon-remix 19.10"
 
 #: ../lubuntu-calamares.desktop.in.h:2
-msgid "Install Lubuntu"
-msgstr "Installer Lubuntu"
+msgid "Install cinnamon-remix"
+msgstr "Installer cinnamon-remix"
 
 #: ../lubuntu-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"
