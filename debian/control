@@ -15,11 +15,23 @@ Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
+Conflicts: calamares-settings-cinnamon-remix
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
  As part of the branding the installer slideshow is contained within.
  The settings ensure a proper Lubuntu desktop is installed with the
  LXQt desktop environment.
+
+Package: calamares-settings-cinnamon-remix
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Conflicts: calamares-settings-lubuntu
+Description: cinnamon-remix Calamares Settings and Branding
+ This package contains the Calamares settings and branding for cinnamon-remix.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper cinnamon-remix desktop is installed with the
+ cinnamon desktop environment.
 
 Package: calamares-settings-ubuntu-common
 Architecture: any

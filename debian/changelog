@@ -1,8 +1,15 @@
-calamares-settings-ubuntu (1:20.04.1) focal; urgency=medium
+calamares-settings-ubuntu (1:19.10.9) eoan; urgency=medium
 
-  * Welcome to the Focal Fossa!
+  * Corrected 19.04 --> 19.10 shortened name
+  * Use InsecureRepositories settings on final update for install
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 Oct 2019 12:32:11 -0500
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 06 Nov 2019 22:11:04 +0000
+
+calamares-settings-ubuntu (1:19.10.8) eoan; urgency=medium
+
+  * Copy paste of lubuntu to cinnamon-remix
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 01 Nov 2019 21:30:37 +0000
 
 calamares-settings-ubuntu (1:19.10.7) eoan; urgency=medium
 
