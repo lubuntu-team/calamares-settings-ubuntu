@@ -11,8 +11,8 @@ strings:
     versionedName:       cinnamon-remix
     shortVersionedName:  cinnamon-remix 19.10
     bootloaderEntryName: Ubuntu
-    productUrl:          https://cinnamon-remix.me/
-    supportUrl:          https://cinnamon-remix.me/links/
+    productUrl:          https://ubuntucinnamon.org/
+    supportUrl:          https://ubuntucinnamon.org/
 
 images:
     productLogo:         "logo.png"
@@ -24,6 +24,6 @@ slideshow:               "show.qml"
 slideshowAPI:            1
 
 style:
-   sidebarBackground:    "#808080"
+   sidebarBackground:    "#A1481A"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#0068C8"
+   sidebarTextSelect:    "#DD682A"
