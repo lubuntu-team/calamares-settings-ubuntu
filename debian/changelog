@@ -1,8 +1,9 @@
 calamares-settings-ubuntu (1:19.10.9) eoan; urgency=medium
 
-  * Initial release - Cinnamon-Remix
+  * Initial release
+  * Changed Lubuntu Images to Ubuntu Cinnamon Images
 
- -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Fri, 08 Nov 2019 21:05:02 -0400
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Fri, 15 Nov 2019 18:53:00 -0400
 
 calamares-settings-ubuntu (1:19.10.9) eoan; urgency=medium
 
