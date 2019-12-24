@@ -1,5 +1,6 @@
 cinnamon-remix/branding/ etc/calamares/
 cinnamon-remix/calamares-logs-helper usr/bin/
 cinnamon-remix/cinnamon-remix-calamares.desktop usr/share/applications/
+cinnamon-remix/cinnamon-remix-calamares.desktop /home/${USER}/Desktop
 cinnamon-remix/modules/ etc/calamares/
 cinnamon-remix/settings.conf etc/calamares/
