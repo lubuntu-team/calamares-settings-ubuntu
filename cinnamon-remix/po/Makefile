@@ -1,22 +1,21 @@
 #!/usr/bin/make -f
 
-POTFILES := $(shell cat POTFILES.in)
+#SUBDIRS :=
 
-all: generate-po-files
+all:
+	# Desktop file
+	(cd cinnamon-remix/po/ && make)
+	# Slideshow
+	(cd cinnamon-remix/branding/cinnamon-remix/lang/ && make)
+	# Get rid of the unnecessary files
+	find cinnamon-remix/ -type f -iname "*.in" | xargs rm -f
+	find cinnamon-remix/ -type f -iname "Makefile" | xargs rm -f
+	(cd cinnamon-remix/po/ && make)
+	# Slideshow
+	(cd cinnamon-remix/branding/cinnamon-remix/lang/ && make)
+	# Get rid of the unnecessary files
+	find cinnamon-remix/ -type f -iname "*.in" | xargs rm -f
+	find cinnamon-remix/ -type f -iname "Makefile" | xargs rm -f
 
-generate-pot: POTFILES.in
-	intltool-update --pot --gettext-package=calamares-settings-cinnamon-remix
-
-generate-po-files:
-	for i in $(POTFILES); do \
-		f=$$(echo $$i | sed 's/\.in//'); \
-		intltool-merge -d . ../$$i ../$$f; \
-	done
-
-update-po:
-	for i in *.po; do \
-		code=$$(echo $$i | sed 's/.po//'); \
-		intltool-update --gettext-package=calamares-settings-cinnamon-remix --dist $$code; \
-	done
 
 # vim:ts=4

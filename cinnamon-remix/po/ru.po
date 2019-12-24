@@ -1,5 +1,5 @@
 # Base translation file for cinnamon-remix's Calamares settings
-# Copyright (C) 2018 cinnamon-remix Developers <lubuntu-devel@lists.ubuntu.com>
+# Copyright (C) 2018 cinnamon-remix Developers <cinnamon-remix-devel@lists.ubuntu.com>
 # This file is distributed under the same license as the package.
 # Simon Quigley <tsimonq2@ubuntu.com>, 2018.
 #
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install cinnamon-remix 19.10"
+#: ../cinnamon-remix-calamares.desktop.in.h:1
+msgid "Install cinnamon-remix 20.04"
 msgstr ""
 
-#: ../lubuntu-calamares.desktop.in.h:2
+#: ../cinnamon-remix-calamares.desktop.in.h:2
 msgid "Install cinnamon-remix"
 msgstr ""
 
-#: ../lubuntu-calamares.desktop.in.h:3
+#: ../cinnamon-remix-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"
 msgstr ""

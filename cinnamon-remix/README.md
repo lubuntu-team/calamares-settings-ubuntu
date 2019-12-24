@@ -1,10 +1,10 @@
-# Lubuntu's Calamares Settings
+# cinnamon-remix's Calamares Settings
 
-This directory houses the Calamares settings for Lubuntu.
+This directory houses the Calamares settings for cinnamon-remix.
 
 Unless otherwise stated, the contents of this directory are licensed as follows:
 
-Copyright (C) 2018 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright (C) 2018 cinnamon-remix Developers <cinnamon-remix-devel@lists.ubuntu.com>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

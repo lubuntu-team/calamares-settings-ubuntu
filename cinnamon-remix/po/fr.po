@@ -5,8 +5,8 @@ msgstr ""
 "POT-Creation-Date: 2018-07-10 02:36-0500\n"
 "PO-Revision-Date: 2018-08-17 10:51+0000\n"
 "Last-Translator: Carl Schwan <schwancarl@protonmail.com>\n"
-"Language-Team: French <https://translate.lubuntu.me/projects/lubuntu/"
-"calamares-settings-lubuntu-desktop/fr/>\n"
+"Language-Team: French <https://translate.ubuntucinnamon.org/projects/cinnamon-remix/"
+"calamares-settings-cinnamon-remix-desktop/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,14 +14,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.1-dev\n"
 
-#: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install cinnamon-remix 19.10"
-msgstr "Installer cinnamon-remix 19.10"
+#: ../cinnamon-remix-calamares.desktop.in.h:1
+msgid "Install cinnamon-remix 20.04"
+msgstr "Installer cinnamon-remix 20.04"
 
-#: ../lubuntu-calamares.desktop.in.h:2
+#: ../cinnamon-remix-calamares.desktop.in.h:2
 msgid "Install cinnamon-remix"
 msgstr "Installer cinnamon-remix"
 
-#: ../lubuntu-calamares.desktop.in.h:3
+#: ../cinnamon-remix-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"
 msgstr "Calamares  — Installateur de votre system"

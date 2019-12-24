@@ -4,9 +4,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-10 02:36-0500\n"
 "PO-Revision-Date: 2018-07-10 10:25+0000\n"
-"Last-Translator: Simon Quigley <tsimonq2@lubuntu.me>\n"
-"Language-Team: Catalan <https://translate.lubuntu.me/projects/lubuntu/"
-"calamares-settings-lubuntu-desktop/ca/>\n"
+"Last-Translator: Simon Quigley <tsimonq2@ubuntucinnamon.org>\n"
+"Language-Team: Catalan <https://translate.ubuntucinnamon.org/projects/cinnamon-remix/"
+"calamares-settings-cinnamon-remix-desktop/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,14 +14,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.1-dev\n"
 
-#: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install cinnamon-remix 19.10"
-msgstr "Instal·lar cinnamon-remix 19.10"
+#: ../cinnamon-remix-calamares.desktop.in.h:1
+msgid "Install cinnamon-remix 20.04"
+msgstr "Instal·lar cinnamon-remix 20.04"
 
-#: ../lubuntu-calamares.desktop.in.h:2
+#: ../cinnamon-remix-calamares.desktop.in.h:2
 msgid "Install cinnamon-remix"
 msgstr "Instal·lar cinnamon-remix"
 
-#: ../lubuntu-calamares.desktop.in.h:3
+#: ../cinnamon-remix-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"
 msgstr "Calamares — Instal·lador del Sistema"

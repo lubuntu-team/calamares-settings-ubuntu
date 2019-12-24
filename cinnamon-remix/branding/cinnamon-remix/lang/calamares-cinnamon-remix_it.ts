@@ -10,8 +10,8 @@
     </message>
     <message>
         <location filename="../show.qml" line="56"/>
-        <source>https://lubuntu.me</source>
-        <translation>https://lubuntu.me</translation>
+        <source>https://ubuntucinnamon.org</source>
+        <translation>https://ubuntucinnamon.org</translation>
     </message>
     <message>
         <location filename="../show.qml" line="90"/>

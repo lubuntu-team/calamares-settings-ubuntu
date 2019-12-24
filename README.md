@@ -1,7 +1,7 @@
 This package exists to house Ubuntu's settings for the Calamares installer.
 
 If you want to add a new package for your flavor, here's how to do it:
- 1. Create a new top-level directory (like Lubuntu's, you could just copy
+ 1. Create a new top-level directory (like cinnamon-remix's, you could just copy
     theirs and customize).
  2. Edit files and rename the branding directory for your flavor. All of the
     configuration files are pretty self-explanatory, but they're documented
