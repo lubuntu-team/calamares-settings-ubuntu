@@ -1,7 +1,19 @@
+calamares-settings-ubuntu (1:20.04.1) focal; urgency=medium
+
+  * Welcome to Focal Fossa!
+
+  * Placed cinnamon-remix-calamares.desktop to user Desktop (Should solve issue)
+
+  * Removed Lubuntu .install Files
+
+  * Began work on fixups
+
+ -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Tue, 24 Dec 2019 17:26:00 -0500
+
 calamares-settings-ubuntu (1:19.10.10) eoan; urgency=medium
 
   * Initial release
-  * Changed Lubuntu Images to Ubuntu Cinnamon Images
+  * Changed cinnamon-remix Images to Ubuntu Cinnamon Images
 
  -- Joshua Peisach <ubuntucinnamonremix7@gmail.com>  Fri, 15 Nov 2019 18:53:00 -0400
 
@@ -14,7 +26,7 @@ calamares-settings-ubuntu (1:19.10.9) eoan; urgency=medium
 
 calamares-settings-ubuntu (1:19.10.8) eoan; urgency=medium
 
-  * Copy paste of lubuntu to cinnamon-remix
+  * Copy paste of cinnamon-remix to cinnamon-remix
 
  -- David Mohammed <fossfreedom@ubuntu.com>  Fri, 01 Nov 2019 21:30:37 +0000
 
@@ -22,7 +34,7 @@ calamares-settings-ubuntu (1:19.10.7) eoan; urgency=medium
 
   * Set directory location of logs to lowercase Calamares.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 08 Oct 2019 19:13:24 -0400
+ -- Dan Simmons <kc2bez@ubuntucinnamon.org>  Tue, 08 Oct 2019 19:13:24 -0400
 
 calamares-settings-ubuntu (1:19.10.6) eoan; urgency=medium
 
@@ -30,13 +42,13 @@ calamares-settings-ubuntu (1:19.10.6) eoan; urgency=medium
     - Improve naming of variables
     - Add comments
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Fri, 13 Sep 2019 16:51:05 +0200
+ -- apt-ghetto <apt-ghetto@ubuntucinnamon.org>  Fri, 13 Sep 2019 16:51:05 +0200
 
 calamares-settings-ubuntu (1:19.10.5) eoan; urgency=medium
 
   * Fix UnboundLocalError in automirror module.
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Sun, 08 Sep 2019 11:17:17 +0200
+ -- apt-ghetto <apt-ghetto@ubuntucinnamon.org>  Sun, 08 Sep 2019 11:17:17 +0200
 
 calamares-settings-ubuntu (1:19.10.4) eoan; urgency=medium
 
@@ -58,9 +70,9 @@ calamares-settings-ubuntu (1:19.10.4) eoan; urgency=medium
   * Set slide show API to 1 to eliminate warnings.
   * Fix lintian errors and warnings.
     - Add depends for python3 in calamares-settings-ubuntu-common.
-    - Adjust depends for calamares-settings-lubuntu.
+    - Adjust depends for calamares-settings-cinnamon-remix.
     - Add further description to extended description for
-      calamares-settings-lubuntu and calamares-settings-ubuntu.
+      calamares-settings-cinnamon-remix and calamares-settings-ubuntu.
     - Add lintian override for bash in .desktop file.
     - Remove unusual-interpreter in .desktop file.
     - Adjust Makefile so .desktop file so it is not executable.
@@ -74,14 +86,14 @@ calamares-settings-ubuntu (1:19.10.4) eoan; urgency=medium
     - Remove undefined variable.
     - Fix over-indented block.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 20 Aug 2019 19:59:12 -0400
+ -- Dan Simmons <kc2bez@ubuntucinnamon.org>  Tue, 20 Aug 2019 19:59:12 -0400
 
 calamares-settings-ubuntu (1:19.10.3) eoan; urgency=medium
 
   * Short version name is eoan.
   * Set window size to fullscreen. (LP: #1824758)
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 03 Jul 2019 18:11:25 -0400
+ -- Dan Simmons <kc2bez@ubuntucinnamon.org>  Wed, 03 Jul 2019 18:11:25 -0400
 
 calamares-settings-ubuntu (1:19.10.2) eoan; urgency=medium
 
@@ -128,7 +140,7 @@ calamares-settings-ubuntu (1:19.04.1) disco; urgency=medium
 
 calamares-settings-ubuntu (31) disco; urgency=medium
 
-  * We aren't Lubuntu Next anymore; take it away from the package description.
+  * We aren't cinnamon-remix Next anymore; take it away from the package description.
   * Try to install languages during the installation.
   * Don't remove partitionmanager anymore; its a system utility we expect
     to have installed.
@@ -160,7 +172,7 @@ calamares-settings-ubuntu (27) cosmic; urgency=medium
 
   [ Walter Lapchynski ]
   * Add missing identifiers for urllib exception handling in automirror.
-  * Lubuntu: ensure upgrades don't happen for EFI packages.
+  * cinnamon-remix: ensure upgrades don't happen for EFI packages.
 
   [ Simon Quigley ]
   * Run `sudo apt[-get] update` if Internet connectivity is found during the
@@ -170,9 +182,9 @@ calamares-settings-ubuntu (27) cosmic; urgency=medium
 
 calamares-settings-ubuntu (26) cosmic; urgency=medium
 
-  * Lubuntu: fix check for EFI architecture.
-  * Lubuntu: fix location of installer .desktop.
-  * Lubuntu: remove Lintian overrides related to the old installer .desktop.
+  * cinnamon-remix: fix check for EFI architecture.
+  * cinnamon-remix: fix location of installer .desktop.
+  * cinnamon-remix: remove Lintian overrides related to the old installer .desktop.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 12 Oct 2018 21:04:44 -0700
 
@@ -186,7 +198,7 @@ calamares-settings-ubuntu (25) cosmic; urgency=medium
 calamares-settings-ubuntu (24) cosmic; urgency=medium
 
   [ Wendy Hill ]
-  * Rework the Lubuntu slideshow.
+  * Rework the cinnamon-remix slideshow.
 
   [ Simon Quigley ]
   * Add -E to the desktop icon so that our nice theming carries over.
@@ -199,25 +211,25 @@ calamares-settings-ubuntu (24) cosmic; urgency=medium
 
 calamares-settings-ubuntu (23) cosmic; urgency=medium
 
-  * Lubuntu: ensure install .desktop file is always removed.
+  * cinnamon-remix: ensure install .desktop file is always removed.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 06 Oct 2018 19:15:02 -0700
 
 calamares-settings-ubuntu (22) cosmic; urgency=medium
 
-  * Lubuntu: enable LUKS/encryption.
+  * cinnamon-remix: enable LUKS/encryption.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 04 Oct 2018 22:02:57 -0700
 
 calamares-settings-ubuntu (21) cosmic; urgency=medium
 
-  * Lubuntu: remove all password checking.
+  * cinnamon-remix: remove all password checking.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 25 Aug 2018 17:43:33 -0700
 
 calamares-settings-ubuntu (20) cosmic; urgency=medium
 
-  * Lubuntu: add executable to defaultDesktopEnvironment in displaymanager.
+  * cinnamon-remix: add executable to defaultDesktopEnvironment in displaymanager.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 20 Aug 2018 21:16:47 -0700
 
@@ -345,7 +357,7 @@ calamares-settings-ubuntu (3) cosmic; urgency=medium
 
   * Bump Standards-version to 4.1.4, no changes needed.
   * Fix Vcs-* and Homepage to reflect the move off of GitHub.
-  * Allow Lubuntu to be installed on systems with no network and UEFI
+  * Allow cinnamon-remix to be installed on systems with no network and UEFI
     systems.
   * Add a desktop file to install the system with (LP: #1771460).
   * Update the support link to be current.
@@ -355,13 +367,13 @@ calamares-settings-ubuntu (3) cosmic; urgency=medium
 calamares-settings-ubuntu (2) cosmic; urgency=medium
 
   * Add a .gitignore file for debian/files.
-  * Remove lubuntu-qt-desktop from Suggests.
-  * Update the Lubuntu.me website for HTTPS.
-  * Bump Lubuntu's system requirements to safe values.
+  * Remove cinnamon-remix-qt-desktop from Suggests.
+  * Update the ubuntucinnamon.org website for HTTPS.
+  * Bump cinnamon-remix's system requirements to safe values.
   * Remove calamares from the explicit removal list; we don't need it to
     be there anymore.
-  * Lubuntu Next -> Lubuntu.
-  * Make squashfs-tools a hard dependency; without it, Lubuntu's installation
+  * cinnamon-remix Next -> cinnamon-remix.
+  * Make squashfs-tools a hard dependency; without it, cinnamon-remix's installation
     fails (LP: #1769781).
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:18:01 -0500
