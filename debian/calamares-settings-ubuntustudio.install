@@ -1,0 +1,5 @@
+ubuntustudio/branding/ etc/calamares/
+ubuntustudio/calamares-logs-helper usr/bin/
+ubuntustudio/ubuntustudio-calamares.desktop usr/share/applications/
+ubuntustudio/modules/ etc/calamares/
+ubuntustudio/settings.conf etc/calamares/

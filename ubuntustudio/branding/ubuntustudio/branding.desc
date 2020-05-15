@@ -1,0 +1,30 @@
+---
+componentName: ubuntustudio
+
+windowExpanding:    normal
+windowSize:         "890px,600px"
+
+strings:
+    productName:         Ubuntu Studio
+    shortProductName:    Ubuntu Studio
+    version:             20.10
+    shortVersion:        groovy
+    versionedName:       Ubuntu Studio
+    shortVersionedName:  Ubuntu Studio 20.10
+    bootloaderEntryName: Ubuntu
+    productUrl:          https://ubuntustudio.org/
+    supportUrl:          https://ubuntustudio.org/support/
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+slideshowAPI:            1
+
+style:
+   sidebarBackground:    "#383838"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4285F4"

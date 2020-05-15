@@ -1,0 +1,3 @@
+# The .desktop file uses bash to run firefox as the local
+# user. bash is included in the system.
+calamares-settings-ubuntustudio: desktop-command-not-in-package usr/share/applications/ubuntustudio-calamares.desktop bash

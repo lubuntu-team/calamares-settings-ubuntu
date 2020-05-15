@@ -15,6 +15,8 @@ Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
+Breaks: calamares-settings-ubuntustudio
+Conflicts: calamares-settings-ubuntustudio
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
  As part of the branding the installer slideshow is contained within.
@@ -31,3 +33,16 @@ Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on
  geolocation.
+
+Package: calamares-settings-ubuntustudio
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Breaks: calamares-settings-lubuntu
+Conflicts: calamares-settings-lubuntu
+Description: Lubuntu Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Lubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Lubuntu desktop is installed with the
+ LXQt desktop environment.
+ 
