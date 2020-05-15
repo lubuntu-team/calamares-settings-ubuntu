@@ -2,7 +2,7 @@
 Type=Application
 Version=1.0
 _Name=Install Ubuntu Studio 20.10
-_GenericName=Install Lubuntu
+_GenericName=Install Ubuntu Studio
 Exec=bash -c "export BROWSER='sudo -H -u ubuntu-studio firefox'; sudo -E calamares"
 _Comment=Calamares — System Installer
 Icon=calamares
