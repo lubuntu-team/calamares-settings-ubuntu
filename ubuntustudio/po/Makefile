@@ -5,7 +5,7 @@ POTFILES := $(shell cat POTFILES.in)
 all: generate-po-files
 
 generate-pot: POTFILES.in
-	intltool-update --pot --gettext-package=calamares-settings-lubuntu
+	intltool-update --pot --gettext-package=calamares-settings-ubuntustudio
 
 generate-po-files:
 	for i in $(POTFILES); do \
@@ -16,7 +16,7 @@ generate-po-files:
 update-po:
 	for i in *.po; do \
 		code=$$(echo $$i | sed 's/.po//'); \
-		intltool-update --gettext-package=calamares-settings-lubuntu --dist $$code; \
+		intltool-update --gettext-package=calamares-settings-ubuntustudio --dist $$code; \
 	done
 
 # vim:ts=4

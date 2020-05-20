@@ -1,4 +1,4 @@
-# Base translation file for Lubuntu's Calamares settings
+# Base translation file for Ubuntu Studio's Calamares settings
 # Copyright (C) 2018 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 # This file is distributed under the same license as the package.
 # Simon Quigley <tsimonq2@ubuntu.com>, 2018.
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 20.04 LTS"
+#: ../ubuntustudio-calamares.desktop.in.h:1
+msgid "Install Ubuntu Studio 20.10"
 msgstr ""
 
-#: ../lubuntu-calamares.desktop.in.h:2
-msgid "Install Lubuntu"
+#: ../ubuntustudio-calamares.desktop.in.h:2
+msgid "Install Ubuntu Studio"
 msgstr ""
 
 #: ../lubuntu-calamares.desktop.in.h:3

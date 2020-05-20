@@ -111,8 +111,8 @@ def getcountrycode():
             with urllib.request.urlopen(geoipurl, timeout=75) as http_response:
                 localedata = json.loads(http_response.read().decode())
         except HTTPError as http_error:
-            logging.http_error("Data not retrieved because %s - URL: %s",
-                               http_error, geoipurl)
+            logging.error("Data not retrieved because %s - URL: %s",
+                          http_error, geoipurl)
         except URLError as url_error:
             if isinstance(url_error.reason, socket.timeout):
                 logging.error("Socket timed out - URL %s", geoipurl)
