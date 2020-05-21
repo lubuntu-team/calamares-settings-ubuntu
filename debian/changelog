@@ -9,8 +9,10 @@ calamares-settings-ubuntu (1:20.10.1) groovy; urgency=medium
 
   [ Dan Simmons ]
   * Adjust Ubuntu Studio translations.
+  * Add groovy to Lubuntu branding.
+  * Drop debian/compat use debhelper-compat=13, no changes needed.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 20 May 2020 20:19:54 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 20 May 2020 20:40:13 -0400
 
 calamares-settings-ubuntu (1:20.04.2) focal; urgency=medium
 
