@@ -1,13 +1,11 @@
 calamares-settings-ubuntu (1:20.10.3) UNRELEASED; urgency=medium
 
-  [ Erich Eickmeyer]
-  * UbuntuStudio: Fix for leftover dvd.list file in /etc/apt/sources.list.d
+  * Ubuntu Studio: Fix for leftover dvd.list file in /etc/apt/sources.list.d
 
  -- Erich Eickmeyer <erich@erichericheickmeyer.com>  Fri, 22 May 2020 13:12:21 -0700
 
 calamares-settings-ubuntu (1:20.10.2) groovy; urgency=medium
 
-  [ Erich Eickmeyer ]
   * Fix for calamares-logs-helper looking in wrong home folder
 
  -- Erich Eickmeyer <erich@ericheickmeyer.com>  Thu, 21 May 2020 12:54:52 -0700
