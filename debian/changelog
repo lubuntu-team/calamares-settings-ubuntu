@@ -1,6 +1,9 @@
-calamares-settings-ubuntu (1:20.10.3) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:20.10.3) groovy; urgency=medium
 
-  * Ubuntu Studio: Fix for leftover dvd.list file in /etc/apt/sources.list.d
+  * Ubuntu Studio
+    - Fix for leftover dvd.list file in /etc/apt/sources.list.d
+    - Fix for disabled /etc/security/limits.d/audio.conf
+    - Replace two slideshow images
 
  -- Erich Eickmeyer <erich@ericheickmeyer.com>  Fri, 22 May 2020 13:12:21 -0700
 
