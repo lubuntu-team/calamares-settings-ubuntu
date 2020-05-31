@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:20.10.6) groovy; urgency=medium
+
+  * Ubuntu Studio - Actual Fixes for legacy BIOS installs
+    - Blacklist dvd.list from squashfs rsync
+    - Use new shellprocess script to do audio.conf.disabled rename
+
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Sat, 30 May 2020 22:35:45 -0700
+
 calamares-settings-ubuntu (1:20.10.5) groovy; urgency=medium
 
   * Ubuntu Studio
