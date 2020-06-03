@@ -1,9 +1,14 @@
 calamares-settings-ubuntu (1:20.10.7) UNRELEASED; urgency=medium
 
+  [ Erich Eickmeyer ]
   * Ubuntu Studio
     - Darken sidebar to match new version of materia theme
 
- -- Erich Eickmeyer <erich@ericheickmeyer.com>  Sun, 31 May 2020 18:24:17 -0700
+  [ Dan Simmons ]
+  * Lubuntu
+    - Adjust Lubuntu desktop file for Groovy.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 03 Jun 2020 18:23:19 -0400
 
 calamares-settings-ubuntu (1:20.10.6) groovy; urgency=medium
 
