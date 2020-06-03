@@ -23,7 +23,14 @@ Description: Lubuntu Calamares Settings and Branding
 
 Package: calamares-settings-ubuntu-common
 Architecture: any
-Depends: calamares (>= 3.2.14~), python3, squashfs-tools, ${misc:Depends}
+Depends: calamares (>= 3.2.14~),
+         cryptsetup,
+         keyutils,
+         python3,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         squashfs-tools,
+         ${misc:Depends}
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on
