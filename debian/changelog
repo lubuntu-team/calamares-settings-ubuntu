@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:20.10.8) groovy; urgency=medium
+
+  * Ubuntu Studio
+    - Check for /etc/apt/sources.list.d/dvd.list and remove if exists
+
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Thu, 04 Jun 2020 16:44:43 -0700
+
 calamares-settings-ubuntu (1:20.10.7) groovy; urgency=medium
 
   [ Erich Eickmeyer ]
