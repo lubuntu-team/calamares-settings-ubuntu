@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:20.10.9) groovy; urgency=medium
+
+  * Ubuntu Studio
+    - Update color for sidebar
+    - Update Video and Photography slides
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sat, 19 Sep 2020 13:47:18 -0700
+
 calamares-settings-ubuntu (1:20.10.8) groovy; urgency=medium
 
   * Ubuntu Studio
