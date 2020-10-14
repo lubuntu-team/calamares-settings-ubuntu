@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (1:20.10.11) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:20.10.11) groovy; urgency=medium
 
   * Switch to Canonical's GeoIP service.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 14 Oct 2020 18:22:54 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 14 Oct 2020 18:23:51 -0500
 
 calamares-settings-ubuntu (1:20.10.10) groovy; urgency=medium
 
