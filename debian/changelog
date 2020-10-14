@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:20.10.2.1) UNRELEASED; urgency=medium
+
+  * Switch to Canonical's GeoIP service (LP: #1899854).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 14 Oct 2020 18:22:54 -0500
+
 calamares-settings-ubuntu (1:20.04.2) focal; urgency=medium
 
   * Add shellprocess to implement i386 multiarch.
