@@ -7,10 +7,10 @@ windowSize:         "890px,600px"
 strings:
     productName:         Ubuntu Studio
     shortProductName:    Ubuntu Studio
-    version:             20.10
-    shortVersion:        groovy
+    version:             21.04
+    shortVersion:        hirsute
     versionedName:       Ubuntu Studio
-    shortVersionedName:  Ubuntu Studio 20.10
+    shortVersionedName:  Ubuntu Studio 21.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntustudio.org/
     supportUrl:          https://ubuntustudio.org/support/

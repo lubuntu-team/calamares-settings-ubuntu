@@ -15,12 +15,12 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 20.04 LTS"
-msgstr "Instalar Lubuntu 20.04 LTS"
+msgid "Install Lubuntu 21.04"
+msgstr "Instalar Lubuntu 21.04"
 
 #: ../lubuntu-calamares.desktop.in.h:2
-msgid "Install Lubuntu"
-msgstr "Instalar Lubuntu"
+msgid "Install Ubuntu Studio"
+msgstr "Instalar Ubuntu Studio"
 
 #: ../lubuntu-calamares.desktop.in.h:3
 msgid "Calamares — System Installer"

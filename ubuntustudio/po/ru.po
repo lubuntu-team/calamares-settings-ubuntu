@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 20.04 LTS"
+msgid "Install Ubuntu Studio 21.04"
 msgstr ""
 
 #: ../lubuntu-calamares.desktop.in.h:2
-msgid "Install Lubuntu"
+msgid "Install Ubuntu Studio"
 msgstr ""
 
 #: ../lubuntu-calamares.desktop.in.h:3
