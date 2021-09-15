@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:21.10.1) impish; urgency=medium
+
+  * ubuntustudio/modules/packages.conf
+    - Remove zram-config from packages to remove to prevent crash
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 14 Sep 2021 17:22:11 -0700
+
 calamares-settings-ubuntu (1:21.04.2) hirsute; urgency=medium
 
   * Append -D6 to desktop exec to bring log level to preferred level.
