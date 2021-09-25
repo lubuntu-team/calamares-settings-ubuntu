@@ -7,10 +7,10 @@ windowSize:         "890px,600px"
 strings:
     productName:         Ubuntu Studio
     shortProductName:    Ubuntu Studio
-    version:             21.04
-    shortVersion:        hirsute
+    version:             21.10
+    shortVersion:        impish
     versionedName:       Ubuntu Studio
-    shortVersionedName:  Ubuntu Studio 21.04
+    shortVersionedName:  Ubuntu Studio 21.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntustudio.org/
     supportUrl:          https://ubuntustudio.org/support/

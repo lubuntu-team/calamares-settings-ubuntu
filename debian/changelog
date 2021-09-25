@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (1:21.10.2) UNRELEASED; urgency=medium
 
   * Update desktop files for proper version. (LP: #1944778)
+  * Update branding for proper version.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 25 Sep 2021 07:38:17 -0400
 
