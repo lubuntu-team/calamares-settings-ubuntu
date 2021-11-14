@@ -1,11 +1,11 @@
-calamares-settings-ubuntu (1:22.04.1) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:22.04.1) jammy; urgency=medium
 
   * Welcome to Jammy Jellyfish!
     - Update Branding to 22.04.
     - Update desktop file. 
   * Bump Standards-Version to 4.6.0, no changes needed.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 10:48:32 -0500
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 11:24:15 -0500
 
 calamares-settings-ubuntu (1:21.10.2) impish; urgency=medium
 
