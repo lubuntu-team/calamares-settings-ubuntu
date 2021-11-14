@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper-compat (= 13), intltool, qttools5-dev-tools
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Homepage: https://code.launchpad.net/ubuntu-calamares-settings
 Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
 Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
