@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             21.10
-    shortVersion:        impish
+    version:             22.04
+    shortVersion:        jammy
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 21.10
+    shortVersionedName:  Lubuntu 22.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/

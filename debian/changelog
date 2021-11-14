@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:22.04.1) UNRELEASED; urgency=medium
+
+  * Welcome to Jammy Jellyfish!
+    - Update Branding to 22.04.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 10:48:32 -0500
+
 calamares-settings-ubuntu (1:21.10.2) impish; urgency=medium
 
   * Update desktop files for proper version. (LP: #1944778)
