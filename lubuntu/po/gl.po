@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.3.0\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 21.10"
+msgid "Install Lubuntu 22.04 LTS"
 msgstr ""
 
 #: ../lubuntu-calamares.desktop.in.h:2

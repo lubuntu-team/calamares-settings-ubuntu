@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 21.10"
-msgstr "Installer Lubuntu 21.10"
+msgid "Install Lubuntu 22.04 LTS"
+msgstr "Installer Lubuntu 22.04 LTS"
 
 #: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Lubuntu"
