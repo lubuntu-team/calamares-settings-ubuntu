@@ -1,0 +1,4 @@
+[General]
+AutomountEnabled=false
+AutomountOnLogin=false
+AutomountOnPlugin=false
