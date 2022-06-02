@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:22.10.1) kinetic; urgency=medium
+
+  * Welcome to the Kinetic Kudu!
+  * Fix manual btrfs notifications (LP: #1966774).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 28 Apr 2022 10:12:01 -0500
+
 calamares-settings-ubuntu (1:22.04.4) jammy; urgency=medium
 
   * Change calamares to use Ubuntu Studio Light colors

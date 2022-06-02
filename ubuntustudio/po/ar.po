@@ -16,8 +16,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Ubuntu Studio 22.04 LTS"
-msgstr "تنصيب لوبينتو 22.04"
+msgid "Install Ubuntu Studio 22.10"
+msgstr "تنصيب لوبينتو 22.10"
 
 #: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Ubuntu Studio"

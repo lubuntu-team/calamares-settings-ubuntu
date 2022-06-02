@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             22.04
-    shortVersion:        jammy
+    version:             22.10
+    shortVersion:        kinetic
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 22.04
+    shortVersionedName:  Lubuntu 22.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/
