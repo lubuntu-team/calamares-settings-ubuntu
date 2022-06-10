@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (1:22.10.2ubuntu1) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:22.10.2ubuntu1) kinetic; urgency=medium
 
   * Fixed contextual and shell processes for Lubuntu.
   * Fixed contextual and shell processed for Ubuntu Studio.
