@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:22.10.2ubuntu1) UNRELEASED; urgency=medium
+
+  * Fixed contextual and shell processes for Lubuntu.
+  * Fixed contextual and shell processed for Ubuntu Studio.
+  * Updated Ubuntu Studio settings for Calamres 3.3.
+ 
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 09 Jun 2022 19:27:24 -0500
+
 calamares-settings-ubuntu (1:22.10.2) kinetic; urgency=medium
 
   * Update settings for Calamares 3.3.
