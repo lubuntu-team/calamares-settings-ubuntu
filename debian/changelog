@@ -1,9 +1,9 @@
-calamares-settings-ubuntu (1:22.10.4) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:22.10.4) kinetic; urgency=medium
 
   * Adjust desktop file to use pkexec so it starts.
   * Point to the right log file now that we start as root.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 15:52:38 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 16:06:53 -0400
 
 calamares-settings-ubuntu (1:22.10.3) kinetic; urgency=medium
 
