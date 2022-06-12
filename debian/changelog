@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (1:22.10.5) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:22.10.5) kinetic; urgency=medium
 
   * Fix desktop file typo in exec line.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 12 Jun 2022 14:43:41 -0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 12 Jun 2022 14:45:37 -0400
 
 calamares-settings-ubuntu (1:22.10.4) kinetic; urgency=medium
 
