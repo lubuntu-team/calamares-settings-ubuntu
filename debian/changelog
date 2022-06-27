@@ -1,8 +1,14 @@
+calamares-settings-ubuntu (1:22.10.7) kinetic; urgency=medium
+
+  * Major oops in last changelog entry.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 26 Jun 2022 22:17:37 -0500
+
 calamares-settings-ubuntu (1:22.10.6) kinetic; urgency=medium
 
   * Move much of the common modules to the common package.
 
- -- Simon Quigley <tsimonq2@supernova>  Sun, 26 Jun 2022 22:10:37 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 26 Jun 2022 22:10:37 -0500
 
 calamares-settings-ubuntu (1:22.10.5) kinetic; urgency=medium
 
