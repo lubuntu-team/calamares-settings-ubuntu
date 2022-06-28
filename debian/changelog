@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:22.10.8) kinetic; urgency=medium
+
+  * Remove file in ubuntustudio settings duplicated in common
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Mon, 27 Jun 2022 17:15:06 -0700
+
 calamares-settings-ubuntu (1:22.10.7) kinetic; urgency=medium
 
   * Major oops in last changelog entry.
