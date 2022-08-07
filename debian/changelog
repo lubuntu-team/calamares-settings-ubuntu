@@ -1,3 +1,15 @@
+calamares-settings-ubuntu (1:22.04.4.2) jammy; urgency=medium
+
+  * Fixed LibreOffice localization bug (LP: #1970270)
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Fri, 05 Aug 2022 17:26:33 -0500
+
+calamares-settings-ubuntu (1:22.04.4.1) jammy; urgency=medium
+
+  * Fixed BTRFS installation bug (LP: #1966774).
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 24 Jul 2022 14:37:49 -0500
+
 calamares-settings-ubuntu (1:22.04.4) jammy; urgency=medium
 
   * Change calamares to use Ubuntu Studio Light colors
