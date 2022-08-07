@@ -1,3 +1,17 @@
+calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
+
+  * Tackled edge case for if libreoffice-help-$LOCALE doesn't exist but
+    libreoffice-l10n-$LOCALE does exist (required for LibreOffice
+    localization to work with languages like Icelandic)
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Fri, 05 Aug 2022 13:19:50 -0500
+
+calamares-settings-ubuntu (1:22.10.10) kinetic; urgency=medium
+
+  * Fixed LibreOffice localization bug (LP: #1970270).
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 25 Jul 2022 23:47:11 -0500
+
 calamares-settings-ubuntu (1:22.10.9) kinetic; urgency=medium
 
   * Remove remaining conflicting ubuntustudio files existing in common
