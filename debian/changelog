@@ -1,6 +1,8 @@
 calamares-settings-ubuntu (1:22.10.11ubuntu1) UNRELEASED; urgency=medium
 
   * Fixed a syntax error that led to incorrect sidebar coloring
+  * Set Calamares to launch in windowed mode, avoiding a welcome image scaling
+    issue.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 04 Oct 2022 20:35:00 -0500
 
