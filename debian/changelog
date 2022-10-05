@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:22.10.11ubuntu1) UNRELEASED; urgency=medium
+
+  * Fixed a syntax error that led to incorrect sidebar coloring
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 04 Oct 2022 20:35:00 -0500
+
 calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
 
   * Tackled edge case for if libreoffice-help-$LOCALE doesn't exist but
