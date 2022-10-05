@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:22.10.12) kinetic; urgency=medium
+
+  * Fix for black Ubuntu Studio sidebar (LP: #1991251)
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 04 Oct 2022 18:33:58 -0700
+
 calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
 
   * Tackled edge case for if libreoffice-help-$LOCALE doesn't exist but
