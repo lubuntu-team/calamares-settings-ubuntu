@@ -1,10 +1,10 @@
-calamares-settings-ubuntu (1:22.10.11ubuntu1) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:22.10.12) kinetic; urgency=medium
 
   * Fixed a syntax error that led to incorrect sidebar coloring (LP: #1991251).
   * Set Calamares to launch in windowed mode, avoiding a welcome image scaling
     issue.
 
- -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 04 Oct 2022 20:35:00 -0500
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 04 Oct 2022 20:39:43 -0500
 
 calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
 
