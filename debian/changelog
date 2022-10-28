@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.04.1) lunar; urgency=medium
+
+  * Welcome to the Lunar Lobster!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 28 Oct 2022 14:26:09 -0500
+
 calamares-settings-ubuntu (1:22.10.12) kinetic; urgency=medium
 
   * Fix for black Ubuntu Studio sidebar (LP: #1991251)

@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             22.10
-    shortVersion:        kinetic
+    version:             23.04
+    shortVersion:        lunar
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 22.10
+    shortVersionedName:  Lubuntu 23.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/
