@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.04.2) lunar; urgency=medium
+
+  * Allow swap for Ubuntu Studio (LP: #1996646)
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 15 Nov 2022 17:37:14 -0800
+
 calamares-settings-ubuntu (1:23.04.1) lunar; urgency=medium
 
   * Welcome to the Lunar Lobster!
