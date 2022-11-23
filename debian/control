@@ -8,6 +8,7 @@ Standards-Version: 4.6.1
 Homepage: https://code.launchpad.net/ubuntu-calamares-settings
 Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
 Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
+Rules-Requires-Root: no
 
 Package: calamares-settings-lubuntu
 Architecture: all
