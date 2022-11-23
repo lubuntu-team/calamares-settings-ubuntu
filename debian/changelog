@@ -6,6 +6,7 @@ calamares-settings-ubuntu (1:23.04.3) lunar; urgency=medium
   * Updated Lintian overrides to work with Lintian again.
   * Removed unnecessary Breaks lines from both calamares-settings-lubuntu and
     calamares-settings-ubuntustudio. Conflicts is sufficient here.
+  * Fixed broken Lintian override in Lubuntu.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 23 Nov 2022 16:08:10 -0600
 
