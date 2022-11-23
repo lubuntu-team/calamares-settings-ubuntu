@@ -8,6 +8,7 @@ calamares-settings-ubuntu (1:23.04.3) lunar; urgency=medium
     calamares-settings-ubuntustudio. Conflicts is sufficient here.
   * Fixed broken Lintian override in Lubuntu.
   * Removed trailing whitespace from changelog.
+  * Bumped Standards-Version to 4.6.1, no changes necessary.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 23 Nov 2022 16:08:10 -0600
 
