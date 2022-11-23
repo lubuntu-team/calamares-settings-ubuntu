@@ -1,7 +1,7 @@
 ---
 componentName: lubuntu
 
-windowExpanding:    fullscreen
+windowExpanding:    normal
 
 strings:
     productName:         Lubuntu
