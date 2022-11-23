@@ -1,3 +1,5 @@
 # The .desktop file uses pkexec to run the installer. pkexec is included in
 # the system.
 calamares-settings-lubuntu: desktop-command-not-in-package pkexec [usr/share/applications/lubuntu-calamares.desktop]
+# there will be no manpage in the foreseeable future
+calamares-settings-lubuntu: no-manual-page [usr/bin/calamares-logs-helper]

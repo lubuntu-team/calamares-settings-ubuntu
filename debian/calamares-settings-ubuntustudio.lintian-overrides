@@ -1,3 +1,5 @@
 # The .desktop file uses bash to run firefox as the local
 # user. bash is included in the system.
 calamares-settings-ubuntustudio: desktop-command-not-in-package bash [usr/share/applications/ubuntustudio-calamares.desktop]
+# there will be no manpage in the foreseeable future
+calamares-settings-ubuntustudio: no-manual-page [usr/bin/calamares-logs-helper]
