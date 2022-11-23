@@ -7,6 +7,7 @@ calamares-settings-ubuntu (1:23.04.3) lunar; urgency=medium
   * Removed unnecessary Breaks lines from both calamares-settings-lubuntu and
     calamares-settings-ubuntustudio. Conflicts is sufficient here.
   * Fixed broken Lintian override in Lubuntu.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 23 Nov 2022 16:08:10 -0600
 
@@ -122,7 +123,7 @@ calamares-settings-ubuntu (1:22.04.1) jammy; urgency=medium
 
   * Welcome to Jammy Jellyfish!
     - Update Branding to 22.04.
-    - Update desktop file. 
+    - Update desktop file.
   * Bump Standards-Version to 4.6.0, no changes needed.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 11:24:15 -0500
