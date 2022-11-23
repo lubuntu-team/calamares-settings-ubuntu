@@ -3,3 +3,6 @@
 calamares-settings-ubuntustudio: desktop-command-not-in-package bash [usr/share/applications/ubuntustudio-calamares.desktop]
 # there will be no manpage in the foreseeable future
 calamares-settings-ubuntustudio: no-manual-page [usr/bin/calamares-logs-helper]
+# We're just extracting a log file and preserving it for the user to look at
+# after the installation, this is normal.
+calamares-settings-ubuntustudio: uses-dpkg-database-directly [usr/bin/calamares-logs-helper]

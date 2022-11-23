@@ -11,6 +11,8 @@ calamares-settings-ubuntu (1:23.04.3) lunar; urgency=medium
   * Bumped Standards-Version to 4.6.1, no changes necessary.
   * Added 'Rules-Requires-Root: no'.
   * Added Lintian overrides for missing manpages.
+  * Added Lintian overrides for direct usage of the dpkg database - this is
+    just log file extraction.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 23 Nov 2022 16:08:10 -0600
 
