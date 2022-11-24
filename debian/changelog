@@ -13,6 +13,7 @@ calamares-settings-ubuntu (1:23.04.3) lunar; urgency=medium
   * Added Lintian overrides for missing manpages.
   * Added Lintian overrides for direct usage of the dpkg database - this is
     just log file extraction.
+  * Fixed changelog section for version 1:22.10.12.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 23 Nov 2022 16:08:10 -0600
 
@@ -30,9 +31,15 @@ calamares-settings-ubuntu (1:23.04.1) lunar; urgency=medium
 
 calamares-settings-ubuntu (1:22.10.12) kinetic; urgency=medium
 
+  [ Erich Eickmeyer ]
   * Fix for black Ubuntu Studio sidebar (LP: #1991251)
 
- -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 04 Oct 2022 18:33:58 -0700
+  [ Aaron Rainbolt ]
+  * Fixed a syntax error that led to incorrect sidebar coloring (LP: #1991251).
+  * Set Calamares to launch in windowed mode, avoiding a welcome image scaling
+    issue.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 04 Oct 2022 20:39:43 -0500
 
 calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
 
