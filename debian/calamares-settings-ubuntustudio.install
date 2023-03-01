@@ -1,7 +1,7 @@
 ubuntustudio/branding/ etc/calamares/
 ubuntustudio/calamares-logs-helper usr/bin/
+ubuntustudio/calamaresrc etc/xdg
+ubuntustudio/kded_device_automounterrc etc/xdg
 ubuntustudio/modules/ etc/calamares/
 ubuntustudio/settings.conf etc/calamares/
 ubuntustudio/ubuntustudio-calamares.desktop usr/share/applications/
-ubuntustudio/kded_device_automounterrc etc/xdg
-ubuntustudio/calamaresrc etc/xdg
