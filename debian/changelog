@@ -4,6 +4,7 @@ calamares-settings-ubuntu (1:23.04.4) lunar; urgency=medium
     the python module for lsb_release no longer exists in Lunar.
     (LP: #2008685)
   * Bumped Standards-Version to 4.6.2, no changes necessary.
+  * Added an explicit Depends on python3-distro.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 28 Feb 2023 19:27:13 -0600
 
