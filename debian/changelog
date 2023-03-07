@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:23.04.5) UNRELEASED; urgency=medium
+
+  * Ensure the langpacks for GNOME and KDE applications are installed too.
+    This increases the end user install by approximately 25 MB, and saves them
+    the trouble of having to hunt for it later.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 07 Mar 2023 13:14:13 -0700
+
 calamares-settings-ubuntu (1:23.04.4) lunar; urgency=medium
 
   * Switch from using the lsb_release python module to the distro module, as
