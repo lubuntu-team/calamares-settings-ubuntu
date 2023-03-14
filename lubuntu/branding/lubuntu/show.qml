@@ -6,22 +6,34 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 10000
+        interval: 15000
         running: true
         repeat: true
-        onTriggered: presentation.goToNextSlide()
+        onTriggered: {
+            presentation.goToNextSlide()
+            // We want the last slide to be where the slideshow stops. But
+            // thanks either to QML's limitations or my lack of knowledge, I
+            // can't figure out how to declare a counter variable outside of
+            // the Javascript block. However, incrementing the interval value
+            // won't make any perceptible change in how long the slideshow
+            // plays, and it does the job.
+            interval++
+            if (interval == 15005) {
+                stop()
+            }
+        }
     }
     Slide {
         Image {
             anchors.centerIn: parent
             id: image1
-            x:0
-            y:0
+            x: 0
+            y: 0
             width: 810
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "FindUs.png"
+            source: "lightweight.png"
         }
     }
     Slide {
@@ -34,7 +46,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "NewLook.png"
+            source: "apps.png"
         }
     }
     Slide {
@@ -47,7 +59,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Accessories.png"
+            source: "store.png"
         }
     }
     Slide {
@@ -60,7 +72,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "TweakIt.png"
+            source: "desktop.png"
         }
     }
     Slide {
@@ -73,7 +85,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Media.png"
+            source: "support.png"
         }
     }
     Slide {
@@ -86,34 +98,8 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Firefox.png"
+            source: "enjoy.png"
         }
 
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image7
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "Office.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image8
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "Help.png"
-        }
     }
 }
