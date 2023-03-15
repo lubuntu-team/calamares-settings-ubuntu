@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.04.7) lunar; urgency=medium
+
+  * Updated copyright file.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 15 Mar 2023 03:53:07 -0500
+
 calamares-settings-ubuntu (1:23.04.6) lunar; urgency=medium
 
   * Updated the installer slideshow.

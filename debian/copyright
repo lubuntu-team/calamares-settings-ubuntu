@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
 Copyright: 2014 Rohan Garg <shadeslayer@systems>
-           2017-2021 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2017-2023 Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
            2020 Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
