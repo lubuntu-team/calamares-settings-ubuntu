@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:23.04.8) lunar; urgency=medium
+
+  * Made the slideshow loop again. (Slow systems were ending up on the "The
+    installation should finish soon" screen when the installation was only 8%
+    done, and then were staying on that screen.)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 16 Mar 2023 22:31:01 -0500
+
 calamares-settings-ubuntu (1:23.04.7) lunar; urgency=medium
 
   * Updated copyright file.

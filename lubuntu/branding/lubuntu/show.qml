@@ -9,19 +9,7 @@ Presentation
         interval: 15000
         running: true
         repeat: true
-        onTriggered: {
-            presentation.goToNextSlide()
-            // We want the last slide to be where the slideshow stops. But
-            // thanks either to QML's limitations or my lack of knowledge, I
-            // can't figure out how to declare a counter variable outside of
-            // the Javascript block. However, incrementing the interval value
-            // won't make any perceptible change in how long the slideshow
-            // plays, and it does the job.
-            interval++
-            if (interval == 15005) {
-                stop()
-            }
-        }
+        onTriggered: presentation.goToNextSlide()
     }
     Slide {
         Image {
