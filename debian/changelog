@@ -1,9 +1,3 @@
-calamares-settings-ubuntu (1:23.04.8) lunar; urgency=medium
-
-  * Updated the ubuntustudio installer slideshow
-
- -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sat, 18 Mar 2023 08:16:16 -0700
-
 calamares-settings-ubuntu (1:23.04.7) lunar; urgency=medium
 
   * Updated copyright file.
@@ -12,7 +6,7 @@ calamares-settings-ubuntu (1:23.04.7) lunar; urgency=medium
 
 calamares-settings-ubuntu (1:23.04.6) lunar; urgency=medium
 
-  * Updated the lubuntu installer slideshow.
+  * Updated the installer slideshow.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 13 Mar 2023 19:40:55 -0500
 
