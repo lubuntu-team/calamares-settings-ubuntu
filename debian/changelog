@@ -14,7 +14,7 @@ calamares-settings-ubuntu (1:23.04.7) lunar; urgency=medium
 
 calamares-settings-ubuntu (1:23.04.6) lunar; urgency=medium
 
-  * Updated the installer slideshow.
+  * Updated the lubuntu installer slideshow.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 13 Mar 2023 19:40:55 -0500
 
