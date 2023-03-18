@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.04.9) lunar; urgency=medium
+
+  * Update ubuntustudio slideshow
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sat, 18 Mar 2023 08:46:57 -0700
+
 calamares-settings-ubuntu (1:23.04.8) lunar; urgency=medium
 
   * Made the slideshow loop again. (Slow systems were ending up on the "The
