@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.04.10) lunar; urgency=medium
+
+  * Fix Ubuntu Studio sidebar colors
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Mon, 20 Mar 2023 11:49:08 -0700
+
 calamares-settings-ubuntu (1:23.04.9) lunar; urgency=medium
 
   * Update ubuntustudio slideshow
