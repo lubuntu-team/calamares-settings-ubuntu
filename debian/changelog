@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:23.04.11) lunar; urgency=medium
+
+  * Fixed an invalid "SidebarTextSelect" field in Lubuntu's branding.desc -
+    this is now called "SidebarTextCurrent".
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 20 Mar 2023 17:47:40 -0500
+
 calamares-settings-ubuntu (1:23.04.10) lunar; urgency=medium
 
   * Fix Ubuntu Studio sidebar colors

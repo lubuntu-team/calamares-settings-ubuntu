@@ -26,4 +26,4 @@ slideshowAPI:            1
 style:
    SidebarBackground:    "#808080"
    SidebarText:          "#FFFFFF"
-   SidebarTextSelect:    "#0068C8"
+   SidebarTextCurrent:   "#0068C8"
