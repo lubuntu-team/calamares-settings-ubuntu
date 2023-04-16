@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:23.04.12) lunar; urgency=medium
+
+  * Don't allow the first user to be created with a blank password in either
+    Lubuntu or Ubuntu Studio. (LP: #2016436)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 16 Apr 2023 17:34:56 -0500
+
 calamares-settings-ubuntu (1:23.04.11) lunar; urgency=medium
 
   * Fixed an invalid "SidebarTextSelect" field in Lubuntu's branding.desc -
