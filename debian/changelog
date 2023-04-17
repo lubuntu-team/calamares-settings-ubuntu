@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:22.04.4.3) jammy; urgency=medium
+
+  * Don't allow the first user to be created with a blank password in either
+    Lubuntu or Ubuntu Studio. (LP: #2016436)
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Mon, 17 Apr 2023 13:56:57 -0700
+
 calamares-settings-ubuntu (1:22.04.4.2) jammy; urgency=medium
 
   * Fixed LibreOffice localization bug (LP: #1970270)
