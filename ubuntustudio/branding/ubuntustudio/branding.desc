@@ -7,10 +7,10 @@ windowSize:         "890px,600px"
 strings:
     productName:         Ubuntu Studio
     shortProductName:    Ubuntu Studio
-    version:             23.04
-    shortVersion:        lunar
+    version:             23.10
+    shortVersion:        mantic
     versionedName:       Ubuntu Studio
-    shortVersionedName:  Ubuntu Studio 23.04
+    shortVersionedName:  Ubuntu Studio 23.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntustudio.org/
     supportUrl:          https://ubuntustudio.org/support/

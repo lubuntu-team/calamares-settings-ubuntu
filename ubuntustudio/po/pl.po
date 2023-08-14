@@ -16,8 +16,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Ubuntu Studio 23.04"
-msgstr "Zainstaluj Ubuntu Studio 23.04"
+msgid "Install Ubuntu Studio 23.10"
+msgstr "Zainstaluj Ubuntu Studio 23.10"
 
 #: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Ubuntu Studio"

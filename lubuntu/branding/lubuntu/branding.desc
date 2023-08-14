@@ -6,10 +6,10 @@ windowExpanding:    normal
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             23.04
-    shortVersion:        lunar
+    version:             23.10
+    shortVersion:        mantic
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 23.04
+    shortVersionedName:  Lubuntu 23.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/

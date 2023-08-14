@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.10.1) UNRELEASED; urgency=medium
+
+  * Welcome to the Mantic Minotaur!
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 14 Aug 2023 19:50:15 -0400
+
 calamares-settings-ubuntu (1:23.04.12) lunar; urgency=medium
 
   * Don't allow the first user to be created with a blank password in either
