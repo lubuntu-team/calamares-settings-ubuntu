@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (1:23.10.1) UNRELEASED; urgency=medium
 
   * Welcome to the Mantic Minotaur!
+  * Add ext4, btrfs, xfs file system options on erase disk for Lubuntu.
 
  -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 14 Aug 2023 19:50:15 -0400
 
