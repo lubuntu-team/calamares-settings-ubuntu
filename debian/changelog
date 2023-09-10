@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:23.10.2) mantic; urgency=medium
+
+  * Update welcome image for Mantic in Lubuntu.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 10 Sep 2023 09:03:28 -0700
+
 calamares-settings-ubuntu (1:23.10.1) mantic; urgency=medium
 
   * Welcome to the Mantic Minotaur!
