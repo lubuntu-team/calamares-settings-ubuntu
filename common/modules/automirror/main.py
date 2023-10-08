@@ -74,14 +74,7 @@ deb http://security.ubuntu.com/ubuntu CODENAME-security multiverse
 ## that software in Backports WILL NOT receive any review or updates from the
 ## Ubuntu security team.
 deb URL/ubuntu/ CODENAME-backports main restricted universe multiverse
-# deb-src URL/ubuntu/ CODENAME-backports main restricted universe multiverse
-
-## Uncomment the following two lines to add software from Canonical's
-## "partner" repository.
-## This software is not part of Ubuntu, but is offered by Canonical and the
-## respective vendors as a service to Ubuntu users.
-# deb http://archive.canonical.com/ubuntu CODENAME partner
-# deb-src http://archive.canonical.com/ubuntu CODENAME partner"""
+# deb-src URL/ubuntu/ CODENAME-backports main restricted universe multiverse"""
 
 SUBDOMAINS_BY_COUNTRY_CODE = {"US": "us.",
                               "AU": "au.",
