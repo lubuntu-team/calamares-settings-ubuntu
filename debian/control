@@ -3,7 +3,18 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper-compat (= 13), intltool, qttools5-dev-tools
+Build-Depends: calamares,
+               cmake,
+               debhelper-compat (= 13),
+               extra-cmake-modules,
+               intltool,
+               libkf5coreaddons-dev,
+               libqt5svg5-dev,
+               libyaml-cpp-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 4.6.2
 Homepage: https://code.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
 Vcs-Git: https://git.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
@@ -31,7 +42,8 @@ Depends: calamares (>= 3.2.14~),
          qml-module-qtquick-window2,
          qml-module-qtquick2,
          squashfs-tools,
-         ${misc:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on

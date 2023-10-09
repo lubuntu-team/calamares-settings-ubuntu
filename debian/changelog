@@ -1,6 +1,8 @@
 calamares-settings-ubuntu (1:24.04.1) UNRELEASED; urgency=medium
 
   * Fix Vcs-*.
+  * Add a Package Select module, allowing for fine-tuned customization of the
+    installed system.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 08 Oct 2023 22:02:44 -0500
 

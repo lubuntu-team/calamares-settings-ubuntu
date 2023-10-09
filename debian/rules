@@ -1,16 +1,29 @@
 #!/usr/bin/make -f
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+PKGSELECT = "common/modules/pkgselect"
+MODULES_DIR = "debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules"
 
 %:
 	dh $@
 
+override_dh_auto_configure:
+	cd $(PKGSELECT) && mkdir build && cd build && cmake ..
+
+override_dh_auto_build:
+	make;
+	cd $(PKGSELECT)/build && $(MAKE)
+
+override_dh_auto_install:
+	cd $(PKGSELECT)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/ install
+
 override_dh_missing:
 	dh_missing
-	mkdir -pv debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
-	cp -vr common/modules/automirror debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
+	cp -v common/modules/pkgselect/pkgselect.qml debian/calamares-settings-lubuntu/etc/calamares/branding/lubuntu/pkgselect.qml
+	mkdir -pv $(MODULES_DIR)
+	cp -vr common/modules/automirror $(MODULES_DIR)
 	mkdir -pv debian/calamares-settings-ubuntu-common/etc/calamares/modules
 	cp -vr common/modules/*.conf debian/calamares-settings-ubuntu-common/etc/calamares/modules
 	chmod -R 755 debian/calamares-settings-ubuntu-common/usr/lib/
-	chmod 644 debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/automirror.conf
-	chmod 644 debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/module.desc
+	chmod 644 $(MODULES_DIR)/automirror/automirror.conf
+	chmod 644 $(MODULES_DIR)/automirror/module.desc
