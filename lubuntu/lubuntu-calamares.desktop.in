@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Lubuntu 23.10
+_Name=Install Lubuntu 24.04 LTS
 _GenericName=Install Lubuntu
 Exec=pkexec calamares -D6
 _Comment=Calamares — System Installer

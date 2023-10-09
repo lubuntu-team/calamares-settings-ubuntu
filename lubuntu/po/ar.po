@@ -16,8 +16,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Lubuntu 23.10"
-msgstr "تنصيب لوبينتو 23.10"
+msgid "Install Lubuntu 24.04 LTS"
+msgstr "تنصيب لوبينتو 24.04 LTS"
 
 #: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Lubuntu"
