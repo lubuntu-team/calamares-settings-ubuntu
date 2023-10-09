@@ -5,9 +5,9 @@ Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper-compat (= 13), intltool, qttools5-dev-tools
 Standards-Version: 4.6.2
-Homepage: https://code.launchpad.net/ubuntu-calamares-settings
-Vcs-Git: https://git.launchpad.net/ubuntu-calamares-settings
-Vcs-Browser: https://git.launchpad.net/ubuntu-calamares-settings
+Homepage: https://code.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
+Vcs-Git: https://git.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
+Vcs-Browser: https://git.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
 Rules-Requires-Root: no
 
 Package: calamares-settings-lubuntu
