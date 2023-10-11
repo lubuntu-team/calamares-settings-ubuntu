@@ -7,9 +7,7 @@
 #include "DllMacro.h"
 #include "utils/PluginFactory.h"
 #include "viewpages/QmlViewStep.h"
-
-#include "GlobalStorage.h"
-#include "JobQueue.h"
+#include "ProcessJob.h"
 
 class PLUGINDLLEXPORT PackageSelectViewStep : public Calamares::QmlViewStep
 {
@@ -36,6 +34,8 @@ signals:
 
 private:
     QVariantMap m_packageSelections;
+
+    bool exists_and_true(const QString& key) const;
 };
 
 CALAMARES_PLUGIN_FACTORY_DECLARATION( PackageSelectViewStepFactory )

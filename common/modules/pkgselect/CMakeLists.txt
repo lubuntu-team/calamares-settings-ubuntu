@@ -18,7 +18,6 @@ calamares_add_plugin( pkgselect
     EXPORT_MACRO PLUGINDLLEXPORT_PRO
     SOURCES
     	PackageSelectViewStep.cpp
-    	PackageSelectJob.cpp
     RESOURCES
         pkgselect.qrc
     SHARED_LIB
