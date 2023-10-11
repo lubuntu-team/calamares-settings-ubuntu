@@ -7,6 +7,12 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
 
 Item {
+    function updatePackageSelections(objectName, checked) {
+        var newMap = JSON.parse(JSON.stringify(packageSelect.packageSelections));
+        newMap[objectName] = checked;
+        packageSelect.packageSelections = newMap;
+    }
+
     ColumnLayout {
         scale: 0.9
 
@@ -29,9 +35,13 @@ Item {
         }
         RadioButton {
             text: qsTr("Minimal Installation")
+            objectName: "minimalInstall"
             font.pointSize: 12
             indicator.width: 20
             indicator.height: 20
+            onClicked: {
+                updatePackageSelections(objectName, checked);
+            }            
         }
         Text {
             text: qsTr("Only the desktop environment.")
@@ -51,10 +61,14 @@ Item {
             font.pointSize: 14
         }
         CheckBox {
-            text: qsTr("Download updates following installation")
+            text: qsTr("Download and install updates following installation")
+            objectName: "updateNow"
             font.pointSize: 12
             indicator.width: 20
             indicator.height: 20
+            onClicked: {
+                updatePackageSelections(objectName, checked);
+            }
         }
         Text {
             text: qsTr("This saves time after the installation, and keeps your system secure.")
@@ -63,9 +77,13 @@ Item {
         }
         CheckBox {
             text: qsTr("Install third-party software for graphics, WiFi hardware, and additional media formats")
+            objectName: "restrictedExtras"
             font.pointSize: 12
             indicator.width: 20
             indicator.height: 20
+            onClicked: {
+                updatePackageSelections(objectName, checked);
+            }
         }
         Text {
             text: qsTr("This software is subject to license terms included with its documentation, and some may be proprietary.")
@@ -100,6 +118,9 @@ Item {
                     font.pointSize: 11
                     indicator.width: 18
                     indicator.height: 18
+                    onClicked: {
+                        updatePackageSelections(objectName, checked);
+                    }
                 }
                 Text {
                     text: qsTr("Matrix-based end-to-end encrypted messenger and secure collaboration app")
@@ -112,6 +133,9 @@ Item {
                     font.pointSize: 11
                     indicator.width: 18
                     indicator.height: 18
+                    onClicked: {
+                        updatePackageSelections(objectName, checked);
+                    }
                 }
                 Text {
                     text: qsTr("Email, newsfeed, chat, and calendaring client")
@@ -124,6 +148,9 @@ Item {
                     font.pointSize: 11
                     indicator.width: 18
                     indicator.height: 18
+                    onClicked: {
+                        updatePackageSelections(objectName, checked);
+                    }
                 }
                 Text {
                     text: qsTr("Code editor redefined and optimized for building and debugging modern web and cloud applications")
@@ -136,6 +163,9 @@ Item {
                     font.pointSize: 11
                     indicator.width: 18
                     indicator.height: 18
+                    onClicked: {
+                        updatePackageSelections(objectName, checked);
+                    }
                 }
                 Text {
                     text: qsTr("Desktop user interface for managing virtual machines through libvirt")
@@ -148,6 +178,9 @@ Item {
                     font.pointSize: 11
                     indicator.width: 18
                     indicator.height: 18
+                    onClicked: {
+                        updatePackageSelections(objectName, checked);
+                    }
                 }
                 Text {
                     text: qsTr("Graphics editor designed primarily for digital art and 2D animation")
