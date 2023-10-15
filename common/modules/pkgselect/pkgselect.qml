@@ -143,21 +143,6 @@ Item {
                     font.pointSize: 10
                 }
                 CheckBox {
-                    text: qsTr("VSCodium")
-                    objectName: "vscodium"
-                    font.pointSize: 11
-                    indicator.width: 18
-                    indicator.height: 18
-                    onClicked: {
-                        updatePackageSelections(objectName, checked);
-                    }
-                }
-                Text {
-                    text: qsTr("Code editor redefined and optimized for building and debugging modern web and cloud applications")
-                    font.italic: true
-                    font.pointSize: 10
-                }
-                CheckBox {
                     text: qsTr("Virtual Machine Manager")
                     objectName: "virt-manager"
                     font.pointSize: 11

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+chroot_root="$1"
+shift
+new_snaps=("$@")
+seed_dir="$chroot_root/var/lib/snapd/seed"
+snaps_dir="$seed_dir/snaps"
+assertions_dir="$seed_dir/assertions"
+seed_yaml="$seed_dir/seed.yaml"
+
+# Loop through each snap and download it, then update seed.yaml
+for snap_info in "${new_snaps[@]}"; do
+  snap_name=${snap_info%=*}
+  channel=${snap_info#*=}
+
+  # Download
+  snap download --channel="$channel" "$snap_name" --target-directory="$snaps_dir"
+
+  sleep 5
+  
+  # Get revision number
+  snap_file=$(ls "$snaps_dir" | grep ".snap" | grep "^${snap_name}_")
+  rev_num=$(echo "$snap_file" | grep -oP '(?<=_)\d+')
+  
+  # Move assertions
+  mv "$snaps_dir/${snap_name}_${rev_num}.assert" "$assertions_dir"
+
+  # Append to seed.yaml
+  {
+    echo "  - name: $snap_name"
+    echo "    file: $snap_file"
+    echo "    channel: $channel"
+  } >> "$seed_yaml"
+done
+
+# Remove state.json if exists
+[ -f "$chroot_root/var/lib/snapd/state.json" ] && rm "$chroot_root/var/lib/snapd/state.json"
+
+# Validate
+snap debug validate-seed "$seed_yaml"
