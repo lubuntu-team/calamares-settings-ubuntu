@@ -7,7 +7,6 @@
 #include "DllMacro.h"
 #include "utils/PluginFactory.h"
 #include "viewpages/QmlViewStep.h"
-#include "ProcessJob.h"
 
 class PLUGINDLLEXPORT PackageSelectViewStep : public Calamares::QmlViewStep
 {
@@ -20,11 +19,8 @@ public:
 
     QString prettyName() const override;
 
-    Calamares::JobList jobs() const override;
-
-    void setConfigurationMap( const QVariantMap& configurationMap ) override;
-
     void onActivate() override;
+    void onLeave() override;
 
     QVariantMap packageSelections() const { return m_packageSelections; }
     void setPackageSelections(const QVariantMap &value);
