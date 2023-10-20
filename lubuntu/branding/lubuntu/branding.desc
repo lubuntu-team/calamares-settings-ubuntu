@@ -7,7 +7,7 @@ strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
     version:             24.04 LTS
-    shortVersion:        mantic
+    shortVersion:        noble
     versionedName:       Lubuntu
     shortVersionedName:  Lubuntu 24.04 LTS
     bootloaderEntryName: Ubuntu

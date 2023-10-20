@@ -8,7 +8,7 @@ strings:
     productName:         Ubuntu Studio
     shortProductName:    Ubuntu Studio
     version:             23.10
-    shortVersion:        mantic
+    shortVersion:        noble
     versionedName:       Ubuntu Studio
     shortVersionedName:  Ubuntu Studio 23.10
     bootloaderEntryName: Ubuntu
