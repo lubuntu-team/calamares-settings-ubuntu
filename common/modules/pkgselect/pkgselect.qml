@@ -104,7 +104,7 @@ Item {
         }
         Flickable {
             Layout.fillWidth: true
-            height: 225
+            height: 200
             contentHeight: column.height
             clip: true
 
@@ -177,10 +177,15 @@ Item {
                 active: true
             }
         }
+        Rectangle {
+            Layout.fillWidth: true
+            Layout.preferredHeight: 1
+            color: "white"
+        }
         Text {
-            text: qsTr("Note: third-party packages are provided by outside vendors and are not officially supported in any way. Use at your own risk.")
+            text: qsTr("Note: Ubuntu and flavors are NOT responsible for third-party software installed from this list. Use at your own risk.")
             font.bold: true
-            font.pointSize: 10
+            font.pointSize: 12
         }
     }
 }
