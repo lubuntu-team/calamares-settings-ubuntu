@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.2) noble; urgency=medium
+
+  * Fix FTBFS on !(amd64).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Nov 2023 14:34:09 -0600
+
 calamares-settings-ubuntu (1:24.04.1) noble; urgency=medium
 
   * Fix Vcs-*.
