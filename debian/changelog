@@ -6,6 +6,7 @@ calamares-settings-ubuntu (1:24.04.4) noble; urgency=medium
   * Exported the LC_ALL=C.UTF-8 and DEB_BUILD_MAINT_OPTIONS = hardening =+all
     environment variables in debian/rules since we're building a shared
     library in here now.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 15 Nov 2023 18:33:39 -0600
 
@@ -42,7 +43,7 @@ calamares-settings-ubuntu (1:23.10.4) mantic; urgency=medium
 
 calamares-settings-ubuntu (1:23.10.3) mantic; urgency=medium
 
-  * No-change rebuild. 
+  * No-change rebuild.
 
  -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 10 Sep 2023 10:05:21 -0700
 
