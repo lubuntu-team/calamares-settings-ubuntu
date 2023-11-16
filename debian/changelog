@@ -7,6 +7,8 @@ calamares-settings-ubuntu (1:24.04.4) noble; urgency=medium
     environment variables in debian/rules since we're building a shared
     library in here now.
   * Removed trailing whitespace from changelog.
+  * Added some lintian-overrides for the lack of a manual page and an
+    executable Python script in /usr/lib
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 15 Nov 2023 18:33:39 -0600
 
