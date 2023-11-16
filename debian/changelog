@@ -3,6 +3,9 @@ calamares-settings-ubuntu (1:24.04.4) noble; urgency=medium
   * Fixed the pkgselect module's CMakeLists.txt file.
   * Removed some unnecessary path segments from debian/rules.
   * Unset the executable bit on files that shouldn't be executable.
+  * Exported the LC_ALL=C.UTF-8 and DEB_BUILD_MAINT_OPTIONS = hardening =+all
+    environment variables in debian/rules since we're building a shared
+    library in here now.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 15 Nov 2023 18:33:39 -0600
 
