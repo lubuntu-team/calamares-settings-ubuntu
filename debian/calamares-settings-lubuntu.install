@@ -3,3 +3,4 @@ lubuntu/calamares-logs-helper usr/bin/
 lubuntu/lubuntu-calamares.desktop usr/share/applications/
 lubuntu/modules/ etc/calamares/
 lubuntu/settings.conf etc/calamares/
+common/modules/pkgselect/pkgselect.qml etc/calamares/lubuntu/branding/lubuntu/

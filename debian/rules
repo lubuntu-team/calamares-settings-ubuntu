@@ -22,7 +22,6 @@ override_dh_auto_install:
 
 override_dh_missing:
 	dh_missing
-	cp -v common/modules/pkgselect/pkgselect.qml debian/calamares-settings-lubuntu/etc/calamares/branding/lubuntu/pkgselect.qml
 	mkdir -pv $(MODULES_DIR)
 	cp -vr common/modules/automirror $(MODULES_DIR)
 	mkdir -pv debian/calamares-settings-ubuntu-common/etc/calamares/modules
