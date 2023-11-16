@@ -27,5 +27,7 @@ override_dh_missing:
 	chmod -R 755 debian/calamares-settings-ubuntu-common/usr/lib/
 	chmod 644 $(MODULES_DIR)/automirror/automirror.conf
 	chmod 644 $(MODULES_DIR)/automirror/module.desc
+	chmod 644 $(MODULES_DIR)/pkgselect/libcalamares_viewmodule_pkgselect.so
+	chmod 644 $(MODULES_DIR)/pkgselect/module.desc
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/bin/
 	cp -v common/snap_install debian/calamares-settings-ubuntu-common/usr/bin/calamares_snap_install
