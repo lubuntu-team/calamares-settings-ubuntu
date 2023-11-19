@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.6) noble; urgency=medium
+
+  * Use sudo -E to launch Calamares so that Lubuntu theming is preserved.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 19 Nov 2023 16:26:18 -0600
+
 calamares-settings-ubuntu (1:24.04.5) noble; urgency=medium
 
   * Fixed an FTBFS on !(amd64).
