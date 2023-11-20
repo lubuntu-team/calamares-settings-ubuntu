@@ -2,6 +2,8 @@ calamares-settings-ubuntu (1:24.04.7) noble; urgency=medium
 
   * Copy the Calamares installation log file from $HOME rather than /root.
     (LP: #2044006)
+  * Update a Lintian override now that we're using sudo rather than pkexec to
+    launch Calamares in Lubuntu.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 20 Nov 2023 12:21:41 -0600
 
