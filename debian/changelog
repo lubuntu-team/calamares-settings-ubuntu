@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
+
+  * Use lxqt-sudo instead of sudo, to pick up theming.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
+
 calamares-settings-ubuntu (1:24.04.7) noble; urgency=medium
 
   * Copy the Calamares installation log file from $HOME rather than /root.
