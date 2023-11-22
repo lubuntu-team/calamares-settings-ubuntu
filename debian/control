@@ -25,6 +25,7 @@ Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
+Recommends: lubuntu-installer-prompt
 Conflicts: calamares-settings-ubuntustudio
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
