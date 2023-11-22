@@ -7,10 +7,18 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
 
 Item {
+    property bool isRegularInstall: true
+    property bool isFullInstall: true
+
     function updatePackageSelections(objectName, checked) {
         var newMap = JSON.parse(JSON.stringify(packageSelect.packageSelections));
         newMap[objectName] = checked;
         packageSelect.packageSelections = newMap;
+        if (objectName === "minimalInstall") {
+            isMinimalInstall = checked;
+        } else if (objectName === "fullInstall") {
+            isFullInstall = checked;
+        }
     }
 
     ColumnLayout {
@@ -20,6 +28,19 @@ Item {
             text: qsTr("What apps would you like to start with?")
             font.bold: true
             font.pointSize: 14
+        }
+        RadioButton {
+            checked: true
+            text: qsTr("Full Installation")
+            objectName: "fullInstall"
+            font.pointSize: 12
+            indicator.width: 20
+            indicator.height: 20
+        }
+        Text {
+            text: qsTr("All applications in the Normal Installation, and all extra third-party packages listed below.")
+            font.pointSize: 10
+            font.italic: true
         }
         RadioButton {
             checked: true
@@ -114,6 +135,8 @@ Item {
 
                 CheckBox {
                     text: qsTr("Element")
+                    checked: isFullInstall
+                    enabled: !isMinimalInstall
                     objectName: "element"
                     font.pointSize: 11
                     indicator.width: 18
@@ -129,6 +152,8 @@ Item {
                 }
                 CheckBox {
                     text: qsTr("Thunderbird")
+                    checked: isFullInstall
+                    enabled: !isMinimalInstall
                     objectName: "thunderbird"
                     font.pointSize: 11
                     indicator.width: 18
@@ -144,6 +169,8 @@ Item {
                 }
                 CheckBox {
                     text: qsTr("Virtual Machine Manager")
+                    checked: isFullInstall
+                    enabled: !isMinimalInstall
                     objectName: "virt-manager"
                     font.pointSize: 11
                     indicator.width: 18
@@ -159,6 +186,8 @@ Item {
                 }
                 CheckBox {
                     text: qsTr("Krita")
+                    checked: isFullInstall
+                    enabled: !isMinimalInstall
                     objectName: "krita"
                     font.pointSize: 11
                     indicator.width: 18
@@ -183,7 +212,7 @@ Item {
             color: "white"
         }
         Text {
-            text: qsTr("Note: Ubuntu and flavors are NOT responsible for third-party software installed from this list. Use at your own risk.")
+            text: qsTr("Note: Ubuntu and flavors are NOT responsible for third-party software installed from this list.") + "<br />" + qsTr("Use at your own risk.")
             font.bold: true
             font.pointSize: 12
         }
