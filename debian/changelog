@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
 
   * Use lxqt-sudo instead of sudo, to pick up theming.
+  * Even if modules fail, try to perform the unmount.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
 
