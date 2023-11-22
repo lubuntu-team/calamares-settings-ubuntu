@@ -5,6 +5,7 @@ calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
   * Explicitly depend on lubuntu-installer-prompt, which provides a default
     workflow on the live system. Remove this package at the end of the install
     as well.
+  * Go back to fullscreen.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
 
