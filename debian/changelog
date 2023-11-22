@@ -8,6 +8,7 @@ calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
   * Go back to fullscreen.
   * Add a full installation radio button, and disable the bottom checkboxes if
     minimal install is selected.
+  * Update snaps used for Krita.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
 
