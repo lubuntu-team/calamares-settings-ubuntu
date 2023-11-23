@@ -8,16 +8,33 @@ import QtQuick.Controls.Material 2.1
 
 Item {
     property bool isRegularInstall: true
-    property bool isFullInstall: true
 
     function updatePackageSelections(objectName, checked) {
         var newMap = JSON.parse(JSON.stringify(packageSelect.packageSelections));
         newMap[objectName] = checked;
         packageSelect.packageSelections = newMap;
+        element.enabled = true;
+        thunderbird.enabled = true;
+        virtManager.enabled = true;
+        krita.enabled = true;
         if (objectName === "minimalInstall") {
             isMinimalInstall = checked;
+            element.checked = false;
+            thunderbird.checked = false;
+            virtManager.checked = false;
+            krita.checked = false;
+            element.enabled = false;
+            thunderbird.enabled = false;
+            virtManager.enabled = false;
+            krita.enabled = false;
         } else if (objectName === "fullInstall") {
-            isFullInstall = checked;
+            isMinimalInstall = false;
+            element.checked = true;
+            thunderbird.checked = true;
+            virtManager.checked = true;
+            krita.checked = true;
+        } else {
+            isMinimalInstall = false;
         }
     }
 
@@ -30,12 +47,14 @@ Item {
             font.pointSize: 14
         }
         RadioButton {
-            checked: true
             text: qsTr("Full Installation")
             objectName: "fullInstall"
             font.pointSize: 12
             indicator.width: 20
             indicator.height: 20
+            onClicked: {
+                updatePackageSelections(objectName, checked);
+            }
         }
         Text {
             text: qsTr("All applications in the Normal Installation, and all extra third-party packages listed below.")

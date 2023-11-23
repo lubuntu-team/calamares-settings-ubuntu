@@ -10,6 +10,7 @@ calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
     minimal install is selected.
   * Update snaps used for Krita.
   * Install the QML file to the proper directory.
+  * Add some testing code to the QML file to make it do what we'd like.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
 
