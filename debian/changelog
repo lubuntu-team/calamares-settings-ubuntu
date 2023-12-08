@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.9) noble; urgency=medium
+
+  * Remove muon from the list of packages to purge when doing a minimal
+    installation, it no longer exists in Noble.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 08 Dec 2023 01:16:24 +0000
+
 calamares-settings-ubuntu (1:24.04.8) noble; urgency=medium
 
   * Use lxqt-sudo instead of sudo, to pick up theming.
