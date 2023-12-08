@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.8) noble; urgency=medium
 
   * Use lxqt-sudo instead of sudo, to pick up theming.
   * Even if modules fail, try to perform the unmount.
@@ -12,7 +12,7 @@ calamares-settings-ubuntu (1:24.04.8) UNRELEASED; urgency=medium
   * Install the QML file to the proper directory.
   * Add some testing code to the QML file to make it do what we'd like.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 15:22:22 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 22 Nov 2023 18:30:39 -0600
 
 calamares-settings-ubuntu (1:24.04.7) noble; urgency=medium
 
