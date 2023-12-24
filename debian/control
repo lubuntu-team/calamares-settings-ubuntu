@@ -24,6 +24,7 @@ Rules-Requires-Root: no
 Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         lubuntu-installer-prompt (>= 1.1.1),
          ${misc:Depends}
 Recommends: lubuntu-installer-prompt
 Conflicts: calamares-settings-ubuntustudio
