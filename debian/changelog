@@ -1,8 +1,8 @@
-calamares-settings-ubuntu (1:24.04.11) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.11) noble; urgency=medium
 
   * Update welcome slide for Noble.
 
- -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 30 Dec 2023 16:23:47 -0500
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 30 Dec 2023 16:26:04 -0500
 
 calamares-settings-ubuntu (1:24.04.10) noble; urgency=medium
 
