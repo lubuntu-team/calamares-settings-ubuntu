@@ -1,9 +1,9 @@
-calamares-settings-ubuntu (1:24.04.12) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.12) noble; urgency=medium
 
   * Be compliant with the current state of the deb822 Ubuntu implementation
     specification.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 18 Jan 2024 16:26:50 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 18 Jan 2024 16:27:43 -0600
 
 calamares-settings-ubuntu (1:24.04.11) noble; urgency=medium
 
