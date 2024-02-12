@@ -1,0 +1,13 @@
+#!/bin/bash
+
+msg="$(cat <<EOL
+You are about to disable OEM configuration mode. The system will boot into the
+account setup wizard the next time it is started.
+
+Are you sure you want to continue?
+EOL
+)";
+
+if kdialog --warningyesno "${msg}"; then
+  sed -i "s/Session=plasma/Session=kubuntu-oem-environment/" /etc/sddm.conf
+fi

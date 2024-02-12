@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: calamares,
+Build-Depends: calamares (>= 3.3.1-0ubuntu3),
                cmake,
                debhelper-compat (= 13),
                extra-cmake-modules,
@@ -21,13 +21,24 @@ Vcs-Browser: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu/
 Vcs-Git: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu.git
 Rules-Requires-Root: no
 
+Package: calamares-settings-kubuntu
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntustudio, calamares-settings-lubuntu
+Description: Kubuntu Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Kubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Kubuntu desktop is installed with the
+ KDE Plasma desktop environment.
+
 Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          lubuntu-installer-prompt (>= 1.1.1),
          ${misc:Depends}
 Recommends: lubuntu-installer-prompt
-Conflicts: calamares-settings-ubuntustudio
+Conflicts: calamares-settings-ubuntustudio, calamares-settings-kubuntu
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
  As part of the branding the installer slideshow is contained within.
@@ -55,7 +66,7 @@ Package: calamares-settings-ubuntustudio
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
-Conflicts: calamares-settings-lubuntu
+Conflicts: calamares-settings-lubuntu, calamares-settings-kubuntu
 Description: Ubuntu Studio Calamares Settings and Branding
  This package contains the Calamares settings and branding for Ubuntu Studio.
  As part of the branding the installer slideshow is contained within.

@@ -1,0 +1,10 @@
+kubuntu/branding/ etc/calamares/
+kubuntu/calamares-logs-helper usr/bin/
+kubuntu/calamares-launch-normal usr/bin/
+kubuntu/kubuntu-calamares.desktop usr/share/applications/
+kubuntu/modules/ etc/calamares/
+kubuntu/settings.conf etc/calamares/
+kubuntu/oem/calamares-launch-oem usr/bin/
+kubuntu/oem/calamares-launch-oem.desktop usr/share/applications/
+kubuntu/oem/calamares-oemprep.sh usr/libexec/
+kubuntu/oemconfig.tar.gz etc/calamares/

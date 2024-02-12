@@ -1,3 +1,19 @@
+calamares-settings-ubuntu (1:24.04.14) noble; urgency=medium
+
+  * Add Kubuntu OEM config.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 07 Feb 2024 17:02:27 -0600
+
+calamares-settings-ubuntu (1:24.04.13) noble; urgency=medium
+
+  * Add Kubuntu config.
+  * Update Lubuntu config to create an unencrypted /boot partition when
+    encryption is enabled.
+  * Enforce the use of Calamares 3.3.1-0ubuntu3 or later to ensure that needed
+    encryption-related features are present.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 02 Feb 2024 15:32:10 -0600
+
 calamares-settings-ubuntu (1:24.04.12) noble; urgency=medium
 
   * Be compliant with the current state of the deb822 Ubuntu implementation

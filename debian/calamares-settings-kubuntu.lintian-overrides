@@ -1,0 +1,5 @@
+# there will be no manpage in the foreseeable future
+calamares-settings-kubuntu: no-manual-page [usr/bin/calamares-logs-helper]
+# We're just extracting a log file and preserving it for the user to look at
+# after the installation, this is normal.
+calamares-settings-kubuntu: uses-dpkg-database-directly [usr/bin/calamares-logs-helper]
