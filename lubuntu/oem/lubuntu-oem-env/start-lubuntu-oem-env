@@ -10,7 +10,6 @@ export DESKTOP_SESSION="Lubuntu"
 export QT_STYLE_OVERRIDE="Breeze"
 export QT_QPA_PLATFORMTHEME="lxqt"
 
-sudo rm /etc/sddm.conf # make sure this session is only booted into once
 /usr/bin/openbox &
 /usr/bin/basicwallpaper /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png &
 sudo -E /usr/bin/calamares -D8 # This is intentionally *not* backgrounded.

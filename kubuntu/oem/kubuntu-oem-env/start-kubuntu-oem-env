@@ -2,7 +2,6 @@
 # Starts the Kubuntu OEM Environment.
 export QT_STYLE_OVERRIDE="Breeze"
 
-sudo rm /etc/sddm.conf # Ensure this session only runs on first bootup
 /usr/bin/kwin_x11 &
 /usr/bin/basicwallpaper /usr/share/wallpapers/Next/contents/3840x2160.png &
 sudo -E /usr/bin/calamares -D8 # This is intentionally *not* backgrounded.

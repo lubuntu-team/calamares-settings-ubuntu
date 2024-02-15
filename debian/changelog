@@ -1,3 +1,13 @@
+calamares-settings-ubuntu (1:24.04.16) noble; urgency=medium
+
+  * Actually fix the autologin bug.
+  * Don't kick the user out of first-run configuration mode if they don't
+    complete it the first time around.
+  * Fix a bug that caused the first-run setup wizard to not run even after
+    instructing it to.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 15 Feb 2024 10:36:34 -0600
+
 calamares-settings-ubuntu (1:24.04.15) noble; urgency=medium
 
   * Add Lubuntu OEM config.

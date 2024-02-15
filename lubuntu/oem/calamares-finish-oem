@@ -12,7 +12,7 @@ if kdialog --warningyesno "${msg}"; then
   sddm_file="$(cat <<EOL
 [Autologin]
 Session=lubuntu-oem-environment
-echo 'User=oem
+User=oem
 EOL
 )"
   echo "$sddm_file" | sudo tee /etc/sddm.conf
