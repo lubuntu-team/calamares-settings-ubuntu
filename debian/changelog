@@ -7,6 +7,7 @@ calamares-settings-ubuntu (1:24.04.15) noble; urgency=medium
     wizard.
   * Don't run kdialog as root.
   * Make OEM file cleanup more thorough.
+  * Update copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 14 Feb 2024 12:11:34 -0600
 
