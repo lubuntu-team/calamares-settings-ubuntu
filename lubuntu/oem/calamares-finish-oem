@@ -11,7 +11,7 @@ EOL
 if kdialog --warningyesno "${msg}"; then
   sddm_file="$(cat <<EOL
 [Autologin]
-Session=kubuntu-oem-environment
+Session=lubuntu-oem-environment
 echo 'User=oem
 EOL
 )"

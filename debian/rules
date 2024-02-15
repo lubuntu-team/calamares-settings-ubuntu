@@ -11,14 +11,14 @@ MODULES_DIR = "debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIA
 	dh $@
 
 override_dh_auto_configure:
-	cd $(PKGSELECT) && mkdir build && cd build && cmake ..
+	(cd $(PKGSELECT) && mkdir build && cd build && cmake ..)
 
 override_dh_auto_build:
 	make;
-	cd $(PKGSELECT)/build && $(MAKE)
+	(cd $(PKGSELECT)/build && $(MAKE))
 
 override_dh_auto_install:
-	cd $(PKGSELECT)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-common/ install
+	(cd $(PKGSELECT)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-common/ install)
 
 override_dh_missing:
 	dh_missing

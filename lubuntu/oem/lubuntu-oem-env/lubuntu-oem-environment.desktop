@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/usr/libexec/start-lubuntu-oem-env
+Name=Lubuntu OEM Environment
+Comment=Starts the Lubuntu OEM Environment
+Type=Application

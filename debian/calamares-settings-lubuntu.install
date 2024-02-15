@@ -1,7 +1,12 @@
 common/modules/pkgselect/pkgselect.qml etc/calamares/branding/lubuntu/
 lubuntu/branding/ etc/calamares/
 lubuntu/calamares-logs-helper usr/bin/
+lubuntu/calamares-launch-normal usr/bin/
 lubuntu/lubuntu-calamares.desktop usr/share/applications/
 lubuntu/lubuntu-installer.svg usr/share/icons/hicolor/scalable/apps/
 lubuntu/modules/ etc/calamares/
 lubuntu/settings.conf etc/calamares/
+lubuntu/oem/calamares-launch-oem usr/bin/
+lubuntu/oem/calamares-launch-oem.desktop usr/share/applications/
+lubuntu/oem/calamares-oemprep.sh usr/libexec/
+lubuntu/oemconfig.tar.gz etc/calamares/

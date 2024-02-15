@@ -1,8 +1,7 @@
-# The .desktop file uses sudo to run the installer. sudo is included in the
-# system.
-desktop-command-not-in-package lxqt-sudo [usr/share/applications/lubuntu-calamares.desktop]
-# there will be no manpage in the foreseeable future
-calamares-settings-lubuntu: no-manual-page [usr/bin/calamares-logs-helper]
+# sudo will always exist in the target system
+calamares-settings-lubuntu: desktop-command-not-in-package sudo *
+# there will be no manpage for any of this in the foreseeable future
+calamares-settings-lubuntu: no-manual-page *
 # We're just extracting a log file and preserving it for the user to look at
 # after the installation, this is normal.
 calamares-settings-lubuntu: uses-dpkg-database-directly [usr/bin/calamares-logs-helper]

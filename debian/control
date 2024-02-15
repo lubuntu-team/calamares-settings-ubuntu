@@ -35,7 +35,6 @@ Description: Kubuntu Calamares Settings and Branding
 Package: calamares-settings-lubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
-         lubuntu-installer-prompt (>= 1.1.1),
          ${misc:Depends}
 Recommends: lubuntu-installer-prompt
 Conflicts: calamares-settings-ubuntustudio, calamares-settings-kubuntu
@@ -49,12 +48,14 @@ Package: calamares-settings-ubuntu-common
 Architecture: any
 Depends: calamares (>= 3.2.14~),
          cryptsetup,
+         kdialog,
          keyutils,
          python3,
          python3-distro,
          qml-module-qtquick-window2,
          qml-module-qtquick2,
          squashfs-tools,
+         sudo,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Common Calamares Settings

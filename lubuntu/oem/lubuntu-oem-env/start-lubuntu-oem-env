@@ -1,0 +1,20 @@
+#!/bin/bash
+# Starts the Lubuntu OEM Environment.
+
+# This is pretty overkill, but don't remove anything without testing
+export XDG_CONFIG_DIRS="/etc/xdg/xdg-Lubuntu:"$XDG_CONFIG_DIRS
+export XDG_DATA_DIRS="/usr/share/Lubuntu:"$XDG_DATA_DIRS
+export XDG_SESSION_CLASS="user"
+export XDG_SESSION_DESKTOP="Lubuntu"
+export DESKTOP_SESSION="Lubuntu"
+export QT_STYLE_OVERRIDE="Breeze"
+export QT_QPA_PLATFORMTHEME="lxqt"
+
+sudo rm /etc/sddm.conf # make sure this session is only booted into once
+/usr/bin/openbox &
+/usr/bin/basicwallpaper /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png &
+sudo -E /usr/bin/calamares -D8 # This is intentionally *not* backgrounded.
+# If it exits...
+killall basicwallpaper
+killall openbox
+startlxqt
