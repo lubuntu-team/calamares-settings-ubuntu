@@ -25,7 +25,8 @@ Package: calamares-settings-kubuntu
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
-Conflicts: calamares-settings-ubuntustudio, calamares-settings-lubuntu
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
 Description: Kubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Kubuntu.
  As part of the branding the installer slideshow is contained within.
@@ -37,7 +38,8 @@ Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
 Recommends: lubuntu-installer-prompt
-Conflicts: calamares-settings-ubuntustudio, calamares-settings-kubuntu
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
 Description: Lubuntu Calamares Settings and Branding
  This package contains the Calamares settings and branding for Lubuntu.
  As part of the branding the installer slideshow is contained within.
@@ -67,7 +69,8 @@ Package: calamares-settings-ubuntustudio
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}
-Conflicts: calamares-settings-lubuntu, calamares-settings-kubuntu
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
 Description: Ubuntu Studio Calamares Settings and Branding
  This package contains the Calamares settings and branding for Ubuntu Studio.
  As part of the branding the installer slideshow is contained within.
