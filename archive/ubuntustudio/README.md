@@ -1,6 +1,10 @@
-# Ubuntu Studio's Calamares Settings
+# Ubuntu Studio's Calamares Branding (archived)
 
-This directory houses the Calamares settings for Ubuntu Studio.
+This directory houses the branding Ubuntu Studio used when Calamares was still
+being used as the installer, along with some additional potentially useful
+configuration fragments. Ubuntu Studio has since switched to using
+ubuntu-desktop-provision, and thus most of the actual configuration has been
+removed.
 
 Unless otherwise stated, the contents of this directory are licensed as follows:
 

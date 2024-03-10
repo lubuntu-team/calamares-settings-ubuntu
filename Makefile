@@ -5,11 +5,9 @@
 all:
 	# Desktop file
 	(cd lubuntu/po/ && make)
-	(cd ubuntustudio/po/ && make)
 	(cd kubuntu/po/ && make)
 	# Slideshow
 	(cd lubuntu/branding/lubuntu/lang/ && make)
-	(cd ubuntustudio/branding/ubuntustudio/lang && make)
 	# basicwallpaper
 	(cd common/basicwallpaper && mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make)
 	# Lubuntu OEM setup stuff
@@ -45,8 +43,6 @@ all:
 	# Get rid of the unnecessary files
 	find lubuntu/ -type f -iname "*.in" | xargs rm -f
 	find lubuntu/ -type f -iname "Makefile" | xargs rm -f
-	find ubuntustudio/ -type f -iname "*.in" | xargs rm -f
-	find ubuntustudio/ -type f -iname "Makefile" | xargs rm -f
 	find kubuntu/ -type f -iname "*.in" | xargs rm -f
 	find kubuntu/ -type f -iname "Makefile" | xargs rm -f
 	rm -rf kubuntu/oemconfig

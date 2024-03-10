@@ -64,15 +64,3 @@ Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on
  geolocation.
-
-Package: calamares-settings-ubuntustudio
-Architecture: all
-Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
-         ${misc:Depends}
-Conflicts: calamares-settings-ubuntu-flavor
-Provides: calamares-settings-ubuntu-flavor
-Description: Ubuntu Studio Calamares Settings and Branding
- This package contains the Calamares settings and branding for Ubuntu Studio.
- As part of the branding the installer slideshow is contained within.
- The settings ensure a proper Ubuntu Studio desktop is installed with the
- KDE Plasma desktop environment.

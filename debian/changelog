@@ -1,9 +1,13 @@
-calamares-settings-ubuntu (1:24.04.17) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.17) noble; urgency=medium
 
   [ Neal Gompa ]
   * debian/control: Define the flavor packages as swappable packages
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 01 Mar 2024 13:01:09 -0600
+  [ Aaron Rainbolt ]
+  * Wipe Ubuntu Studio's configuration while preserving branding, Studio now
+    uses ubuntu-desktop-provision.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 10 Mar 2024 18:10:03 -0500
 
 calamares-settings-ubuntu (1:24.04.16) noble; urgency=medium
 
