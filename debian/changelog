@@ -6,6 +6,11 @@ calamares-settings-ubuntu (1:24.04.17) noble; urgency=medium
   [ Aaron Rainbolt ]
   * Wipe Ubuntu Studio's configuration while preserving branding, Studio now
     uses ubuntu-desktop-provision.
+  * Migrate from users.conf password setting "nonEmpty: true" to
+    "minLength: 1" to enforce non-empty passwords.
+    - This is not a new feature, we had non-empty passwords being enforced in
+      the past and didn't intentionally undo this, but Calamares dropped the
+      "nonEmpty: true" setting we were using.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 10 Mar 2024 18:10:03 -0500
 
