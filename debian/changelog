@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.18) noble; urgency=medium
+
+  * GeoIP in welcome module disabled. 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 13 Mar 2024 18:16:06 +0000
+
 calamares-settings-ubuntu (1:24.04.17) noble; urgency=medium
 
   [ Neal Gompa ]
