@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Finish OEM preparation
+Exec=/usr/bin/calamares-finish-oem
+Icon=applications-system
+Terminal=false
+StartupNotify=true
+Categories=System;
+Keywords=installer;calamares;system;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Ubuntu Unity 24.04 LTS (OEM mode)
+Exec=sudo -E /usr/bin/calamares-launch-oem
+Icon=ubuntu-unity-installer
+Terminal=false
+StartupNotify=true
+Categories=Qt;System;
+Keywords=installer;calamares;system;

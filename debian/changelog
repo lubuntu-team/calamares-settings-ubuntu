@@ -1,3 +1,12 @@
+calamares-settings-ubuntu (1:24.04.19) noble; urgency=medium
+
+  * Add Ubuntu Unity configuration. (LP: #2055799)
+  * Disable GeoIP in a couple missed places.
+  * Don't tell the user that they've disabled OEM configuration mode when they
+    chose to not disable it.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 17 Mar 2024 20:14:00 +0000
+
 calamares-settings-ubuntu (1:24.04.18) noble; urgency=medium
 
   * GeoIP in welcome module disabled. 

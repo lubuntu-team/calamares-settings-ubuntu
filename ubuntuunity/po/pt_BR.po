@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-10 02:36-0500\n"
+"PO-Revision-Date: 2018-07-11 06:56+0000\n"
+"Last-Translator: Lucas A. V. Dantas <lucasdantas@yandex.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.lubuntu.me/projects/"
+"lubuntu/calamares-settings-lubuntu-desktop/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.1-dev\n"
+
+#: ../lubuntu-calamares.desktop.in.h:1
+msgid "Install Ubuntu Unity 24.04 LTS"
+msgstr "Instalar Ubuntu Unity 24.04 LTS"
+
+#: ../lubuntu-calamares.desktop.in.h:2
+msgid "Install Ubuntu Unity"
+msgstr "Instalar Ubuntu Unity"
+
+#: ../lubuntu-calamares.desktop.in.h:3
+msgid "Calamares — System Installer"
+msgstr "Calamares — Instalador do sistema"

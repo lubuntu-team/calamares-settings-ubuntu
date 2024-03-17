@@ -1,0 +1,28 @@
+---
+componentName: ubuntuunity
+
+windowExpanding:    fullscreen
+
+strings:
+    productName:         Ubuntu Unity
+    shortProductName:    Ubuntu Unity
+    version:             24.04 LTS
+    shortVersion:        noble
+    versionedName:       Ubuntu Unity
+    shortVersionedName:  Ubuntu Unity 24.04 LTS
+    bootloaderEntryName: Ubuntu
+    productUrl:          https://ubuntuunity.org/
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+slideshowAPI:            1
+
+style:
+   SidebarBackground:    "#484848"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#000000"

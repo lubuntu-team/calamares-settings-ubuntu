@@ -1,0 +1,12 @@
+ubuntuunity/branding/ etc/calamares/
+ubuntuunity/calamares-logs-helper usr/bin/
+ubuntuunity/calamares-launch-normal usr/bin/
+ubuntuunity/ubuntu-unity-calamares.desktop usr/share/applications/
+ubuntuunity/modules/ etc/calamares/
+ubuntuunity/settings.conf etc/calamares/
+ubuntuunity/oem/calamares-launch-oem usr/bin/
+ubuntuunity/oem/calamares-launch-oem.desktop usr/share/applications/
+ubuntuunity/oem/calamares-oemprep.sh usr/libexec/
+ubuntuunity/oemconfig.tar.gz etc/calamares/
+ubuntuunity/kvantum.kvconfig etc/xdg/Kvantum/
+ubuntuunity/ubuntu-unity-installer.svg usr/share/icons/hicolor/scalable/apps/

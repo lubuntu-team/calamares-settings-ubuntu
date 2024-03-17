@@ -1,0 +1,30 @@
+# Base translation file for Ubuntu Unity's Calamares settings
+# Copyright (C) 2018 Ubuntu Unity Developers.
+# This file is distributed under the same license as the package.
+# Simon Quigley <tsimonq2@ubuntu.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-10 02:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../ubuntu-unity-calamares.desktop.in.h:1
+msgid "Install Ubuntu Unity 24.04 LTS"
+msgstr ""
+
+#: ../ubuntu-unity-calamares.desktop.in.h:2
+msgid "Install Ubuntu Unity"
+msgstr ""
+
+#: ../ubuntu-unity-calamares.desktop.in.h:3
+msgid "Calamares — System Installer"
+msgstr ""

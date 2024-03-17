@@ -46,6 +46,20 @@ Description: Lubuntu Calamares Settings and Branding
  The settings ensure a proper Lubuntu desktop is installed with the
  LXQt desktop environment.
 
+Package: calamares-settings-ubuntu-unity
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         qt5-style-kvantum,
+         qt5-style-kvantum-themes,
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
+Description: Ubuntu Unity Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Ubuntu Unity.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Ubuntu Unity desktop is installed with the
+ Unity desktop environment.
+
 Package: calamares-settings-ubuntu-common
 Architecture: any
 Depends: calamares (>= 3.2.14~),

@@ -1,0 +1,7 @@
+# sudo will always be present in the target system
+calamares-settings-ubuntu-unity: desktop-command-not-in-package sudo *
+# there will be no manpage for any of this in the foreseeable future
+calamares-settings-ubuntu-unity: no-manual-page *
+# We're just extracting a log file and preserving it for the user to look at
+# after the installation, this is normal.
+calamares-settings-ubuntu-unity: uses-dpkg-database-directly [usr/bin/calamares-logs-helper]

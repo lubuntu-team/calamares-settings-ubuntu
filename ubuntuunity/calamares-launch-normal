@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Launch Calamares normally.
+
+if [ -e '/etc/calamares/OEM_MODE_ACTIVATED' ]; then
+  msg="$(cat <<EOL
+The installer was previously run in OEM mode. Please reboot to reset the configuration and try again.
+EOL
+  )";
+  zenity --info --text="${msg}";
+  exit 1;
+fi
+
+QT_STYLE_OVERRIDE=kvantum calamares -D8;

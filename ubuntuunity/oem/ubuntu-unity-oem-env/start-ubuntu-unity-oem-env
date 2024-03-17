@@ -1,0 +1,13 @@
+#!/bin/bash
+# Starts the Ubuntu Unity OEM Environment.
+
+DESKTOP_SESSION='ubuntu-unity-oem-env';
+
+/usr/bin/xfwm4 &
+/usr/bin/basicwallpaper /usr/share/backgrounds/ubuntu-unity/ubuntu-unity-default.png &
+sudo -E /usr/bin/calamares -D8 # This is intentionally *not* backgrounded.
+# If it exits...
+pkill -9 basicwallpaper
+pkill -9 xfconfd
+pkill -9 xfwm4
+/usr/libexec/run-systemd-sessoin unity-session.target

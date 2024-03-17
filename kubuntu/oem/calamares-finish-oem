@@ -16,6 +16,5 @@ User=oem
 EOL
 )"
   echo "$sddm_file" | sudo tee /etc/sddm.conf
+  kdialog --msgbox 'Done. The account setup wizard will run on next bootup.'
 fi
-
-kdialog --msgbox 'Done. The account setup wizard will run on next bootup.'
