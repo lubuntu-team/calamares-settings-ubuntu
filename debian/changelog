@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.21) UNRELEASED; urgency=medium
+
+  * Enable pkgselect for everyone.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 21 Mar 2024 18:40:34 -0500
+
 calamares-settings-ubuntu (1:24.04.20) noble; urgency=medium
 
   * Fix LUKS passphrase unlocker for non-US keyboard layouts.
