@@ -1,3 +1,11 @@
+calamares-settings-ubuntu (1:24.04.20) noble; urgency=medium
+
+  * Fix LUKS passphrase unlocker for non-US keyboard layouts.
+  * Disable pkgselect module on Kubuntu, it's not ready for use and wasn't
+    intentionally enabled.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 21 Mar 2024 13:32:53 -0500
+
 calamares-settings-ubuntu (1:24.04.19) noble; urgency=medium
 
   * Add Ubuntu Unity configuration. (LP: #2055799)

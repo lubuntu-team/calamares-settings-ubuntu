@@ -33,3 +33,6 @@ override_dh_missing:
 	chmod 644 $(MODULES_DIR)/pkgselect/module.desc
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/bin/
 	cp -v common/snap_install debian/calamares-settings-ubuntu-common/usr/bin/calamares_snap_install
+	mkdir -pv debian/calamares-settings-ubuntu-common/usr/libexec/
+	cp -v common/fixconkeys-part1 debian/calamares-settings-ubuntu-common/usr/libexec/fixconkeys-part1
+	cp -v common/fixconkeys-part2 debian/calamares-settings-ubuntu-common/usr/libexec/fixconkeys-part2
