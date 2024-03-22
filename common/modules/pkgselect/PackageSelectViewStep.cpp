@@ -113,6 +113,20 @@ void PackageSelectViewStep::onActivate()
             ui->krita_button->setEnabled(false);
         }
     });
+
+    // Connect the storage items
+    /// Full/Normal/Minimal
+    connect(ui->minimal_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->normal_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->full_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    /// Additional Options
+    connect(ui->updates_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->party_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    /// Third-Party Apps
+    connect(ui->element_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->thunderbird_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->virtmanager_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
+    connect(ui->krita_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
 }
 
 void
@@ -123,17 +137,17 @@ PackageSelectViewStep::onLeave()
     for (auto i = m_packageSelections.begin(); i != m_packageSelections.end(); ++i) {
         if (exists_and_true(i.key())) {
             config.insert(i.key(), i.value());
-	}
+	    }
     }
     gs->insert("packages", config);
 }
 
-void PackageSelectViewStep::setPackageSelections(const QVariantMap &value)
-{
-    if (m_packageSelections != value) {
-        m_packageSelections = value;
-        emit packageSelectionsChanged();
-    }
+void PackageSelectViewStep::updatePackageSelections(bool checked) {
+    QObject* sender_obj = sender();
+    if (!sender_obj) return;
+
+    QString key = "packages." + sender_obj->objectName();
+    m_packageSelections[key] = checked;
 }
 
 CALAMARES_PLUGIN_FACTORY_DEFINITION( PackageSelectViewStepFactory, registerPlugin< PackageSelectViewStep >(); )

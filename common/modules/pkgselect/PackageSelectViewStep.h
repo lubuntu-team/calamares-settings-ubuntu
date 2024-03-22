@@ -35,7 +35,7 @@ public:
     void onLeave() override;
 
     QVariantMap packageSelections() const { return m_packageSelections; }
-    void setPackageSelections(const QVariantMap &value);
+    void updatePackageSelections(bool checked);
 
 signals:
     void packageSelectionsChanged();
