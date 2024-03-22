@@ -1,6 +1,6 @@
-calamares-settings-ubuntu (1:24.04.21) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
 
-  * Enable pkgselect for everyone.
+  * Revamp pkgselect UI and enable it for everyone. (LP: #2056061)
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 21 Mar 2024 18:40:34 -0500
 
