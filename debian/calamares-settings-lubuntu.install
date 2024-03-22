@@ -1,4 +1,3 @@
-common/modules/pkgselect/pkgselect.qml etc/calamares/branding/lubuntu/
 lubuntu/branding/ etc/calamares/
 lubuntu/calamares-logs-helper usr/bin/
 lubuntu/calamares-launch-normal usr/bin/
