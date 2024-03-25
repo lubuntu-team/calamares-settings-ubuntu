@@ -11,4 +11,5 @@ EOL
   exit 1;
 fi
 
+export BROWSER='sudo -H -u ubuntu-unity firefox'
 QT_STYLE_OVERRIDE=kvantum calamares -D8;

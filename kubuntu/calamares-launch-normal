@@ -12,4 +12,5 @@ EOL
   exit 1;
 fi
 
+export BROWSER='sudo -H -u kubuntu firefox'
 calamares -D8;

@@ -9,6 +9,7 @@ export XDG_SESSION_DESKTOP="Lubuntu"
 export DESKTOP_SESSION="Lubuntu"
 export QT_STYLE_OVERRIDE="Breeze"
 export QT_QPA_PLATFORMTHEME="lxqt"
+export BROWSER='sudo -H -u lubuntu firefox'
 
 /usr/bin/openbox &
 /usr/bin/basicwallpaper /usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png &

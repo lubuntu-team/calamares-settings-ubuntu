@@ -3,6 +3,7 @@
 # Enables OEM installaiton mode in Calamares.
 
 if [ -e '/etc/calamares/OEM_MODE_ACTIVATED' ]; then
+  export BROWSER='sudo -H -u ubuntu-unity firefox'
   QT_STYLE_OVERRIDE=kvantum calamares -D8;
   exit;
 fi
@@ -35,5 +36,6 @@ if zenity --question --text="${msg}"; then
   touch /etc/calamares/OEM_MODE_ACTIVATED;
 
   # Launch Calamares
+  export BROWSER='sudo -H -u ubuntu-unity firefox'
   QT_STYLE_OVERRIDE=kvantum calamares -D8;
 fi

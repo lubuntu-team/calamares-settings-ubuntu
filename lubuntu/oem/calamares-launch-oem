@@ -3,6 +3,7 @@
 # Enables OEM installaiton mode in Calamares.
 
 if [ -e '/etc/calamares/OEM_MODE_ACTIVATED' ]; then
+  export BROWSER='sudo -H -u lubuntu firefox'
   calamares -D8;
   exit;
 fi
@@ -38,5 +39,6 @@ if kdialog --warningyesno "${msg}"; then
   touch /etc/calamares/OEM_MODE_ACTIVATED;
 
   # Launch Calamares
+  export BROWSER='sudo -H -u lubuntu firefox'
   calamares -D8;
 fi

@@ -1,7 +1,8 @@
 #!/bin/bash
 # Starts the Ubuntu Unity OEM Environment.
 
-DESKTOP_SESSION='ubuntu-unity-oem-env';
+export DESKTOP_SESSION='ubuntu-unity-oem-env'
+export BROWSER='sudo -H -u ubuntu-unity firefox'
 
 /usr/bin/xfwm4 &
 /usr/bin/basicwallpaper /usr/share/backgrounds/ubuntu-unity/ubuntu-unity-default.png &
