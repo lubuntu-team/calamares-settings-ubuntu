@@ -5,6 +5,11 @@ calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
 
   [ Aaron Rainbolt ]
   * Use GPT partition tables by default, even on BIOS systems. (LP: #2054601)
+  * Don't try to start Unity after the OEM environment exits on Ubuntu Unity,
+    this has to be done by logging in via LightDM.
+
+  [ Walter Lapchynski ]
+  * Make links work. (LP: #1981473)
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 21 Mar 2024 18:40:34 -0500
 

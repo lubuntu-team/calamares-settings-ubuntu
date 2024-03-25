@@ -11,4 +11,3 @@ sudo -E /usr/bin/calamares -D8 # This is intentionally *not* backgrounded.
 pkill -9 basicwallpaper
 pkill -9 xfconfd
 pkill -9 xfwm4
-/usr/libexec/run-systemd-sessoin unity-session.target
