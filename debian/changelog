@@ -4,7 +4,6 @@ calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
   * Revamp pkgselect and enable it for everyone. (LP: #2056061)
 
   [ Aaron Rainbolt ]
-  * Use GPT partition tables by default, even on BIOS systems. (LP: #2054601)
   * Don't try to start Unity after the OEM environment exits on Ubuntu Unity,
     this has to be done by logging in via LightDM.
 
