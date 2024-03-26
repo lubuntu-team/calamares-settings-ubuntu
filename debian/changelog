@@ -6,6 +6,7 @@ calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
   [ Aaron Rainbolt ]
   * Don't try to start Unity after the OEM environment exits on Ubuntu Unity,
     this has to be done by logging in via LightDM.
+  * Fix a couple of goofs with post-install package purging.
 
   [ Walter Lapchynski ]
   * Make links work. (LP: #1981473)
