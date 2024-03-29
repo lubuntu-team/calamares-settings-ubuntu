@@ -146,8 +146,16 @@ void PackageSelectViewStep::updatePackageSelections(bool checked) {
     QObject* sender_obj = sender();
     if (!sender_obj) return;
 
-    QString key = "packages." + sender_obj->objectName();
-    m_packageSelections[key] = checked;
+    QString key = sender_obj->objectName();
+
+    // snake_case -> camelCase
+    QStringList parts = key.split("_", Qt::SkipEmptyParts);
+    for (int i = 1; i < parts.size(); ++i) {
+        parts[i][0] = parts[i][0].toUpper();
+    }
+    QString camelCaseKey = parts.join("");
+
+    m_packageSelections[camelCaseKey] = checked;
 }
 
 CALAMARES_PLUGIN_FACTORY_DEFINITION( PackageSelectViewStepFactory, registerPlugin< PackageSelectViewStep >(); )
