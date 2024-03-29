@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: calamares (>= 3.3.1-0ubuntu3),
+Build-Depends: calamares (>= 3.3.5),
                cmake,
                debhelper-compat (= 13),
                extra-cmake-modules,
