@@ -1,7 +1,8 @@
-calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
+calamares-settings-ubuntu (1:24.04.21) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * Revamp pkgselect and enable it for everyone. (LP: #2056061)
+  * Wraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaap.
 
   [ Aaron Rainbolt ]
   * Don't try to start Unity after the OEM environment exits on Ubuntu Unity,
