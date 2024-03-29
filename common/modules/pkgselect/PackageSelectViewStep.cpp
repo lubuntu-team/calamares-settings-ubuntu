@@ -1,6 +1,7 @@
 #include "PackageSelectViewStep.h"
 #include "JobQueue.h"
 #include "GlobalStorage.h"
+#include "network/Manager.h"
 
 #include <QVariantMap>
 
@@ -64,25 +65,31 @@ void PackageSelectViewStep::onActivate()
 {
     // Connect the Minimal Installation radio button
     connect(ui->minimal_button, &QRadioButton::toggled, this, [this](bool checked) {
-        ui->extraparty_scroll->setVisible(!checked);
-        ui->extraparty_text->setVisible(!checked);
+        Calamares::Network::Manager network;
+        if (checked && network.hasInternet()) {
+            ui->extraparty_scroll->setVisible(false);
+            ui->extraparty_text->setVisible(false);
+            ui->mandatory_warning_label->setVisible(false);
 
-        ui->element_button->setChecked(false);
-        ui->thunderbird_button->setChecked(false);
-        ui->virtmanager_button->setChecked(false);
-        ui->krita_button->setChecked(false);
+            ui->element_button->setChecked(false);
+            ui->thunderbird_button->setChecked(false);
+            ui->virtmanager_button->setChecked(false);
+            ui->krita_button->setChecked(false);
 
-        ui->element_button->setEnabled(!checked);
-        ui->thunderbird_button->setEnabled(!checked);
-        ui->virtmanager_button->setEnabled(!checked);
-        ui->krita_button->setEnabled(!checked);
+            ui->element_button->setEnabled(false);
+            ui->thunderbird_button->setEnabled(false);
+            ui->virtmanager_button->setEnabled(false);
+            ui->krita_button->setEnabled(false);
+        }
     });
 
     // Connect the Normal Installation radio button
     connect(ui->normal_button, &QRadioButton::toggled, this, [this](bool checked) {
-        if (checked) {
+        Calamares::Network::Manager network;
+        if (checked && network.hasInternet()) {
             ui->extraparty_scroll->setVisible(true);
             ui->extraparty_text->setVisible(true);
+            ui->mandatory_warning_label->setVisible(true);
 
             ui->element_button->setChecked(false);
             ui->thunderbird_button->setChecked(false);
@@ -98,9 +105,11 @@ void PackageSelectViewStep::onActivate()
 
     // Connect the Full Installation radio button
     connect(ui->full_button, &QRadioButton::toggled, this, [this](bool checked) {
-        if (checked) {
+        Calamares::Network::Manager network;
+        if (checked && network.hasInternet()) {
             ui->extraparty_scroll->setVisible(true);
             ui->extraparty_text->setVisible(true);
+            ui->mandatory_warning_label->setVisible(true);
 
             ui->element_button->setChecked(true);
             ui->thunderbird_button->setChecked(true);
@@ -113,6 +122,33 @@ void PackageSelectViewStep::onActivate()
             ui->krita_button->setEnabled(false);
         }
     });
+
+    // Disable many bits of functionality if network is not enabled
+    Calamares::Network::Manager network;
+    if (!network.hasInternet()) {
+        ui->full_button->setVisible(false);
+        ui->full_text->setVisible(false);
+
+        ui->additional_label->setVisible(false);
+        ui->updates_button->setVisible(false);
+        ui->updates_text->setVisible(false);
+        ui->party_button->setVisible(false);
+        ui->party_text->setVisible(false);
+
+        ui->extraparty_scroll->setVisible(false);
+        ui->extraparty_text->setVisible(false);
+        ui->mandatory_warning_label->setVisible(false);
+
+        ui->element_button->setChecked(false);
+        ui->thunderbird_button->setChecked(false);
+        ui->virtmanager_button->setChecked(false);
+        ui->krita_button->setChecked(false);
+
+        ui->element_button->setEnabled(false);
+        ui->thunderbird_button->setEnabled(false);
+        ui->virtmanager_button->setEnabled(false);
+        ui->krita_button->setEnabled(false);
+    }
 
     // Connect the storage items
     /// Full/Normal/Minimal
