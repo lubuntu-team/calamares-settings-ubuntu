@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.22) noble; urgency=medium
+
+  * Add missing build dependency on golang-go.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 01 Apr 2024 15:28:24 -0500
+
 calamares-settings-ubuntu (1:24.04.21) noble; urgency=medium
 
   [ Simon Quigley ]
