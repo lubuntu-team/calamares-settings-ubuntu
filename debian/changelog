@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.24) noble; urgency=medium
+
+  * Don't try to remove the nonexistant zram-config package from a Kubuntu
+    installation.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 08 Apr 2024 21:07:08 -0500
+
 calamares-settings-ubuntu (1:24.04.23) noble; urgency=medium
 
   * Set GOCACHE to stay within the build directory
