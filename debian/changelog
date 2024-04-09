@@ -1,6 +1,8 @@
 calamares-settings-ubuntu (1:24.04.25) UNRELEASED; urgency=medium
 
   * Be completely sure apt will not try to prompt the user.
+  * Bump the timeout limits to 15 minutes for both pkgselect
+    contextualprocess modules.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 09 Apr 2024 03:01:19 -0500
 
