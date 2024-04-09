@@ -29,7 +29,7 @@ QLabel {
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="2">
-    <spacer name="horizontalSpacer_2">
+    <spacer name="right_spacer">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
@@ -601,7 +601,7 @@ QLabel {
     </widget>
    </item>
    <item row="0" column="0">
-    <spacer name="horizontalSpacer">
+    <spacer name="left_spacer">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>

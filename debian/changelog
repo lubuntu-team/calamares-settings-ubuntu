@@ -5,6 +5,7 @@ calamares-settings-ubuntu (1:24.04.25) UNRELEASED; urgency=medium
     contextualprocess modules.
   * Allow fixconkeys-part2 a 5 minute window to run, which should be
     enough to run update-initramfs (LP: #2060429).
+  * Adjust spacers accordingly on no network.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 09 Apr 2024 03:01:19 -0500
 

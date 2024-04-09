@@ -129,6 +129,9 @@ void PackageSelectViewStep::onActivate()
         ui->full_button->setVisible(false);
         ui->full_text->setVisible(false);
 
+        ui->left_spacer->changeSize(20, 20, QSizePolicy::Fixed, QSizePolicy::Fixed);
+        ui->right_spacer->changeSize(0, 0, QSizePolicy::Fixed, QSizePolicy::Fixed);
+
         ui->additional_label->setVisible(false);
         ui->updates_button->setVisible(false);
         ui->updates_text->setVisible(false);
