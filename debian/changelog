@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.26) noble; urgency=medium
+
+  * Make the pkgselect module actually work on Kubuntu and Ubuntu Unity.
+    (LP: #2060879)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 10 Apr 2024 16:16:21 -0500
+
 calamares-settings-ubuntu (1:24.04.25) noble; urgency=medium
 
   * Be completely sure apt will not try to prompt the user.
