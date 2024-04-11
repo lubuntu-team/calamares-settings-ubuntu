@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.27) noble; urgency=medium
+
+  * Run the pkgselect contextualprocesses after packages in Kubuntu and Ubuntu
+    Unity (LP: #2060879)
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 11 Apr 2024 02:49:44 -0500
+
 calamares-settings-ubuntu (1:24.04.26) noble; urgency=medium
 
   * Make the pkgselect module actually work on Kubuntu and Ubuntu Unity.
