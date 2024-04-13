@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.28) noble; urgency=medium
+
+  * Run apt updates before installing packages. (LP: #2061150) 
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 13 Apr 2024 00:44:32 +0000
+
 calamares-settings-ubuntu (1:24.04.27) noble; urgency=medium
 
   * Run the pkgselect contextualprocesses after packages in Kubuntu and Ubuntu
