@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.04.29) UNRELEASED; urgency=medium
+
+  * Change Kubuntu's Calamares sidebar color.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 15 Apr 2024 15:49:38 -0400
+
 calamares-settings-ubuntu (1:24.04.28) noble; urgency=medium
 
   * Run apt updates before installing packages. (LP: #2061150) 
