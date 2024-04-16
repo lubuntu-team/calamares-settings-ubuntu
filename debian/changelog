@@ -1,8 +1,12 @@
-calamares-settings-ubuntu (1:24.04.29) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.04.29) noble; urgency=medium
 
+  [ Aaron Rainbolt ]
   * Change Kubuntu's Calamares sidebar color.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Mon, 15 Apr 2024 15:49:38 -0400
+  [ Walter Lapchynski ]
+  * Remove after_bootloader contextual process. (LP: #2061681)
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Tue, 16 Apr 2024 01:10:47 +0000
 
 calamares-settings-ubuntu (1:24.04.28) noble; urgency=medium
 
