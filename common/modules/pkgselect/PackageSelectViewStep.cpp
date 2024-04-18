@@ -135,8 +135,6 @@ void PackageSelectViewStep::onActivate()
         ui->additional_label->setVisible(false);
         ui->updates_button->setVisible(false);
         ui->updates_text->setVisible(false);
-        ui->party_button->setVisible(false);
-        ui->party_text->setVisible(false);
 
         ui->extraparty_scroll->setVisible(false);
         ui->extraparty_text->setVisible(false);
@@ -160,7 +158,6 @@ void PackageSelectViewStep::onActivate()
     connect(ui->full_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
     /// Additional Options
     connect(ui->updates_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
-    connect(ui->party_button, &QRadioButton::toggled, this, &PackageSelectViewStep::updatePackageSelections);
     /// Third-Party Apps
     connect(ui->element_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
     connect(ui->thunderbird_button, &QCheckBox::toggled, this, &PackageSelectViewStep::updatePackageSelections);
