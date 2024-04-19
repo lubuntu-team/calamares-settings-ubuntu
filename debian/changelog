@@ -1,9 +1,14 @@
+calamares-settings-ubuntu (1:24.04.37) noble; urgency=medium
+
+  * Correctly lengthen timeouts for network and initramfs package commands.
+    (LP: #2060429)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 19 Apr 2024 18:52:09 -0500
+
 calamares-settings-ubuntu (1:24.04.36) noble; urgency=medium
 
   * Don't show Thunderbird as an installable third-party app on Kubuntu.
     (LP: #2062438)
-  * Correctly lengthen timeouts for network and initramfs package commands.
-    (LP: #2060429)
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 19 Apr 2024 17:38:06 -0500
 
