@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.36) noble; urgency=medium
+
+  * Don't show Thunderbird as an installable third-party app on Kubuntu.
+    (LP: #2062438)
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Fri, 19 Apr 2024 17:38:06 -0500
+
 calamares-settings-ubuntu (1:24.04.35) noble; urgency=medium
 
   * Remove timeouts for network-related package commands. (LP: #2062106)

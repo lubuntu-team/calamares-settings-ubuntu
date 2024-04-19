@@ -1,6 +1,7 @@
 #include "PackageSelectViewStep.h"
 #include "JobQueue.h"
 #include "GlobalStorage.h"
+#include "Branding.h"
 #include "network/Manager.h"
 
 #include <QVariantMap>
@@ -149,6 +150,16 @@ void PackageSelectViewStep::onActivate()
         ui->thunderbird_button->setEnabled(false);
         ui->virtmanager_button->setEnabled(false);
         ui->krita_button->setEnabled(false);
+    }
+
+    // Thunderbird exists on Kubuntu already
+    if (Calamares::Branding::instance()->componentName() == "kubuntu") {
+      ui->thunderbird_button->setChecked(false);
+      ui->thunderbird_button->setEnabled(false);
+      ui->thunderbird_button->setVisible(false);
+      ui->thunderbird_text->setVisible(false);
+      ui->thunderbird_spacer->changeSize(0, 0, QSizePolicy::Fixed, QSizePolicy::Fixed);
+      ui->thunderbird_spacer->invalidate();
     }
 
     // Connect the storage items
