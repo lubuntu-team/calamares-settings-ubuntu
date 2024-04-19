@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.04.33) noble; urgency=medium
+
+  * Fix slideshow image sizes for Kubuntu.
+  * Fix the size of the logo in the upper-left corner for Kubuntu.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 18 Apr 2024 19:28:02 -0500
+
 calamares-settings-ubuntu (1:24.04.32) noble; urgency=medium
 
   * Remove the third-party driver installation checkbox from pkgselect, its
