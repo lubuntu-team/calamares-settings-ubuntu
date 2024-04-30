@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Ubuntu Unity
     shortProductName:    Ubuntu Unity
-    version:             24.04 LTS
-    shortVersion:        noble
+    version:             24.10
+    shortVersion:        oracular
     versionedName:       Ubuntu Unity
-    shortVersionedName:  Ubuntu Unity 24.04 LTS
+    shortVersionedName:  Ubuntu Unity 24.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntuunity.org/
 

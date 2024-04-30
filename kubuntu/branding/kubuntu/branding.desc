@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Kubuntu
     shortProductName:    Kubuntu
-    version:             24.04 LTS
-    shortVersion:        noble
+    version:             24.10
+    shortVersion:        oracular
     versionedName:       Kubuntu
-    shortVersionedName:  Kubuntu 24.04 LTS
+    shortVersionedName:  Kubuntu 24.10
     bootloaderEntryName: Kubuntu
     productUrl:          https://kubuntu.org/
     supportUrl:          https://kubuntu.org/contact/

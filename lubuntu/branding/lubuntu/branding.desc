@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             24.04 LTS
-    shortVersion:        noble
+    version:             24.10
+    shortVersion:        oracular
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 24.04 LTS
+    shortVersionedName:  Lubuntu 24.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/

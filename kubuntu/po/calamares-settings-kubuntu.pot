@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../kubuntu-calamares.desktop.in.h:1
-msgid "Install Kubuntu 24.04 LTS"
+msgid "Install Kubuntu 24.10"
 msgstr ""
 
 #: ../kubuntu-calamares.desktop.in.h:2

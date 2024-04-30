@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Ubuntu Unity 24.04 LTS
+_Name=Install Ubuntu Unity 24.10
 _GenericName=Install Ubuntu Unity
 Exec=sudo -E /usr/bin/calamares-launch-normal
 _Comment=Calamares — System Installer

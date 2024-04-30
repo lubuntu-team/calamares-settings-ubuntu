@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../kubuntu-calamares.desktop.in.h:1
-msgid "Install Kubuntu 24.04 LTS"
-msgstr "Instalar Kubuntu 24.04 LTS"
+msgid "Install Kubuntu 24.10"
+msgstr "Instalar Kubuntu 24.10"
 
 #: ../kubuntu-calamares.desktop.in.h:2
 msgid "Install Kubuntu"
