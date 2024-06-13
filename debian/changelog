@@ -4,6 +4,8 @@ calamares-settings-ubuntu (1:24.10.2) UNRELEASED; urgency=medium
   * kubuntu: Use networkcheck.kde.org for checking for an Internet connection
   * kubuntu: Do not recommend that the user have an Internet connection during
     first-time user setup after an OEM installation
+  * ubuntuunity: Do not recommend that the user have an Internet connection
+    during first-time user setup after an OEM installation
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 12 Jun 2024 23:26:13 -0500
 
