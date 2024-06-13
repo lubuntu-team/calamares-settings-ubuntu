@@ -14,6 +14,8 @@ calamares-settings-ubuntu (1:24.10.2) UNRELEASED; urgency=medium
       configuration user's UID to 60999 results in the first real user having
       UID 1000. This is similar (though not identical) to Ubiquity's behavior
       with the OEM configuration user.
+  * kubuntu: Use QT_QPA_PLATFORMTHEME="kde" rather than
+    QT_STYLE_OVERRIDE="Breeze" for the OEM first-time setup session.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 12 Jun 2024 23:26:13 -0500
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Starts the Kubuntu OEM Environment.
-export QT_STYLE_OVERRIDE="Breeze"
+export QT_QPA_PLATFORMTHEME="kde"
 export BROWSER='sudo -H -u kubuntu firefox'
 
 /usr/bin/kwin_x11 &
