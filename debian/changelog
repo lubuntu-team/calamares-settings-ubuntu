@@ -6,6 +6,14 @@ calamares-settings-ubuntu (1:24.10.2) UNRELEASED; urgency=medium
     first-time user setup after an OEM installation
   * ubuntuunity: Do not recommend that the user have an Internet connection
     during first-time user setup after an OEM installation
+  * all: Change the UID of the OEM configuration user to 60999.
+    - This is done because otherwise the OEM configuration user is given UID
+      1000. This results in the first real user on the machine having UID
+      1001, which could cause issues in a single-user deployment where the
+      user must have or is assumed to have UID 1000. Setting the OEM
+      configuration user's UID to 60999 results in the first real user having
+      UID 1000. This is similar (though not identical) to Ubiquity's behavior
+      with the OEM configuration user.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 12 Jun 2024 23:26:13 -0500
 
