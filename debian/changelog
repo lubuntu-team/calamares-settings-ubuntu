@@ -1,4 +1,4 @@
-calamares-settings-ubuntu (1:24.10.2) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:24.10.2) oracular; urgency=medium
 
   * kubuntu: Change donate URL to point to Kubuntu's donation page
   * kubuntu: Use networkcheck.kde.org for checking for an Internet connection
