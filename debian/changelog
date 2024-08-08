@@ -1,3 +1,10 @@
+calamares-settings-ubuntu (1:24.10.3) oracular; urgency=medium
+
+  * Fix pkgselect UI becoming centered when minimal install mode is selected.
+    (LP: #2076303) 
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 08 Aug 2024 14:25:24 -0500
+
 calamares-settings-ubuntu (1:24.10.2) oracular; urgency=medium
 
   * kubuntu: Change donate URL to point to Kubuntu's donation page
