@@ -1,6 +1,8 @@
 calamares-settings-ubuntu (1:24.10.4) oracular; urgency=medium
 
   * Fix welcome image for Kubuntu, Lubuntu, and Ubuntu Unity. (LP: #2080925)
+  * Set root partition name properly for Kubuntu, Lubuntu, and Ubuntu Unity.
+    (LP: #2065602)
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 24 Sep 2024 22:23:11 -0500
 
