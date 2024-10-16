@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Kubuntu
     shortProductName:    Kubuntu
-    version:             24.10
-    shortVersion:        oracular
+    version:             25.04
+    shortVersion:        plucky
     versionedName:       Kubuntu
-    shortVersionedName:  Kubuntu 24.10
+    shortVersionedName:  Kubuntu 25.04
     bootloaderEntryName: Kubuntu
     productUrl:          https://kubuntu.org/
     supportUrl:          https://kubuntu.org/contact/

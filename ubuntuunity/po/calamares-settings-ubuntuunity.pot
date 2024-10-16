@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../ubuntu-unity-calamares.desktop.in.h:1
-msgid "Install Ubuntu Unity 24.10"
+msgid "Install Ubuntu Unity 25.04"
 msgstr ""
 
 #: ../ubuntu-unity-calamares.desktop.in.h:2

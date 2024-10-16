@@ -19,7 +19,6 @@ override_dh_auto_configure:
 override_dh_auto_build:
 	make;
 	(cd $(PKGSELECT)/build && $(MAKE))
-	(cd common/snap-seed-glue && go build -gcflags="all=-N -l" -ldflags="-compressdwarf=false" -o snap-seed-glue main.go)
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -40,7 +39,6 @@ override_dh_missing:
 	chmod 644 $(MODULES_DIR)/pkgselect/libcalamares_viewmodule_pkgselect.so
 	chmod 644 $(MODULES_DIR)/pkgselect/module.desc
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/bin/
-	cp -v common/snap-seed-glue/snap-seed-glue debian/calamares-settings-ubuntu-common/usr/bin/snap-seed-glue
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/libexec/
 	cp -v common/fixconkeys-part1 debian/calamares-settings-ubuntu-common/usr/libexec/fixconkeys-part1
 	cp -v common/fixconkeys-part2 debian/calamares-settings-ubuntu-common/usr/libexec/fixconkeys-part2

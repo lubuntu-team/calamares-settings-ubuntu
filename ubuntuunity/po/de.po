@@ -15,8 +15,8 @@ msgstr ""
 "X-Generator: Weblate 3.1-dev\n"
 
 #: ../lubuntu-calamares.desktop.in.h:1
-msgid "Install Ubuntu Unity 24.10"
-msgstr "Ubuntu Unity 24.10 installieren"
+msgid "Install Ubuntu Unity 25.04"
+msgstr "Ubuntu Unity 25.04 installieren"
 
 #: ../lubuntu-calamares.desktop.in.h:2
 msgid "Install Ubuntu Unity"

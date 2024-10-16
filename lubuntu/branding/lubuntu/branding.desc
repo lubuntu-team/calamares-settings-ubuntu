@@ -6,10 +6,10 @@ windowExpanding:    fullscreen
 strings:
     productName:         Lubuntu
     shortProductName:    Lubuntu
-    version:             24.10
-    shortVersion:        oracular
+    version:             25.04
+    shortVersion:        plucky
     versionedName:       Lubuntu
-    shortVersionedName:  Lubuntu 24.10
+    shortVersionedName:  Lubuntu 25.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://lubuntu.me/
     supportUrl:          https://lubuntu.me/links/

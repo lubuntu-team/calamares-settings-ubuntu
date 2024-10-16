@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Lubuntu 24.10
+_Name=Install Lubuntu 25.04
 _GenericName=Install Lubuntu
 Exec=sudo -E /usr/bin/calamares-launch-normal
 _Comment=Calamares — System Installer

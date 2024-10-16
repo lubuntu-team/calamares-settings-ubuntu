@@ -1,6 +1,7 @@
 calamares-settings-ubuntu (1:25.04.1) UNRELEASED; urgency=medium
 
   * Welcome to Plucky Puffin!
+  * Port to Qt 6.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 15 Oct 2024 21:05:10 -0500
 

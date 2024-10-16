@@ -3,22 +3,20 @@ Section: devel
 Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: calamares (>= 3.3.5),
+Build-Depends: calamares (>= 3.3.9),
                cmake,
                debhelper-compat (= 13),
                extra-cmake-modules,
-               golang-github-snapcore-snapd-dev (>= 2.62),
-               golang-go,
-               golang-gopkg-yaml.v2-dev,
                intltool,
-               libkf5coreaddons-dev,
-               libqt5svg5-dev,
+               libkf6coreaddons-dev,
+               libqt6svg6-dev,
                libyaml-cpp-dev,
-               qtbase5-dev,
-               qtdeclarative5-dev,
-               qttools5-dev,
-               qttools5-dev-tools
-Standards-Version: 4.6.2
+               qt6-base-dev,
+               qt6-declarative-dev,
+               qt6-l10n-tools,
+               qt6-tools-dev,
+               qt6-tools-dev-tools
+Standards-Version: 4.7.0
 Homepage: https://code.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu/
 Vcs-Git: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu.git
@@ -52,8 +50,8 @@ Description: Lubuntu Calamares Settings and Branding
 Package: calamares-settings-ubuntu-unity
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
-         qt5-style-kvantum,
-         qt5-style-kvantum-themes,
+         qt6-style-kvantum,
+         qt6-style-kvantum-themes,
          ${misc:Depends}
 Conflicts: calamares-settings-ubuntu-flavor
 Provides: calamares-settings-ubuntu-flavor
@@ -65,14 +63,14 @@ Description: Ubuntu Unity Calamares Settings and Branding
 
 Package: calamares-settings-ubuntu-common
 Architecture: any
-Depends: calamares (>= 3.2.14~),
+Depends: calamares (>= 3.3.9),
          cryptsetup,
          kdialog,
          keyutils,
          python3,
          python3-distro,
-         qml-module-qtquick-window2,
-         qml-module-qtquick2,
+         qml6-module-qtquick,
+         qml6-module-qtquick-window,
          squashfs-tools,
          sudo,
          ${misc:Depends},
