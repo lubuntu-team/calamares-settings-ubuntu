@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 
 include(FeatureSummary)
 
-set( CMAKE_CXX_STANDARD 17 )
+set( CMAKE_CXX_STANDARD 20 )
 set( CMAKE_CXX_STANDARD_REQUIRED ON )
 
 set( CALAMARES_VERSION_REQUIRED 3.3.9 )
@@ -20,12 +20,11 @@ message(STATUS "Found Calamares version ${Calamares_VERSION}")
 message(STATUS "              libraries ${Calamares_LIB_DIRS}")
 message(STATUS "")
 
-calamares_add_plugin( pkgselect
-    TYPE viewmodule
+calamares_add_plugin( pkgselectprocess
+    TYPE job
     EXPORT_MACRO PLUGINDLLEXPORT_PRO
     SOURCES
-    	PackageSelectViewStep.cpp
-    UI
-        pkgselect.ui
+    	PackageSelectProcess.cpp
     SHARED_LIB
+    NO_CONFIG
 )

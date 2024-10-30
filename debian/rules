@@ -5,20 +5,23 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export GOPATH=/usr/share/gocode
 export GO111MODULE=off
 export GOCACHE=$(CURDIR)/.gocache
+export PKGSELECT = "common/modules/pkgselect"
+export PKGSELECTPROCESS = "common/modules/pkgselectprocess"
+export MODULES_DIR = "debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules"
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-PKGSELECT = "common/modules/pkgselect"
-MODULES_DIR = "debian/calamares-settings-ubuntu-common/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules"
 
 %:
 	dh $@
 
 override_dh_auto_configure:
 	(cd $(PKGSELECT) && mkdir build && cd build && cmake ..)
+	(cd $(PKGSELECTPROCESS) && mkdir build && cd build && cmake ..)
 
 override_dh_auto_build:
 	make;
 	(cd $(PKGSELECT)/build && $(MAKE))
+	(cd $(PKGSELECTPROCESS)/build && $(MAKE))
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -26,6 +29,7 @@ override_dh_auto_clean:
 
 override_dh_auto_install:
 	(cd $(PKGSELECT)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-common/ install)
+	(cd $(PKGSELECTPROCESS)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-common/ install)
 
 override_dh_missing:
 	dh_missing
@@ -38,6 +42,8 @@ override_dh_missing:
 	chmod 644 $(MODULES_DIR)/automirror/module.desc
 	chmod 644 $(MODULES_DIR)/pkgselect/libcalamares_viewmodule_pkgselect.so
 	chmod 644 $(MODULES_DIR)/pkgselect/module.desc
+	chmod 644 $(MODULES_DIR)/pkgselectprocess/libcalamares_job_pkgselectprocess.so
+	chmod 644 $(MODULES_DIR)/pkgselectprocess/module.desc
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/bin/
 	mkdir -pv debian/calamares-settings-ubuntu-common/usr/libexec/
 	cp -v common/fixconkeys-part1 debian/calamares-settings-ubuntu-common/usr/libexec/fixconkeys-part1

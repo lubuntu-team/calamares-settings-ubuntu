@@ -1,9 +1,10 @@
-calamares-settings-ubuntu (1:25.04.1) UNRELEASED; urgency=medium
+calamares-settings-ubuntu (1:25.04.1) plucky; urgency=medium
 
   * Welcome to Plucky Puffin!
   * Port to Qt 6.
+  * Rewrite the pkgselect module and its processing.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 15 Oct 2024 21:05:10 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 22 Oct 2024 19:23:22 -0500
 
 calamares-settings-ubuntu (1:24.10.5) oracular; urgency=medium
 
