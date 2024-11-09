@@ -7,5 +7,6 @@ lubuntu/modules/ etc/calamares/
 lubuntu/oem/calamares-launch-oem usr/bin/
 lubuntu/oem/calamares-launch-oem.desktop usr/share/applications/
 lubuntu/oem/calamares-oemprep.sh usr/libexec/
+lubuntu/oem/calamares-raspiprep.sh usr/libexec/
 lubuntu/oemconfig.tar.gz etc/calamares/
 lubuntu/settings.conf etc/calamares/
