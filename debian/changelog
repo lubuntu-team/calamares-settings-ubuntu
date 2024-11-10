@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:25.04.3) plucky; urgency=medium
+
+  * Lubuntu: Set executable bit on raspberry pi prep script
+
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sun, 10 Nov 2024 06:30:46 -0800
+
 calamares-settings-ubuntu (1:25.04.2) plucky; urgency=medium
 
   * Lubuntu: Add raspberry pi prep script 
